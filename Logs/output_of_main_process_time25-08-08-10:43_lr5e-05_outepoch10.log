@@ -1,0 +1,196 @@
+Using device: cuda
+正在划分训练集、验证集以及数据加载器
+数据集划分完成 - 训练集: 34474 样本, 验证集: 8618 样本
+正在进行模型的评估（逐个token生成）
+验证集视频 1:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  lagu-nasional-versi-rock/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 2:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  angelalauren.co  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 3:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  tracey mcpherson  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 4:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  you should visit to a doctor  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 5:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  seal-amazing/18652  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 6:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  burglars never leave their business card  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 7:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  m.parmalive.com/frederick-hart  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 8:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  a glance in the right direction  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 9:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  these barracks are big enough  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 10:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  govtpgcollegebemetara.com  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 11:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  an offer you cannot refuse  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 12:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  please follow the guidelines  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 13:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  rejection letters are discouraging  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 14:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  experience is hard to come by  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 15:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  tickets are very expensive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 16:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  you will lose your voice  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 17:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  the cotton is high  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 18:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  169-966-5199  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 19:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  www.collisionservices.com  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 20:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  the hopes of a new organization  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 21:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  but the levee was dry  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 22:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  be home before midnight  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 23:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  communicate through email  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 24:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  bring the offenders to justice  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 25:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  436722 fred simmons road  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 26:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  6300 tall chief street  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 27:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  soon we will return from the city  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 28:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  jumping right out of the water  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 29:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  do not squander your time  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 30:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  i am going to a music lesson  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 31:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  video camera with a zoom lens  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 32:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  the water was monitored daily  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 33:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  exercise is good for the mind  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 34:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  5572 south calhoun avenue  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 35:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  do not say anything  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 36:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  coming up with killer sound bites  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 37:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  eq-group.com/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 38:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  beware the ides of march  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 39:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  a coupon for a free sample  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 40:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  kate/gcfilmfestival/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 41:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  come and see our new car  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 42:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  +62-53-7168-28-83-117  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 43:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  correct your diction immediately  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 44:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  if diplomacy does not work  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 45:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  516 spruce valley drive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 46:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  what a monkey sees a monkey will do  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 47:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  that is very unfortunate  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 48:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  5806 etheridge place  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 49:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  the coronation was very exciting  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 50:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  this system of taxation  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 51:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  a tumor is ok provided it is benign  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 52:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  round robin scheduling  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 53:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  only an idiot would lie in court  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 54:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  have a good weekend  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 55:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  www.sincensuradeportiva.com  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 56:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  staying up all night is a bad idea  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 57:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  +62-9741-86504  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 58:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  +674-4684-04-35  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 59:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  go out for some pizza and beer  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 60:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  2133 elizabeth islands road  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 61:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  do you get nervous when you speak  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 62:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  soon we will return from the city  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 63:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  dollarama-winkler-main-st-n-mb  <end> <|endoftext|><|endoftext|><|endoftext|>
+验证集视频 64:
+预测结果:   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>   <end>  
+真实标签:  universities are too expensive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>

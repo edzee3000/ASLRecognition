@@ -1,0 +1,2129 @@
+所有全局变量为:
+torch: <module 'torch' from '/home/edzee3000/E_Disk/CollegeCourses/ASL_Recognition/venv/lib/python3.12/site-packages/torch/__init__.py'>
+nn: <module 'torch.nn' from '/home/edzee3000/E_Disk/CollegeCourses/ASL_Recognition/venv/lib/python3.12/site-packages/torch/nn/__init__.py'>
+F: <module 'torch.nn.functional' from '/home/edzee3000/E_Disk/CollegeCourses/ASL_Recognition/venv/lib/python3.12/site-packages/torch/nn/functional.py'>
+math: <module 'math' (built-in)>
+Dataset: <class 'torch.utils.data.dataset.Dataset'>
+DataLoader: <class 'torch.utils.data.dataloader.DataLoader'>
+pd: <module 'pandas' from '/home/edzee3000/E_Disk/CollegeCourses/ASL_Recognition/venv/lib/python3.12/site-packages/pandas/__init__.py'>
+BertModel: <class 'transformers.models.bert.modeling_bert.BertModel'>
+BertTokenizer: <class 'transformers.models.bert.tokenization_bert.BertTokenizer'>
+pq: <module 'pyarrow.parquet' from '/home/edzee3000/E_Disk/CollegeCourses/ASL_Recognition/venv/lib/python3.12/site-packages/pyarrow/parquet/__init__.py'>
+GPT2Tokenizer: <class 'transformers.models.gpt2.tokenization_gpt2.GPT2Tokenizer'>
+sys: <module 'sys' (built-in)>
+os: <module 'os' (frozen)>
+time: <module 'time' (built-in)>
+csv: <module 'csv' from '/usr/lib/python3.12/csv.py'>
+max_video_frame_len: 250
+max_text_phrase_len: 30
+bert_path: ./Tokenizer/bert-base-uncased
+gpt_tokenizer_path: ./Tokenizer/gpt2-tokenizer
+tokenizer_path: ./Tokenizer/gpt2-tokenizer
+batch_size: 43
+d_model: 512
+dropout: 0.1
+learning_rate: 1e-05
+out_epochs: 20
+inner_epochs: 2
+PositionalEncoding: <class 'utils.PositionalEncoding'>
+DepthwiseSeparableConv1d: <class 'utils.DepthwiseSeparableConv1d'>
+MultiHeadedSelfAttention: <class 'utils.MultiHeadedSelfAttention'>
+FeedForward: <class 'utils.FeedForward'>
+create_mask: <function create_mask at 0x732c4651e0c0>
+Tee: <class 'utils.Tee'>
+SqueezeformerBlock: <class 'SqueezeformerEncoder.SqueezeformerBlock'>
+SqueezeformerEncoder: <class 'SqueezeformerEncoder.SqueezeformerEncoder'>
+TransformerDecoderLayer: <class 'TransformerDecoder.TransformerDecoderLayer'>
+TransformerDecoder: <class 'TransformerDecoder.TransformerDecoder'>
+SqueezeformerTransformerModel: <class 'SqueezeformerTransformerModel.SqueezeformerTransformerModel'>
+VideoTextDataset: <class 'DataProcess.VideoTextDataset'>
+create_list: <function create_list at 0x732abcaa54e0>
+create_parquet_path: <function create_parquet_path at 0x732abcaa59e0>
+pickle: <module 'pickle' from '/usr/lib/python3.12/pickle.py'>
+Path: <class 'pathlib.Path'>
+Parallel: <class 'joblib.parallel.Parallel'>
+delayed: <function delayed at 0x732abc94b920>
+tqdm: <class 'tqdm.std.tqdm'>
+save_processed_dataset: <function save_processed_dataset at 0x732abcaa5da0>
+load_processed_dataset: <function load_processed_dataset at 0x732abcaa5ee0>
+process_row: <function process_row at 0x732abcaa5f80>
+parallel_create_list: <function parallel_create_list at 0x732abc94a700>
+this_create_list: <function this_create_list at 0x732abc94a480>
+try_save: <function try_save at 0x732abc95c0e0>
+main: <function main at 0x732abc95d120>
+print_all_global_var: <function print_all_global_var at 0x732abcaa5bc0>
+creat_record_csv: <function creat_record_csv at 0x732abcaa5d00>
+obtain_record_csv: <function obtain_record_csv at 0x732abc95d1c0>
+update_train_count: <function update_train_count at 0x732abc95d260>
+updata_record_csv: <function updata_record_csv at 0x732abc95d300>
+train: <function train at 0x732abc95d3a0>
+Using device: cuda
+词汇表tokenizer.vocab_size的大小为：50257
+发现已有训练一半的模型，加载继续训练...
+这个是第 1 轮外部循环 训练所有数据
+这个是第1个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1643479812/1643479812_0.pkl
+pkl 训练数据文件名为: 1643479812/1643479812_0.pkl
+目前是第 1 轮外部循环，但是 1643479812/1643479812_0.pkl 已经训练过 1 轮外部循环了
+这个是第2个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1643479812/1643479812_2.pkl
+pkl 训练数据文件名为: 1643479812/1643479812_2.pkl
+目前是第 1 轮外部循环，但是 1643479812/1643479812_2.pkl 已经训练过 1 轮外部循环了
+这个是第3个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1643479812/1643479812_1.pkl
+pkl 训练数据文件名为: 1643479812/1643479812_1.pkl
+目前是第 1 轮外部循环，但是 1643479812/1643479812_1.pkl 已经训练过 1 轮外部循环了
+这个是第4个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1643479812/1643479812_3.pkl
+pkl 训练数据文件名为: 1643479812/1643479812_3.pkl
+目前是第 1 轮外部循环，但是 1643479812/1643479812_3.pkl 已经训练过 1 轮外部循环了
+这个是第5个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/105143404/105143404_2.pkl
+pkl 训练数据文件名为: 105143404/105143404_2.pkl
+目前是第 1 轮外部循环，但是 105143404/105143404_2.pkl 已经训练过 1 轮外部循环了
+这个是第6个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/105143404/105143404_3.pkl
+pkl 训练数据文件名为: 105143404/105143404_3.pkl
+目前是第 1 轮外部循环，但是 105143404/105143404_3.pkl 已经训练过 1 轮外部循环了
+这个是第7个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/105143404/105143404_0.pkl
+pkl 训练数据文件名为: 105143404/105143404_0.pkl
+目前是第 1 轮外部循环，但是 105143404/105143404_0.pkl 已经训练过 1 轮外部循环了
+这个是第8个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/105143404/105143404_1.pkl
+pkl 训练数据文件名为: 105143404/105143404_1.pkl
+目前是第 1 轮外部循环，但是 105143404/105143404_1.pkl 已经训练过 1 轮外部循环了
+这个是第9个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/169560558/169560558_0.pkl
+pkl 训练数据文件名为: 169560558/169560558_0.pkl
+目前是第 1 轮外部循环，但是 169560558/169560558_0.pkl 已经训练过 1 轮外部循环了
+这个是第10个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/169560558/169560558_3.pkl
+pkl 训练数据文件名为: 169560558/169560558_3.pkl
+目前是第 1 轮外部循环，但是 169560558/169560558_3.pkl 已经训练过 1 轮外部循环了
+这个是第11个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/169560558/169560558_1.pkl
+pkl 训练数据文件名为: 169560558/169560558_1.pkl
+目前是第 1 轮外部循环，但是 169560558/169560558_1.pkl 已经训练过 1 轮外部循环了
+这个是第12个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/169560558/169560558_2.pkl
+pkl 训练数据文件名为: 169560558/169560558_2.pkl
+目前是第 1 轮外部循环，但是 169560558/169560558_2.pkl 已经训练过 1 轮外部循环了
+这个是第13个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1021040628/1021040628_1.pkl
+pkl 训练数据文件名为: 1021040628/1021040628_1.pkl
+目前是第 1 轮外部循环，但是 1021040628/1021040628_1.pkl 已经训练过 1 轮外部循环了
+这个是第14个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1021040628/1021040628_3.pkl
+pkl 训练数据文件名为: 1021040628/1021040628_3.pkl
+目前是第 1 轮外部循环，但是 1021040628/1021040628_3.pkl 已经训练过 1 轮外部循环了
+这个是第15个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1021040628/1021040628_2.pkl
+pkl 训练数据文件名为: 1021040628/1021040628_2.pkl
+目前是第 1 轮外部循环，但是 1021040628/1021040628_2.pkl 已经训练过 1 轮外部循环了
+这个是第16个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1021040628/1021040628_0.pkl
+pkl 训练数据文件名为: 1021040628/1021040628_0.pkl
+目前是第 1 轮外部循环，但是 1021040628/1021040628_0.pkl 已经训练过 1 轮外部循环了
+这个是第17个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1880177496/1880177496_2.pkl
+pkl 训练数据文件名为: 1880177496/1880177496_2.pkl
+目前是第 1 轮外部循环，但是 1880177496/1880177496_2.pkl 已经训练过 1 轮外部循环了
+这个是第18个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1880177496/1880177496_0.pkl
+pkl 训练数据文件名为: 1880177496/1880177496_0.pkl
+目前是第 1 轮外部循环，但是 1880177496/1880177496_0.pkl 已经训练过 1 轮外部循环了
+这个是第19个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1880177496/1880177496_3.pkl
+pkl 训练数据文件名为: 1880177496/1880177496_3.pkl
+目前是第 1 轮外部循环，但是 1880177496/1880177496_3.pkl 已经训练过 1 轮外部循环了
+这个是第20个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1880177496/1880177496_1.pkl
+pkl 训练数据文件名为: 1880177496/1880177496_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1880177496/1880177496_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 20, ParquetLoss: 8.094130992889404
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 20, ParquetLoss: 8.03913696606954
+对 Data/ProcessedData/train_landmarks/1880177496/1880177496_1.pkl 数据文件训练 2 轮耗时：7.1907 秒
+训练完 Data/ProcessedData/train_landmarks/1880177496/1880177496_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第21个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/933868835/933868835_0.pkl
+pkl 训练数据文件名为: 933868835/933868835_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/933868835/933868835_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 21, ParquetLoss: 8.319231828053793
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 21, ParquetLoss: 8.273024638493856
+对 Data/ProcessedData/train_landmarks/933868835/933868835_0.pkl 数据文件训练 2 轮耗时：7.0242 秒
+训练完 Data/ProcessedData/train_landmarks/933868835/933868835_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第22个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/933868835/933868835_3.pkl
+pkl 训练数据文件名为: 933868835/933868835_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/933868835/933868835_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 22, ParquetLoss: 8.376223882039389
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 22, ParquetLoss: 8.280537605285645
+对 Data/ProcessedData/train_landmarks/933868835/933868835_3.pkl 数据文件训练 2 轮耗时：6.4404 秒
+训练完 Data/ProcessedData/train_landmarks/933868835/933868835_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第23个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/933868835/933868835_2.pkl
+pkl 训练数据文件名为: 933868835/933868835_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/933868835/933868835_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 23, ParquetLoss: 8.139153321584066
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 23, ParquetLoss: 8.085410912831625
+对 Data/ProcessedData/train_landmarks/933868835/933868835_2.pkl 数据文件训练 2 轮耗时：7.0187 秒
+训练完 Data/ProcessedData/train_landmarks/933868835/933868835_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第24个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/933868835/933868835_1.pkl
+pkl 训练数据文件名为: 933868835/933868835_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/933868835/933868835_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 24, ParquetLoss: 8.021055777867636
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 24, ParquetLoss: 7.976640860239665
+对 Data/ProcessedData/train_landmarks/933868835/933868835_1.pkl 数据文件训练 2 轮耗时：7.0122 秒
+训练完 Data/ProcessedData/train_landmarks/933868835/933868835_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第25个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/638508439/638508439_2.pkl
+pkl 训练数据文件名为: 638508439/638508439_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/638508439/638508439_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 25, ParquetLoss: 7.877519448598226
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 25, ParquetLoss: 7.824337085088094
+对 Data/ProcessedData/train_landmarks/638508439/638508439_2.pkl 数据文件训练 2 轮耗时：7.0596 秒
+训练完 Data/ProcessedData/train_landmarks/638508439/638508439_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第26个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/638508439/638508439_3.pkl
+pkl 训练数据文件名为: 638508439/638508439_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/638508439/638508439_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 26, ParquetLoss: 7.948458274205525
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 26, ParquetLoss: 7.866408348083496
+对 Data/ProcessedData/train_landmarks/638508439/638508439_3.pkl 数据文件训练 2 轮耗时：6.4417 秒
+训练完 Data/ProcessedData/train_landmarks/638508439/638508439_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第27个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/638508439/638508439_1.pkl
+pkl 训练数据文件名为: 638508439/638508439_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/638508439/638508439_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 27, ParquetLoss: 7.9126341342926025
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 27, ParquetLoss: 7.864214976628621
+对 Data/ProcessedData/train_landmarks/638508439/638508439_1.pkl 数据文件训练 2 轮耗时：7.1386 秒
+训练完 Data/ProcessedData/train_landmarks/638508439/638508439_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第28个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/638508439/638508439_0.pkl
+pkl 训练数据文件名为: 638508439/638508439_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/638508439/638508439_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 28, ParquetLoss: 7.691177447636922
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 28, ParquetLoss: 7.65456223487854
+对 Data/ProcessedData/train_landmarks/638508439/638508439_0.pkl 数据文件训练 2 轮耗时：7.0660 秒
+训练完 Data/ProcessedData/train_landmarks/638508439/638508439_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第29个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/425182931/425182931_1.pkl
+pkl 训练数据文件名为: 425182931/425182931_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/425182931/425182931_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 29, ParquetLoss: 7.887844800949097
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 29, ParquetLoss: 7.838991641998291
+对 Data/ProcessedData/train_landmarks/425182931/425182931_1.pkl 数据文件训练 2 轮耗时：7.0598 秒
+训练完 Data/ProcessedData/train_landmarks/425182931/425182931_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第30个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/425182931/425182931_2.pkl
+pkl 训练数据文件名为: 425182931/425182931_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/425182931/425182931_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 30, ParquetLoss: 7.420902490615845
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 30, ParquetLoss: 7.382622400919597
+对 Data/ProcessedData/train_landmarks/425182931/425182931_2.pkl 数据文件训练 2 轮耗时：7.0649 秒
+训练完 Data/ProcessedData/train_landmarks/425182931/425182931_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第31个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/425182931/425182931_3.pkl
+pkl 训练数据文件名为: 425182931/425182931_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/425182931/425182931_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 31, ParquetLoss: 7.5284513632456465
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 31, ParquetLoss: 7.643015225728353
+对 Data/ProcessedData/train_landmarks/425182931/425182931_3.pkl 数据文件训练 2 轮耗时：6.2455 秒
+训练完 Data/ProcessedData/train_landmarks/425182931/425182931_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第32个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/425182931/425182931_0.pkl
+pkl 训练数据文件名为: 425182931/425182931_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/425182931/425182931_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 32, ParquetLoss: 7.57129693031311
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 32, ParquetLoss: 7.5083327293396
+对 Data/ProcessedData/train_landmarks/425182931/425182931_0.pkl 数据文件训练 2 轮耗时：7.0963 秒
+训练完 Data/ProcessedData/train_landmarks/425182931/425182931_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第33个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1664666588/1664666588_3.pkl
+pkl 训练数据文件名为: 1664666588/1664666588_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1664666588/1664666588_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 33, ParquetLoss: 7.810506979624431
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 33, ParquetLoss: 7.752443790435791
+对 Data/ProcessedData/train_landmarks/1664666588/1664666588_3.pkl 数据文件训练 2 轮耗时：6.4297 秒
+训练完 Data/ProcessedData/train_landmarks/1664666588/1664666588_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第34个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1664666588/1664666588_2.pkl
+pkl 训练数据文件名为: 1664666588/1664666588_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1664666588/1664666588_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 34, ParquetLoss: 7.583098332087199
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 34, ParquetLoss: 7.548330148061116
+对 Data/ProcessedData/train_landmarks/1664666588/1664666588_2.pkl 数据文件训练 2 轮耗时：7.0724 秒
+训练完 Data/ProcessedData/train_landmarks/1664666588/1664666588_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第35个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1664666588/1664666588_1.pkl
+pkl 训练数据文件名为: 1664666588/1664666588_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1664666588/1664666588_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 35, ParquetLoss: 7.562487363815308
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 35, ParquetLoss: 7.5242040157318115
+对 Data/ProcessedData/train_landmarks/1664666588/1664666588_1.pkl 数据文件训练 2 轮耗时：7.1036 秒
+训练完 Data/ProcessedData/train_landmarks/1664666588/1664666588_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第36个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1664666588/1664666588_0.pkl
+pkl 训练数据文件名为: 1664666588/1664666588_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1664666588/1664666588_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 36, ParquetLoss: 7.419872601826985
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 36, ParquetLoss: 7.385180155436198
+对 Data/ProcessedData/train_landmarks/1664666588/1664666588_0.pkl 数据文件训练 2 轮耗时：7.0771 秒
+训练完 Data/ProcessedData/train_landmarks/1664666588/1664666588_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第37个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1365772051/1365772051_1.pkl
+pkl 训练数据文件名为: 1365772051/1365772051_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1365772051/1365772051_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 37, ParquetLoss: 7.46588134765625
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 37, ParquetLoss: 7.435532410939534
+对 Data/ProcessedData/train_landmarks/1365772051/1365772051_1.pkl 数据文件训练 2 轮耗时：7.1187 秒
+训练完 Data/ProcessedData/train_landmarks/1365772051/1365772051_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第38个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1365772051/1365772051_0.pkl
+pkl 训练数据文件名为: 1365772051/1365772051_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1365772051/1365772051_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 38, ParquetLoss: 7.472408771514893
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 38, ParquetLoss: 7.425776402155559
+对 Data/ProcessedData/train_landmarks/1365772051/1365772051_0.pkl 数据文件训练 2 轮耗时：7.1135 秒
+训练完 Data/ProcessedData/train_landmarks/1365772051/1365772051_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第39个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1365772051/1365772051_3.pkl
+pkl 训练数据文件名为: 1365772051/1365772051_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1365772051/1365772051_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 39, ParquetLoss: 7.195053497950236
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 39, ParquetLoss: 7.217081228892009
+对 Data/ProcessedData/train_landmarks/1365772051/1365772051_3.pkl 数据文件训练 2 轮耗时：6.3319 秒
+训练完 Data/ProcessedData/train_landmarks/1365772051/1365772051_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第40个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1365772051/1365772051_2.pkl
+pkl 训练数据文件名为: 1365772051/1365772051_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1365772051/1365772051_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 40, ParquetLoss: 7.22834841410319
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 40, ParquetLoss: 7.176332473754883
+对 Data/ProcessedData/train_landmarks/1365772051/1365772051_2.pkl 数据文件训练 2 轮耗时：7.0539 秒
+训练完 Data/ProcessedData/train_landmarks/1365772051/1365772051_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第41个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1647220008/1647220008_0.pkl
+pkl 训练数据文件名为: 1647220008/1647220008_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1647220008/1647220008_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 41, ParquetLoss: 7.249499320983887
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 41, ParquetLoss: 7.201526006062825
+对 Data/ProcessedData/train_landmarks/1647220008/1647220008_0.pkl 数据文件训练 2 轮耗时：7.0843 秒
+训练完 Data/ProcessedData/train_landmarks/1647220008/1647220008_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第42个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1647220008/1647220008_3.pkl
+pkl 训练数据文件名为: 1647220008/1647220008_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1647220008/1647220008_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 42, ParquetLoss: 7.2418592770894366
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 42, ParquetLoss: 7.2575258413950605
+对 Data/ProcessedData/train_landmarks/1647220008/1647220008_3.pkl 数据文件训练 2 轮耗时：6.3412 秒
+训练完 Data/ProcessedData/train_landmarks/1647220008/1647220008_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第43个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1647220008/1647220008_1.pkl
+pkl 训练数据文件名为: 1647220008/1647220008_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1647220008/1647220008_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 43, ParquetLoss: 7.145304520924886
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 43, ParquetLoss: 7.115491072336833
+对 Data/ProcessedData/train_landmarks/1647220008/1647220008_1.pkl 数据文件训练 2 轮耗时：7.0567 秒
+训练完 Data/ProcessedData/train_landmarks/1647220008/1647220008_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第44个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1647220008/1647220008_2.pkl
+pkl 训练数据文件名为: 1647220008/1647220008_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1647220008/1647220008_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 44, ParquetLoss: 7.163947979609172
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 44, ParquetLoss: 7.131791909535726
+对 Data/ProcessedData/train_landmarks/1647220008/1647220008_2.pkl 数据文件训练 2 轮耗时：7.0799 秒
+训练完 Data/ProcessedData/train_landmarks/1647220008/1647220008_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第45个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1967755728/1967755728_3.pkl
+pkl 训练数据文件名为: 1967755728/1967755728_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1967755728/1967755728_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 45, ParquetLoss: 7.3088390827178955
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 45, ParquetLoss: 7.2246425946553545
+对 Data/ProcessedData/train_landmarks/1967755728/1967755728_3.pkl 数据文件训练 2 轮耗时：6.3367 秒
+训练完 Data/ProcessedData/train_landmarks/1967755728/1967755728_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第46个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1967755728/1967755728_2.pkl
+pkl 训练数据文件名为: 1967755728/1967755728_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1967755728/1967755728_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 46, ParquetLoss: 7.049369653065999
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 46, ParquetLoss: 7.018860101699829
+对 Data/ProcessedData/train_landmarks/1967755728/1967755728_2.pkl 数据文件训练 2 轮耗时：7.0497 秒
+训练完 Data/ProcessedData/train_landmarks/1967755728/1967755728_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第47个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1967755728/1967755728_0.pkl
+pkl 训练数据文件名为: 1967755728/1967755728_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1967755728/1967755728_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 47, ParquetLoss: 7.1047290960947675
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 47, ParquetLoss: 7.074814637502034
+对 Data/ProcessedData/train_landmarks/1967755728/1967755728_0.pkl 数据文件训练 2 轮耗时：7.0517 秒
+训练完 Data/ProcessedData/train_landmarks/1967755728/1967755728_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第48个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1967755728/1967755728_1.pkl
+pkl 训练数据文件名为: 1967755728/1967755728_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1967755728/1967755728_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 48, ParquetLoss: 7.094119946161906
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 48, ParquetLoss: 7.077691555023193
+对 Data/ProcessedData/train_landmarks/1967755728/1967755728_1.pkl 数据文件训练 2 轮耗时：7.0691 秒
+训练完 Data/ProcessedData/train_landmarks/1967755728/1967755728_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第49个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1448136004/1448136004_1.pkl
+pkl 训练数据文件名为: 1448136004/1448136004_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1448136004/1448136004_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 49, ParquetLoss: 6.822698036829631
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 49, ParquetLoss: 6.787228107452393
+对 Data/ProcessedData/train_landmarks/1448136004/1448136004_1.pkl 数据文件训练 2 轮耗时：7.0366 秒
+训练完 Data/ProcessedData/train_landmarks/1448136004/1448136004_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第50个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1448136004/1448136004_2.pkl
+pkl 训练数据文件名为: 1448136004/1448136004_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1448136004/1448136004_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 50, ParquetLoss: 7.012550592422485
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 50, ParquetLoss: 6.983179410298665
+对 Data/ProcessedData/train_landmarks/1448136004/1448136004_2.pkl 数据文件训练 2 轮耗时：7.1040 秒
+训练完 Data/ProcessedData/train_landmarks/1448136004/1448136004_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第51个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1448136004/1448136004_0.pkl
+pkl 训练数据文件名为: 1448136004/1448136004_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1448136004/1448136004_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 51, ParquetLoss: 7.136913617451985
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 51, ParquetLoss: 7.093040386835734
+对 Data/ProcessedData/train_landmarks/1448136004/1448136004_0.pkl 数据文件训练 2 轮耗时：7.0468 秒
+训练完 Data/ProcessedData/train_landmarks/1448136004/1448136004_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第52个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1448136004/1448136004_3.pkl
+pkl 训练数据文件名为: 1448136004/1448136004_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1448136004/1448136004_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 52, ParquetLoss: 6.956180572509766
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 52, ParquetLoss: 6.995563904444377
+对 Data/ProcessedData/train_landmarks/1448136004/1448136004_3.pkl 数据文件训练 2 轮耗时：6.3798 秒
+训练完 Data/ProcessedData/train_landmarks/1448136004/1448136004_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第53个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1552432300/1552432300_1.pkl
+pkl 训练数据文件名为: 1552432300/1552432300_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1552432300/1552432300_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 53, ParquetLoss: 7.095034917195638
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 53, ParquetLoss: 7.072140693664551
+对 Data/ProcessedData/train_landmarks/1552432300/1552432300_1.pkl 数据文件训练 2 轮耗时：7.0241 秒
+训练完 Data/ProcessedData/train_landmarks/1552432300/1552432300_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第54个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1552432300/1552432300_3.pkl
+pkl 训练数据文件名为: 1552432300/1552432300_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1552432300/1552432300_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 54, ParquetLoss: 6.757576783498128
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 54, ParquetLoss: 6.626829385757446
+对 Data/ProcessedData/train_landmarks/1552432300/1552432300_3.pkl 数据文件训练 2 轮耗时：6.4126 秒
+训练完 Data/ProcessedData/train_landmarks/1552432300/1552432300_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第55个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1552432300/1552432300_2.pkl
+pkl 训练数据文件名为: 1552432300/1552432300_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1552432300/1552432300_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 55, ParquetLoss: 6.92289400100708
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 55, ParquetLoss: 6.886270999908447
+对 Data/ProcessedData/train_landmarks/1552432300/1552432300_2.pkl 数据文件训练 2 轮耗时：7.1044 秒
+训练完 Data/ProcessedData/train_landmarks/1552432300/1552432300_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第56个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1552432300/1552432300_0.pkl
+pkl 训练数据文件名为: 1552432300/1552432300_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1552432300/1552432300_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 56, ParquetLoss: 6.8266003131866455
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 56, ParquetLoss: 6.788339932759603
+对 Data/ProcessedData/train_landmarks/1552432300/1552432300_0.pkl 数据文件训练 2 轮耗时：7.0419 秒
+训练完 Data/ProcessedData/train_landmarks/1552432300/1552432300_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第57个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/527708222/527708222_2.pkl
+pkl 训练数据文件名为: 527708222/527708222_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/527708222/527708222_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 57, ParquetLoss: 6.736649513244629
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 57, ParquetLoss: 6.702197074890137
+对 Data/ProcessedData/train_landmarks/527708222/527708222_2.pkl 数据文件训练 2 轮耗时：7.0186 秒
+训练完 Data/ProcessedData/train_landmarks/527708222/527708222_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第58个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/527708222/527708222_1.pkl
+pkl 训练数据文件名为: 527708222/527708222_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/527708222/527708222_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 58, ParquetLoss: 6.692426125208537
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 58, ParquetLoss: 6.665613253911336
+对 Data/ProcessedData/train_landmarks/527708222/527708222_1.pkl 数据文件训练 2 轮耗时：7.0636 秒
+训练完 Data/ProcessedData/train_landmarks/527708222/527708222_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第59个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/527708222/527708222_0.pkl
+pkl 训练数据文件名为: 527708222/527708222_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/527708222/527708222_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 59, ParquetLoss: 6.9283309777577715
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 59, ParquetLoss: 6.898535331090291
+对 Data/ProcessedData/train_landmarks/527708222/527708222_0.pkl 数据文件训练 2 轮耗时：7.0639 秒
+训练完 Data/ProcessedData/train_landmarks/527708222/527708222_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第60个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/527708222/527708222_3.pkl
+pkl 训练数据文件名为: 527708222/527708222_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/527708222/527708222_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 60, ParquetLoss: 6.6345945199330645
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 60, ParquetLoss: 6.577679475148519
+对 Data/ProcessedData/train_landmarks/527708222/527708222_3.pkl 数据文件训练 2 轮耗时：6.3755 秒
+训练完 Data/ProcessedData/train_landmarks/527708222/527708222_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第61个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/234418913/234418913_2.pkl
+pkl 训练数据文件名为: 234418913/234418913_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/234418913/234418913_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 61, ParquetLoss: 6.7697709401448565
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 61, ParquetLoss: 6.751157681147258
+对 Data/ProcessedData/train_landmarks/234418913/234418913_2.pkl 数据文件训练 2 轮耗时：7.0504 秒
+训练完 Data/ProcessedData/train_landmarks/234418913/234418913_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第62个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/234418913/234418913_0.pkl
+pkl 训练数据文件名为: 234418913/234418913_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/234418913/234418913_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 62, ParquetLoss: 6.594601074854533
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 62, ParquetLoss: 6.556914806365967
+对 Data/ProcessedData/train_landmarks/234418913/234418913_0.pkl 数据文件训练 2 轮耗时：7.0563 秒
+训练完 Data/ProcessedData/train_landmarks/234418913/234418913_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第63个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/234418913/234418913_3.pkl
+pkl 训练数据文件名为: 234418913/234418913_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/234418913/234418913_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 63, ParquetLoss: 6.826095342636108
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 63, ParquetLoss: 6.846548875172933
+对 Data/ProcessedData/train_landmarks/234418913/234418913_3.pkl 数据文件训练 2 轮耗时：6.4026 秒
+训练完 Data/ProcessedData/train_landmarks/234418913/234418913_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第64个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/234418913/234418913_1.pkl
+pkl 训练数据文件名为: 234418913/234418913_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/234418913/234418913_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 64, ParquetLoss: 6.554677645365397
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 64, ParquetLoss: 6.527381579081218
+对 Data/ProcessedData/train_landmarks/234418913/234418913_1.pkl 数据文件训练 2 轮耗时：7.0235 秒
+训练完 Data/ProcessedData/train_landmarks/234418913/234418913_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第65个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1019715464/1019715464_1.pkl
+pkl 训练数据文件名为: 1019715464/1019715464_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1019715464/1019715464_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 65, ParquetLoss: 6.558366934458415
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 65, ParquetLoss: 6.545886834462483
+对 Data/ProcessedData/train_landmarks/1019715464/1019715464_1.pkl 数据文件训练 2 轮耗时：7.1056 秒
+训练完 Data/ProcessedData/train_landmarks/1019715464/1019715464_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第66个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1019715464/1019715464_0.pkl
+pkl 训练数据文件名为: 1019715464/1019715464_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1019715464/1019715464_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 66, ParquetLoss: 6.634003162384033
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 66, ParquetLoss: 6.610972086588542
+对 Data/ProcessedData/train_landmarks/1019715464/1019715464_0.pkl 数据文件训练 2 轮耗时：7.1014 秒
+训练完 Data/ProcessedData/train_landmarks/1019715464/1019715464_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第67个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1019715464/1019715464_3.pkl
+pkl 训练数据文件名为: 1019715464/1019715464_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1019715464/1019715464_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 67, ParquetLoss: 6.524654547373454
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 67, ParquetLoss: 6.505799214045207
+对 Data/ProcessedData/train_landmarks/1019715464/1019715464_3.pkl 数据文件训练 2 轮耗时：6.3990 秒
+训练完 Data/ProcessedData/train_landmarks/1019715464/1019715464_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第68个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1019715464/1019715464_2.pkl
+pkl 训练数据文件名为: 1019715464/1019715464_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1019715464/1019715464_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 68, ParquetLoss: 6.714112361272176
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 68, ParquetLoss: 6.672430356343587
+对 Data/ProcessedData/train_landmarks/1019715464/1019715464_2.pkl 数据文件训练 2 轮耗时：7.0675 秒
+训练完 Data/ProcessedData/train_landmarks/1019715464/1019715464_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第69个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2072296290/2072296290_1.pkl
+pkl 训练数据文件名为: 2072296290/2072296290_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2072296290/2072296290_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 69, ParquetLoss: 6.664071400960286
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 69, ParquetLoss: 6.626297314961751
+对 Data/ProcessedData/train_landmarks/2072296290/2072296290_1.pkl 数据文件训练 2 轮耗时：7.0526 秒
+训练完 Data/ProcessedData/train_landmarks/2072296290/2072296290_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第70个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2072296290/2072296290_3.pkl
+pkl 训练数据文件名为: 2072296290/2072296290_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2072296290/2072296290_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 70, ParquetLoss: 6.696264425913493
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 70, ParquetLoss: 6.654255787531535
+对 Data/ProcessedData/train_landmarks/2072296290/2072296290_3.pkl 数据文件训练 2 轮耗时：6.4182 秒
+训练完 Data/ProcessedData/train_landmarks/2072296290/2072296290_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第71个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2072296290/2072296290_0.pkl
+pkl 训练数据文件名为: 2072296290/2072296290_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2072296290/2072296290_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 71, ParquetLoss: 6.6451362768809
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 71, ParquetLoss: 6.606803019841512
+对 Data/ProcessedData/train_landmarks/2072296290/2072296290_0.pkl 数据文件训练 2 轮耗时：7.0112 秒
+训练完 Data/ProcessedData/train_landmarks/2072296290/2072296290_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第72个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2072296290/2072296290_2.pkl
+pkl 训练数据文件名为: 2072296290/2072296290_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2072296290/2072296290_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 72, ParquetLoss: 6.462621450424194
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 72, ParquetLoss: 6.437582810719808
+对 Data/ProcessedData/train_landmarks/2072296290/2072296290_2.pkl 数据文件训练 2 轮耗时：7.1840 秒
+训练完 Data/ProcessedData/train_landmarks/2072296290/2072296290_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第73个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/175396851/175396851_0.pkl
+pkl 训练数据文件名为: 175396851/175396851_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/175396851/175396851_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 73, ParquetLoss: 6.621680339177449
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 73, ParquetLoss: 6.607343435287476
+对 Data/ProcessedData/train_landmarks/175396851/175396851_0.pkl 数据文件训练 2 轮耗时：7.0651 秒
+训练完 Data/ProcessedData/train_landmarks/175396851/175396851_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第74个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/175396851/175396851_1.pkl
+pkl 训练数据文件名为: 175396851/175396851_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/175396851/175396851_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 74, ParquetLoss: 6.844039519627889
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 74, ParquetLoss: 6.817925532658895
+对 Data/ProcessedData/train_landmarks/175396851/175396851_1.pkl 数据文件训练 2 轮耗时：7.0335 秒
+训练完 Data/ProcessedData/train_landmarks/175396851/175396851_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第75个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/175396851/175396851_2.pkl
+pkl 训练数据文件名为: 175396851/175396851_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/175396851/175396851_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 75, ParquetLoss: 6.602537790934245
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 75, ParquetLoss: 6.578211625417073
+对 Data/ProcessedData/train_landmarks/175396851/175396851_2.pkl 数据文件训练 2 轮耗时：7.0894 秒
+训练完 Data/ProcessedData/train_landmarks/175396851/175396851_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第76个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/175396851/175396851_3.pkl
+pkl 训练数据文件名为: 175396851/175396851_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/175396851/175396851_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 76, ParquetLoss: 6.5980251630147295
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 76, ParquetLoss: 6.602790594100952
+对 Data/ProcessedData/train_landmarks/175396851/175396851_3.pkl 数据文件训练 2 轮耗时：6.3782 秒
+训练完 Data/ProcessedData/train_landmarks/175396851/175396851_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第77个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1134756332/1134756332_2.pkl
+pkl 训练数据文件名为: 1134756332/1134756332_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1134756332/1134756332_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 77, ParquetLoss: 6.561400731404622
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 77, ParquetLoss: 6.532565593719482
+对 Data/ProcessedData/train_landmarks/1134756332/1134756332_2.pkl 数据文件训练 2 轮耗时：7.0756 秒
+训练完 Data/ProcessedData/train_landmarks/1134756332/1134756332_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第78个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1134756332/1134756332_3.pkl
+pkl 训练数据文件名为: 1134756332/1134756332_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1134756332/1134756332_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 78, ParquetLoss: 6.517281691233317
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 78, ParquetLoss: 6.518752495447795
+对 Data/ProcessedData/train_landmarks/1134756332/1134756332_3.pkl 数据文件训练 2 轮耗时：6.3849 秒
+训练完 Data/ProcessedData/train_landmarks/1134756332/1134756332_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第79个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1134756332/1134756332_1.pkl
+pkl 训练数据文件名为: 1134756332/1134756332_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1134756332/1134756332_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 79, ParquetLoss: 6.470556418100993
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 79, ParquetLoss: 6.445505777994792
+对 Data/ProcessedData/train_landmarks/1134756332/1134756332_1.pkl 数据文件训练 2 轮耗时：7.0362 秒
+训练完 Data/ProcessedData/train_landmarks/1134756332/1134756332_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第80个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1134756332/1134756332_0.pkl
+pkl 训练数据文件名为: 1134756332/1134756332_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1134756332/1134756332_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 80, ParquetLoss: 6.586711168289185
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 80, ParquetLoss: 6.550521930058797
+对 Data/ProcessedData/train_landmarks/1134756332/1134756332_0.pkl 数据文件训练 2 轮耗时：7.0305 秒
+训练完 Data/ProcessedData/train_landmarks/1134756332/1134756332_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第81个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1255240050/1255240050_2.pkl
+pkl 训练数据文件名为: 1255240050/1255240050_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1255240050/1255240050_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 81, ParquetLoss: 6.274413267771403
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 81, ParquetLoss: 6.256452004114787
+对 Data/ProcessedData/train_landmarks/1255240050/1255240050_2.pkl 数据文件训练 2 轮耗时：7.0446 秒
+训练完 Data/ProcessedData/train_landmarks/1255240050/1255240050_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第82个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1255240050/1255240050_1.pkl
+pkl 训练数据文件名为: 1255240050/1255240050_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1255240050/1255240050_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 82, ParquetLoss: 6.568408568700154
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 82, ParquetLoss: 6.554764906565349
+对 Data/ProcessedData/train_landmarks/1255240050/1255240050_1.pkl 数据文件训练 2 轮耗时：7.1002 秒
+训练完 Data/ProcessedData/train_landmarks/1255240050/1255240050_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第83个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1255240050/1255240050_3.pkl
+pkl 训练数据文件名为: 1255240050/1255240050_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1255240050/1255240050_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 83, ParquetLoss: 6.491472085316976
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 83, ParquetLoss: 6.470214605331421
+对 Data/ProcessedData/train_landmarks/1255240050/1255240050_3.pkl 数据文件训练 2 轮耗时：6.4046 秒
+训练完 Data/ProcessedData/train_landmarks/1255240050/1255240050_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第84个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1255240050/1255240050_0.pkl
+pkl 训练数据文件名为: 1255240050/1255240050_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1255240050/1255240050_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 84, ParquetLoss: 6.428853829701741
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 84, ParquetLoss: 6.41704249382019
+对 Data/ProcessedData/train_landmarks/1255240050/1255240050_0.pkl 数据文件训练 2 轮耗时：7.0581 秒
+训练完 Data/ProcessedData/train_landmarks/1255240050/1255240050_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第85个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1969985709/1969985709_3.pkl
+pkl 训练数据文件名为: 1969985709/1969985709_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1969985709/1969985709_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 85, ParquetLoss: 6.399875164031982
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 85, ParquetLoss: 6.396324714024861
+对 Data/ProcessedData/train_landmarks/1969985709/1969985709_3.pkl 数据文件训练 2 轮耗时：6.4496 秒
+训练完 Data/ProcessedData/train_landmarks/1969985709/1969985709_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第86个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1969985709/1969985709_0.pkl
+pkl 训练数据文件名为: 1969985709/1969985709_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1969985709/1969985709_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 86, ParquetLoss: 6.421823104222615
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 86, ParquetLoss: 6.409468253453572
+对 Data/ProcessedData/train_landmarks/1969985709/1969985709_0.pkl 数据文件训练 2 轮耗时：7.0292 秒
+训练完 Data/ProcessedData/train_landmarks/1969985709/1969985709_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第87个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1969985709/1969985709_2.pkl
+pkl 训练数据文件名为: 1969985709/1969985709_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1969985709/1969985709_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 87, ParquetLoss: 6.589245478312175
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 87, ParquetLoss: 6.549789031346639
+对 Data/ProcessedData/train_landmarks/1969985709/1969985709_2.pkl 数据文件训练 2 轮耗时：7.0456 秒
+训练完 Data/ProcessedData/train_landmarks/1969985709/1969985709_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第88个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1969985709/1969985709_1.pkl
+pkl 训练数据文件名为: 1969985709/1969985709_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1969985709/1969985709_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 88, ParquetLoss: 6.37148388226827
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 88, ParquetLoss: 6.342025518417358
+对 Data/ProcessedData/train_landmarks/1969985709/1969985709_1.pkl 数据文件训练 2 轮耗时：7.1020 秒
+训练完 Data/ProcessedData/train_landmarks/1969985709/1969985709_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第89个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1920330615/1920330615_0.pkl
+pkl 训练数据文件名为: 1920330615/1920330615_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1920330615/1920330615_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 89, ParquetLoss: 6.497810522715251
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 89, ParquetLoss: 6.484249591827393
+对 Data/ProcessedData/train_landmarks/1920330615/1920330615_0.pkl 数据文件训练 2 轮耗时：7.0175 秒
+训练完 Data/ProcessedData/train_landmarks/1920330615/1920330615_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第90个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1920330615/1920330615_2.pkl
+pkl 训练数据文件名为: 1920330615/1920330615_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1920330615/1920330615_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 90, ParquetLoss: 6.4442985852559405
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 90, ParquetLoss: 6.42401917775472
+对 Data/ProcessedData/train_landmarks/1920330615/1920330615_2.pkl 数据文件训练 2 轮耗时：7.0078 秒
+训练完 Data/ProcessedData/train_landmarks/1920330615/1920330615_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第91个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1920330615/1920330615_1.pkl
+pkl 训练数据文件名为: 1920330615/1920330615_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1920330615/1920330615_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 91, ParquetLoss: 6.424692392349243
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 91, ParquetLoss: 6.410966237386067
+对 Data/ProcessedData/train_landmarks/1920330615/1920330615_1.pkl 数据文件训练 2 轮耗时：7.0353 秒
+训练完 Data/ProcessedData/train_landmarks/1920330615/1920330615_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第92个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1920330615/1920330615_3.pkl
+pkl 训练数据文件名为: 1920330615/1920330615_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1920330615/1920330615_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 92, ParquetLoss: 6.494807402292888
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 92, ParquetLoss: 6.427998224894206
+对 Data/ProcessedData/train_landmarks/1920330615/1920330615_3.pkl 数据文件训练 2 轮耗时：6.3728 秒
+训练完 Data/ProcessedData/train_landmarks/1920330615/1920330615_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第93个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1865557033/1865557033_1.pkl
+pkl 训练数据文件名为: 1865557033/1865557033_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1865557033/1865557033_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 93, ParquetLoss: 6.301058848698934
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 93, ParquetLoss: 6.2750561237335205
+对 Data/ProcessedData/train_landmarks/1865557033/1865557033_1.pkl 数据文件训练 2 轮耗时：7.0340 秒
+训练完 Data/ProcessedData/train_landmarks/1865557033/1865557033_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第94个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1865557033/1865557033_3.pkl
+pkl 训练数据文件名为: 1865557033/1865557033_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1865557033/1865557033_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 94, ParquetLoss: 6.11951478322347
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 94, ParquetLoss: 6.13333535194397
+对 Data/ProcessedData/train_landmarks/1865557033/1865557033_3.pkl 数据文件训练 2 轮耗时：6.3885 秒
+训练完 Data/ProcessedData/train_landmarks/1865557033/1865557033_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第95个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1865557033/1865557033_0.pkl
+pkl 训练数据文件名为: 1865557033/1865557033_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1865557033/1865557033_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 95, ParquetLoss: 6.478384256362915
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 95, ParquetLoss: 6.447708209355672
+对 Data/ProcessedData/train_landmarks/1865557033/1865557033_0.pkl 数据文件训练 2 轮耗时：7.0097 秒
+训练完 Data/ProcessedData/train_landmarks/1865557033/1865557033_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第96个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1865557033/1865557033_2.pkl
+pkl 训练数据文件名为: 1865557033/1865557033_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1865557033/1865557033_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 96, ParquetLoss: 6.515302260716756
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 96, ParquetLoss: 6.477819760640462
+对 Data/ProcessedData/train_landmarks/1865557033/1865557033_2.pkl 数据文件训练 2 轮耗时：7.0989 秒
+训练完 Data/ProcessedData/train_landmarks/1865557033/1865557033_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第97个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/546816846/546816846_1.pkl
+pkl 训练数据文件名为: 546816846/546816846_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/546816846/546816846_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 97, ParquetLoss: 6.1031813621521
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 97, ParquetLoss: 6.086910724639893
+对 Data/ProcessedData/train_landmarks/546816846/546816846_1.pkl 数据文件训练 2 轮耗时：7.0806 秒
+训练完 Data/ProcessedData/train_landmarks/546816846/546816846_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第98个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/546816846/546816846_3.pkl
+pkl 训练数据文件名为: 546816846/546816846_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/546816846/546816846_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 98, ParquetLoss: 6.580164988835652
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 98, ParquetLoss: 6.565555493036906
+对 Data/ProcessedData/train_landmarks/546816846/546816846_3.pkl 数据文件训练 2 轮耗时：6.3812 秒
+训练完 Data/ProcessedData/train_landmarks/546816846/546816846_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第99个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/546816846/546816846_2.pkl
+pkl 训练数据文件名为: 546816846/546816846_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/546816846/546816846_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 99, ParquetLoss: 6.3377838134765625
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 99, ParquetLoss: 6.308817625045776
+对 Data/ProcessedData/train_landmarks/546816846/546816846_2.pkl 数据文件训练 2 轮耗时：7.1259 秒
+训练完 Data/ProcessedData/train_landmarks/546816846/546816846_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第100个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/546816846/546816846_0.pkl
+pkl 训练数据文件名为: 546816846/546816846_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/546816846/546816846_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 100, ParquetLoss: 6.311239004135132
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 100, ParquetLoss: 6.288308382034302
+对 Data/ProcessedData/train_landmarks/546816846/546816846_0.pkl 数据文件训练 2 轮耗时：7.0970 秒
+训练完 Data/ProcessedData/train_landmarks/546816846/546816846_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第101个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/128822441/128822441_3.pkl
+pkl 训练数据文件名为: 128822441/128822441_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/128822441/128822441_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 101, ParquetLoss: 6.472198088963826
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 101, ParquetLoss: 6.364327351252238
+对 Data/ProcessedData/train_landmarks/128822441/128822441_3.pkl 数据文件训练 2 轮耗时：6.3930 秒
+训练完 Data/ProcessedData/train_landmarks/128822441/128822441_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第102个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/128822441/128822441_2.pkl
+pkl 训练数据文件名为: 128822441/128822441_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/128822441/128822441_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 102, ParquetLoss: 6.211945374806722
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 102, ParquetLoss: 6.190430641174316
+对 Data/ProcessedData/train_landmarks/128822441/128822441_2.pkl 数据文件训练 2 轮耗时：7.0303 秒
+训练完 Data/ProcessedData/train_landmarks/128822441/128822441_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第103个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/128822441/128822441_1.pkl
+pkl 训练数据文件名为: 128822441/128822441_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/128822441/128822441_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 103, ParquetLoss: 6.315912961959839
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 103, ParquetLoss: 6.2931234041849775
+对 Data/ProcessedData/train_landmarks/128822441/128822441_1.pkl 数据文件训练 2 轮耗时：7.0599 秒
+训练完 Data/ProcessedData/train_landmarks/128822441/128822441_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第104个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/128822441/128822441_0.pkl
+pkl 训练数据文件名为: 128822441/128822441_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/128822441/128822441_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 104, ParquetLoss: 6.396767775217692
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 104, ParquetLoss: 6.367456515630086
+对 Data/ProcessedData/train_landmarks/128822441/128822441_0.pkl 数据文件训练 2 轮耗时：7.0938 秒
+训练完 Data/ProcessedData/train_landmarks/128822441/128822441_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第105个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/433948159/433948159_2.pkl
+pkl 训练数据文件名为: 433948159/433948159_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/433948159/433948159_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 105, ParquetLoss: 6.2446731726328535
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 105, ParquetLoss: 6.220578670501709
+对 Data/ProcessedData/train_landmarks/433948159/433948159_2.pkl 数据文件训练 2 轮耗时：7.1172 秒
+训练完 Data/ProcessedData/train_landmarks/433948159/433948159_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第106个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/433948159/433948159_1.pkl
+pkl 训练数据文件名为: 433948159/433948159_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/433948159/433948159_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 106, ParquetLoss: 6.273919979731242
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 106, ParquetLoss: 6.26727016766866
+对 Data/ProcessedData/train_landmarks/433948159/433948159_1.pkl 数据文件训练 2 轮耗时：7.0618 秒
+训练完 Data/ProcessedData/train_landmarks/433948159/433948159_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第107个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/433948159/433948159_0.pkl
+pkl 训练数据文件名为: 433948159/433948159_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/433948159/433948159_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 107, ParquetLoss: 6.401221593221028
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 107, ParquetLoss: 6.381781101226807
+对 Data/ProcessedData/train_landmarks/433948159/433948159_0.pkl 数据文件训练 2 轮耗时：7.0659 秒
+训练完 Data/ProcessedData/train_landmarks/433948159/433948159_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第108个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/433948159/433948159_3.pkl
+pkl 训练数据文件名为: 433948159/433948159_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/433948159/433948159_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 108, ParquetLoss: 6.463128725687663
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 108, ParquetLoss: 6.430300712585449
+对 Data/ProcessedData/train_landmarks/433948159/433948159_3.pkl 数据文件训练 2 轮耗时：6.3900 秒
+训练完 Data/ProcessedData/train_landmarks/433948159/433948159_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第109个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1906357076/1906357076_2.pkl
+pkl 训练数据文件名为: 1906357076/1906357076_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1906357076/1906357076_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 109, ParquetLoss: 6.289976676305135
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 109, ParquetLoss: 6.276734272638957
+对 Data/ProcessedData/train_landmarks/1906357076/1906357076_2.pkl 数据文件训练 2 轮耗时：7.1000 秒
+训练完 Data/ProcessedData/train_landmarks/1906357076/1906357076_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第110个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1906357076/1906357076_1.pkl
+pkl 训练数据文件名为: 1906357076/1906357076_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1906357076/1906357076_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 110, ParquetLoss: 6.407644033432007
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 110, ParquetLoss: 6.394988139470418
+对 Data/ProcessedData/train_landmarks/1906357076/1906357076_1.pkl 数据文件训练 2 轮耗时：7.1298 秒
+训练完 Data/ProcessedData/train_landmarks/1906357076/1906357076_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第111个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1906357076/1906357076_0.pkl
+pkl 训练数据文件名为: 1906357076/1906357076_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1906357076/1906357076_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 111, ParquetLoss: 6.1801917552948
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 111, ParquetLoss: 6.150352080663045
+对 Data/ProcessedData/train_landmarks/1906357076/1906357076_0.pkl 数据文件训练 2 轮耗时：7.1513 秒
+训练完 Data/ProcessedData/train_landmarks/1906357076/1906357076_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第112个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1906357076/1906357076_3.pkl
+pkl 训练数据文件名为: 1906357076/1906357076_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1906357076/1906357076_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 112, ParquetLoss: 6.209267298380534
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 112, ParquetLoss: 6.189009269078572
+对 Data/ProcessedData/train_landmarks/1906357076/1906357076_3.pkl 数据文件训练 2 轮耗时：6.3133 秒
+训练完 Data/ProcessedData/train_landmarks/1906357076/1906357076_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第113个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/152029243/152029243_3.pkl
+pkl 训练数据文件名为: 152029243/152029243_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/152029243/152029243_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 113, ParquetLoss: 6.465248187383016
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 113, ParquetLoss: 6.425904671351115
+对 Data/ProcessedData/train_landmarks/152029243/152029243_3.pkl 数据文件训练 2 轮耗时：6.4145 秒
+训练完 Data/ProcessedData/train_landmarks/152029243/152029243_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第114个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/152029243/152029243_0.pkl
+pkl 训练数据文件名为: 152029243/152029243_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/152029243/152029243_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 114, ParquetLoss: 6.346641858418782
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 114, ParquetLoss: 6.298985719680786
+对 Data/ProcessedData/train_landmarks/152029243/152029243_0.pkl 数据文件训练 2 轮耗时：7.0345 秒
+训练完 Data/ProcessedData/train_landmarks/152029243/152029243_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第115个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/152029243/152029243_2.pkl
+pkl 训练数据文件名为: 152029243/152029243_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/152029243/152029243_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 115, ParquetLoss: 6.344823122024536
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 115, ParquetLoss: 6.333930492401123
+对 Data/ProcessedData/train_landmarks/152029243/152029243_2.pkl 数据文件训练 2 轮耗时：7.0190 秒
+训练完 Data/ProcessedData/train_landmarks/152029243/152029243_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第116个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/152029243/152029243_1.pkl
+pkl 训练数据文件名为: 152029243/152029243_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/152029243/152029243_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 116, ParquetLoss: 6.39440123240153
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 116, ParquetLoss: 6.379254102706909
+对 Data/ProcessedData/train_landmarks/152029243/152029243_1.pkl 数据文件训练 2 轮耗时：7.0474 秒
+训练完 Data/ProcessedData/train_landmarks/152029243/152029243_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第117个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1098899348/1098899348_2.pkl
+pkl 训练数据文件名为: 1098899348/1098899348_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1098899348/1098899348_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 117, ParquetLoss: 6.287078619003296
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 117, ParquetLoss: 6.265632788340251
+对 Data/ProcessedData/train_landmarks/1098899348/1098899348_2.pkl 数据文件训练 2 轮耗时：7.0625 秒
+训练完 Data/ProcessedData/train_landmarks/1098899348/1098899348_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第118个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1098899348/1098899348_1.pkl
+pkl 训练数据文件名为: 1098899348/1098899348_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1098899348/1098899348_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 118, ParquetLoss: 6.261360804239909
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 118, ParquetLoss: 6.236063241958618
+对 Data/ProcessedData/train_landmarks/1098899348/1098899348_1.pkl 数据文件训练 2 轮耗时：7.0129 秒
+训练完 Data/ProcessedData/train_landmarks/1098899348/1098899348_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第119个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1098899348/1098899348_0.pkl
+pkl 训练数据文件名为: 1098899348/1098899348_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1098899348/1098899348_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 119, ParquetLoss: 6.384761889775594
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 119, ParquetLoss: 6.363544861475627
+对 Data/ProcessedData/train_landmarks/1098899348/1098899348_0.pkl 数据文件训练 2 轮耗时：7.0392 秒
+训练完 Data/ProcessedData/train_landmarks/1098899348/1098899348_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第120个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1098899348/1098899348_3.pkl
+pkl 训练数据文件名为: 1098899348/1098899348_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1098899348/1098899348_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 120, ParquetLoss: 6.318592389424642
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 120, ParquetLoss: 6.266860564549764
+对 Data/ProcessedData/train_landmarks/1098899348/1098899348_3.pkl 数据文件训练 2 轮耗时：6.4059 秒
+训练完 Data/ProcessedData/train_landmarks/1098899348/1098899348_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第121个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1365275733/1365275733_0.pkl
+pkl 训练数据文件名为: 1365275733/1365275733_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1365275733/1365275733_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 121, ParquetLoss: 6.203236659367879
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 121, ParquetLoss: 6.187442859013875
+对 Data/ProcessedData/train_landmarks/1365275733/1365275733_0.pkl 数据文件训练 2 轮耗时：7.0227 秒
+训练完 Data/ProcessedData/train_landmarks/1365275733/1365275733_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第122个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1365275733/1365275733_2.pkl
+pkl 训练数据文件名为: 1365275733/1365275733_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1365275733/1365275733_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 122, ParquetLoss: 6.330626646677653
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 122, ParquetLoss: 6.2950765291849775
+对 Data/ProcessedData/train_landmarks/1365275733/1365275733_2.pkl 数据文件训练 2 轮耗时：7.0393 秒
+训练完 Data/ProcessedData/train_landmarks/1365275733/1365275733_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第123个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1365275733/1365275733_1.pkl
+pkl 训练数据文件名为: 1365275733/1365275733_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1365275733/1365275733_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 123, ParquetLoss: 6.220749378204346
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 123, ParquetLoss: 6.208799123764038
+对 Data/ProcessedData/train_landmarks/1365275733/1365275733_1.pkl 数据文件训练 2 轮耗时：7.0710 秒
+训练完 Data/ProcessedData/train_landmarks/1365275733/1365275733_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第124个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1365275733/1365275733_3.pkl
+pkl 训练数据文件名为: 1365275733/1365275733_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1365275733/1365275733_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 124, ParquetLoss: 6.169693946838379
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 124, ParquetLoss: 6.1046444574991865
+对 Data/ProcessedData/train_landmarks/1365275733/1365275733_3.pkl 数据文件训练 2 轮耗时：6.2468 秒
+训练完 Data/ProcessedData/train_landmarks/1365275733/1365275733_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第125个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/296317215/296317215_0.pkl
+pkl 训练数据文件名为: 296317215/296317215_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/296317215/296317215_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 125, ParquetLoss: 6.3259657224019366
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 125, ParquetLoss: 6.292378028233846
+对 Data/ProcessedData/train_landmarks/296317215/296317215_0.pkl 数据文件训练 2 轮耗时：7.0529 秒
+训练完 Data/ProcessedData/train_landmarks/296317215/296317215_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第126个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/296317215/296317215_2.pkl
+pkl 训练数据文件名为: 296317215/296317215_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/296317215/296317215_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 126, ParquetLoss: 6.148048798243205
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 126, ParquetLoss: 6.106828848520915
+对 Data/ProcessedData/train_landmarks/296317215/296317215_2.pkl 数据文件训练 2 轮耗时：7.0877 秒
+训练完 Data/ProcessedData/train_landmarks/296317215/296317215_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第127个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/296317215/296317215_3.pkl
+pkl 训练数据文件名为: 296317215/296317215_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/296317215/296317215_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 127, ParquetLoss: 6.048446575800578
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 127, ParquetLoss: 6.028981765111287
+对 Data/ProcessedData/train_landmarks/296317215/296317215_3.pkl 数据文件训练 2 轮耗时：6.3845 秒
+训练完 Data/ProcessedData/train_landmarks/296317215/296317215_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第128个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/296317215/296317215_1.pkl
+pkl 训练数据文件名为: 296317215/296317215_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/296317215/296317215_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 128, ParquetLoss: 6.26425306002299
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 128, ParquetLoss: 6.233287254969279
+对 Data/ProcessedData/train_landmarks/296317215/296317215_1.pkl 数据文件训练 2 轮耗时：7.0527 秒
+训练完 Data/ProcessedData/train_landmarks/296317215/296317215_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第129个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1905462118/1905462118_0.pkl
+pkl 训练数据文件名为: 1905462118/1905462118_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1905462118/1905462118_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 129, ParquetLoss: 6.348634401957194
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 129, ParquetLoss: 6.3353439172108965
+对 Data/ProcessedData/train_landmarks/1905462118/1905462118_0.pkl 数据文件训练 2 轮耗时：7.0455 秒
+训练完 Data/ProcessedData/train_landmarks/1905462118/1905462118_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第130个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1905462118/1905462118_2.pkl
+pkl 训练数据文件名为: 1905462118/1905462118_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1905462118/1905462118_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 130, ParquetLoss: 6.188600301742554
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 130, ParquetLoss: 6.170976797739665
+对 Data/ProcessedData/train_landmarks/1905462118/1905462118_2.pkl 数据文件训练 2 轮耗时：7.0528 秒
+训练完 Data/ProcessedData/train_landmarks/1905462118/1905462118_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第131个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1905462118/1905462118_3.pkl
+pkl 训练数据文件名为: 1905462118/1905462118_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1905462118/1905462118_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 131, ParquetLoss: 6.08744231859843
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 131, ParquetLoss: 6.0928120613098145
+对 Data/ProcessedData/train_landmarks/1905462118/1905462118_3.pkl 数据文件训练 2 轮耗时：6.3501 秒
+训练完 Data/ProcessedData/train_landmarks/1905462118/1905462118_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第132个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1905462118/1905462118_1.pkl
+pkl 训练数据文件名为: 1905462118/1905462118_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1905462118/1905462118_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 132, ParquetLoss: 6.2399974664052325
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 132, ParquetLoss: 6.211235284805298
+对 Data/ProcessedData/train_landmarks/1905462118/1905462118_1.pkl 数据文件训练 2 轮耗时：7.0561 秒
+训练完 Data/ProcessedData/train_landmarks/1905462118/1905462118_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第133个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1358493307/1358493307_3.pkl
+pkl 训练数据文件名为: 1358493307/1358493307_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1358493307/1358493307_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 133, ParquetLoss: 6.03394873936971
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 133, ParquetLoss: 5.977394501368205
+对 Data/ProcessedData/train_landmarks/1358493307/1358493307_3.pkl 数据文件训练 2 轮耗时：6.3543 秒
+训练完 Data/ProcessedData/train_landmarks/1358493307/1358493307_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第134个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1358493307/1358493307_0.pkl
+pkl 训练数据文件名为: 1358493307/1358493307_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1358493307/1358493307_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 134, ParquetLoss: 6.217587153116862
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 134, ParquetLoss: 6.1971423625946045
+对 Data/ProcessedData/train_landmarks/1358493307/1358493307_0.pkl 数据文件训练 2 轮耗时：7.0161 秒
+训练完 Data/ProcessedData/train_landmarks/1358493307/1358493307_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第135个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1358493307/1358493307_1.pkl
+pkl 训练数据文件名为: 1358493307/1358493307_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1358493307/1358493307_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 135, ParquetLoss: 6.06983749071757
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 135, ParquetLoss: 6.037291367848714
+对 Data/ProcessedData/train_landmarks/1358493307/1358493307_1.pkl 数据文件训练 2 轮耗时：7.0184 秒
+训练完 Data/ProcessedData/train_landmarks/1358493307/1358493307_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第136个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1358493307/1358493307_2.pkl
+pkl 训练数据文件名为: 1358493307/1358493307_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1358493307/1358493307_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 136, ParquetLoss: 6.147190968195598
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 136, ParquetLoss: 6.125986655553182
+对 Data/ProcessedData/train_landmarks/1358493307/1358493307_2.pkl 数据文件训练 2 轮耗时：7.0595 秒
+训练完 Data/ProcessedData/train_landmarks/1358493307/1358493307_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第137个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/614661748/614661748_1.pkl
+pkl 训练数据文件名为: 614661748/614661748_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/614661748/614661748_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 137, ParquetLoss: 6.065497239430745
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 137, ParquetLoss: 6.053866863250732
+对 Data/ProcessedData/train_landmarks/614661748/614661748_1.pkl 数据文件训练 2 轮耗时：7.0764 秒
+训练完 Data/ProcessedData/train_landmarks/614661748/614661748_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第138个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/614661748/614661748_0.pkl
+pkl 训练数据文件名为: 614661748/614661748_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/614661748/614661748_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 138, ParquetLoss: 6.0578560034434
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 138, ParquetLoss: 6.0278817017873125
+对 Data/ProcessedData/train_landmarks/614661748/614661748_0.pkl 数据文件训练 2 轮耗时：7.0738 秒
+训练完 Data/ProcessedData/train_landmarks/614661748/614661748_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第139个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/614661748/614661748_3.pkl
+pkl 训练数据文件名为: 614661748/614661748_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/614661748/614661748_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 139, ParquetLoss: 6.161495606104533
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 139, ParquetLoss: 6.066109498341878
+对 Data/ProcessedData/train_landmarks/614661748/614661748_3.pkl 数据文件训练 2 轮耗时：6.2654 秒
+训练完 Data/ProcessedData/train_landmarks/614661748/614661748_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第140个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/614661748/614661748_2.pkl
+pkl 训练数据文件名为: 614661748/614661748_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/614661748/614661748_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 140, ParquetLoss: 6.245046456654866
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 140, ParquetLoss: 6.212461868921916
+对 Data/ProcessedData/train_landmarks/614661748/614661748_2.pkl 数据文件训练 2 轮耗时：7.0549 秒
+训练完 Data/ProcessedData/train_landmarks/614661748/614661748_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第141个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/532011803/532011803_0.pkl
+pkl 训练数据文件名为: 532011803/532011803_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/532011803/532011803_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 141, ParquetLoss: 6.279730240503947
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 141, ParquetLoss: 6.2347079912821455
+对 Data/ProcessedData/train_landmarks/532011803/532011803_0.pkl 数据文件训练 2 轮耗时：7.0258 秒
+训练完 Data/ProcessedData/train_landmarks/532011803/532011803_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第142个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/532011803/532011803_3.pkl
+pkl 训练数据文件名为: 532011803/532011803_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/532011803/532011803_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 142, ParquetLoss: 6.334975004196167
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 142, ParquetLoss: 6.3056942621866865
+对 Data/ProcessedData/train_landmarks/532011803/532011803_3.pkl 数据文件训练 2 轮耗时：6.3957 秒
+训练完 Data/ProcessedData/train_landmarks/532011803/532011803_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第143个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/532011803/532011803_1.pkl
+pkl 训练数据文件名为: 532011803/532011803_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/532011803/532011803_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 143, ParquetLoss: 6.168370326360066
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 143, ParquetLoss: 6.135592460632324
+对 Data/ProcessedData/train_landmarks/532011803/532011803_1.pkl 数据文件训练 2 轮耗时：7.0066 秒
+训练完 Data/ProcessedData/train_landmarks/532011803/532011803_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第144个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/532011803/532011803_2.pkl
+pkl 训练数据文件名为: 532011803/532011803_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/532011803/532011803_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 144, ParquetLoss: 6.241630872090657
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 144, ParquetLoss: 6.228714307149251
+对 Data/ProcessedData/train_landmarks/532011803/532011803_2.pkl 数据文件训练 2 轮耗时：7.0752 秒
+训练完 Data/ProcessedData/train_landmarks/532011803/532011803_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第145个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1997878546/1997878546_0.pkl
+pkl 训练数据文件名为: 1997878546/1997878546_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1997878546/1997878546_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 145, ParquetLoss: 6.343208471934001
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 145, ParquetLoss: 6.307563940684001
+对 Data/ProcessedData/train_landmarks/1997878546/1997878546_0.pkl 数据文件训练 2 轮耗时：7.0476 秒
+训练完 Data/ProcessedData/train_landmarks/1997878546/1997878546_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第146个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1997878546/1997878546_3.pkl
+pkl 训练数据文件名为: 1997878546/1997878546_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1997878546/1997878546_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 146, ParquetLoss: 6.2108330726623535
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 146, ParquetLoss: 6.153669913609822
+对 Data/ProcessedData/train_landmarks/1997878546/1997878546_3.pkl 数据文件训练 2 轮耗时：6.3509 秒
+训练完 Data/ProcessedData/train_landmarks/1997878546/1997878546_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第147个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1997878546/1997878546_2.pkl
+pkl 训练数据文件名为: 1997878546/1997878546_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1997878546/1997878546_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 147, ParquetLoss: 6.118913729985555
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 147, ParquetLoss: 6.096482276916504
+对 Data/ProcessedData/train_landmarks/1997878546/1997878546_2.pkl 数据文件训练 2 轮耗时：7.0651 秒
+训练完 Data/ProcessedData/train_landmarks/1997878546/1997878546_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第148个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1997878546/1997878546_1.pkl
+pkl 训练数据文件名为: 1997878546/1997878546_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1997878546/1997878546_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 148, ParquetLoss: 6.1040260791778564
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 148, ParquetLoss: 6.0986190636952715
+对 Data/ProcessedData/train_landmarks/1997878546/1997878546_1.pkl 数据文件训练 2 轮耗时：7.0882 秒
+训练完 Data/ProcessedData/train_landmarks/1997878546/1997878546_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第149个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/522550314/522550314_3.pkl
+pkl 训练数据文件名为: 522550314/522550314_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/522550314/522550314_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 149, ParquetLoss: 6.197548071543376
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 149, ParquetLoss: 6.259846210479736
+对 Data/ProcessedData/train_landmarks/522550314/522550314_3.pkl 数据文件训练 2 轮耗时：6.4436 秒
+训练完 Data/ProcessedData/train_landmarks/522550314/522550314_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第150个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/522550314/522550314_0.pkl
+pkl 训练数据文件名为: 522550314/522550314_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/522550314/522550314_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 150, ParquetLoss: 6.189456462860107
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 150, ParquetLoss: 6.130443572998047
+对 Data/ProcessedData/train_landmarks/522550314/522550314_0.pkl 数据文件训练 2 轮耗时：7.0604 秒
+训练完 Data/ProcessedData/train_landmarks/522550314/522550314_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第151个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/522550314/522550314_2.pkl
+pkl 训练数据文件名为: 522550314/522550314_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/522550314/522550314_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 151, ParquetLoss: 6.2086288134257
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 151, ParquetLoss: 6.1778037548065186
+对 Data/ProcessedData/train_landmarks/522550314/522550314_2.pkl 数据文件训练 2 轮耗时：7.0773 秒
+训练完 Data/ProcessedData/train_landmarks/522550314/522550314_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第152个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/522550314/522550314_1.pkl
+pkl 训练数据文件名为: 522550314/522550314_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/522550314/522550314_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 152, ParquetLoss: 6.005795796712239
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 152, ParquetLoss: 5.975764433542888
+对 Data/ProcessedData/train_landmarks/522550314/522550314_1.pkl 数据文件训练 2 轮耗时：7.1208 秒
+训练完 Data/ProcessedData/train_landmarks/522550314/522550314_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第153个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/474255203/474255203_0.pkl
+pkl 训练数据文件名为: 474255203/474255203_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/474255203/474255203_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 153, ParquetLoss: 6.109562714894612
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 153, ParquetLoss: 6.079017798105876
+对 Data/ProcessedData/train_landmarks/474255203/474255203_0.pkl 数据文件训练 2 轮耗时：7.0690 秒
+训练完 Data/ProcessedData/train_landmarks/474255203/474255203_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第154个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/474255203/474255203_1.pkl
+pkl 训练数据文件名为: 474255203/474255203_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/474255203/474255203_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 154, ParquetLoss: 6.1354711055755615
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 154, ParquetLoss: 6.11042841275533
+对 Data/ProcessedData/train_landmarks/474255203/474255203_1.pkl 数据文件训练 2 轮耗时：7.0510 秒
+训练完 Data/ProcessedData/train_landmarks/474255203/474255203_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第155个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/474255203/474255203_2.pkl
+pkl 训练数据文件名为: 474255203/474255203_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/474255203/474255203_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 155, ParquetLoss: 6.218209822972615
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 155, ParquetLoss: 6.1774067878723145
+对 Data/ProcessedData/train_landmarks/474255203/474255203_2.pkl 数据文件训练 2 轮耗时：7.0921 秒
+训练完 Data/ProcessedData/train_landmarks/474255203/474255203_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第156个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/474255203/474255203_3.pkl
+pkl 训练数据文件名为: 474255203/474255203_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/474255203/474255203_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 156, ParquetLoss: 6.157522837320964
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 156, ParquetLoss: 6.124918142954509
+对 Data/ProcessedData/train_landmarks/474255203/474255203_3.pkl 数据文件训练 2 轮耗时：6.3487 秒
+训练完 Data/ProcessedData/train_landmarks/474255203/474255203_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第157个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/654436541/654436541_0.pkl
+pkl 训练数据文件名为: 654436541/654436541_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/654436541/654436541_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 157, ParquetLoss: 6.194797039031982
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 157, ParquetLoss: 6.1725914478302
+对 Data/ProcessedData/train_landmarks/654436541/654436541_0.pkl 数据文件训练 2 轮耗时：7.0650 秒
+训练完 Data/ProcessedData/train_landmarks/654436541/654436541_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第158个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/654436541/654436541_1.pkl
+pkl 训练数据文件名为: 654436541/654436541_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/654436541/654436541_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 158, ParquetLoss: 5.907090266545613
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 158, ParquetLoss: 5.8992241223653155
+对 Data/ProcessedData/train_landmarks/654436541/654436541_1.pkl 数据文件训练 2 轮耗时：7.0866 秒
+训练完 Data/ProcessedData/train_landmarks/654436541/654436541_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第159个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/654436541/654436541_2.pkl
+pkl 训练数据文件名为: 654436541/654436541_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/654436541/654436541_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 159, ParquetLoss: 6.19241730372111
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 159, ParquetLoss: 6.155157883961995
+对 Data/ProcessedData/train_landmarks/654436541/654436541_2.pkl 数据文件训练 2 轮耗时：7.0580 秒
+训练完 Data/ProcessedData/train_landmarks/654436541/654436541_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第160个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/654436541/654436541_3.pkl
+pkl 训练数据文件名为: 654436541/654436541_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/654436541/654436541_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 160, ParquetLoss: 5.846878210703532
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 160, ParquetLoss: 5.796974341074626
+对 Data/ProcessedData/train_landmarks/654436541/654436541_3.pkl 数据文件训练 2 轮耗时：6.3488 秒
+训练完 Data/ProcessedData/train_landmarks/654436541/654436541_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第161个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/871280215/871280215_2.pkl
+pkl 训练数据文件名为: 871280215/871280215_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/871280215/871280215_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 161, ParquetLoss: 6.007883787155151
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 161, ParquetLoss: 5.979355494181315
+对 Data/ProcessedData/train_landmarks/871280215/871280215_2.pkl 数据文件训练 2 轮耗时：7.0062 秒
+训练完 Data/ProcessedData/train_landmarks/871280215/871280215_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第162个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/871280215/871280215_3.pkl
+pkl 训练数据文件名为: 871280215/871280215_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/871280215/871280215_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 162, ParquetLoss: 6.271749258041382
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 162, ParquetLoss: 6.288108905156453
+对 Data/ProcessedData/train_landmarks/871280215/871280215_3.pkl 数据文件训练 2 轮耗时：6.4052 秒
+训练完 Data/ProcessedData/train_landmarks/871280215/871280215_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第163个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/871280215/871280215_1.pkl
+pkl 训练数据文件名为: 871280215/871280215_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/871280215/871280215_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 163, ParquetLoss: 6.21065886815389
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 163, ParquetLoss: 6.18297537167867
+对 Data/ProcessedData/train_landmarks/871280215/871280215_1.pkl 数据文件训练 2 轮耗时：7.0344 秒
+训练完 Data/ProcessedData/train_landmarks/871280215/871280215_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第164个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/871280215/871280215_0.pkl
+pkl 训练数据文件名为: 871280215/871280215_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/871280215/871280215_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 164, ParquetLoss: 6.091963609059651
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 164, ParquetLoss: 6.066979646682739
+对 Data/ProcessedData/train_landmarks/871280215/871280215_0.pkl 数据文件训练 2 轮耗时：7.0896 秒
+训练完 Data/ProcessedData/train_landmarks/871280215/871280215_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第165个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1662742697/1662742697_0.pkl
+pkl 训练数据文件名为: 1662742697/1662742697_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1662742697/1662742697_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 165, ParquetLoss: 6.1088879108428955
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 165, ParquetLoss: 6.085943380991618
+对 Data/ProcessedData/train_landmarks/1662742697/1662742697_0.pkl 数据文件训练 2 轮耗时：7.0957 秒
+训练完 Data/ProcessedData/train_landmarks/1662742697/1662742697_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第166个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1662742697/1662742697_1.pkl
+pkl 训练数据文件名为: 1662742697/1662742697_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1662742697/1662742697_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 166, ParquetLoss: 6.14914854367574
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 166, ParquetLoss: 6.141066869099935
+对 Data/ProcessedData/train_landmarks/1662742697/1662742697_1.pkl 数据文件训练 2 轮耗时：7.1188 秒
+训练完 Data/ProcessedData/train_landmarks/1662742697/1662742697_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第167个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1662742697/1662742697_2.pkl
+pkl 训练数据文件名为: 1662742697/1662742697_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1662742697/1662742697_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 167, ParquetLoss: 6.238634745279948
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 167, ParquetLoss: 6.230161746342977
+对 Data/ProcessedData/train_landmarks/1662742697/1662742697_2.pkl 数据文件训练 2 轮耗时：7.1214 秒
+训练完 Data/ProcessedData/train_landmarks/1662742697/1662742697_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第168个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1662742697/1662742697_3.pkl
+pkl 训练数据文件名为: 1662742697/1662742697_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1662742697/1662742697_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 168, ParquetLoss: 6.023563941319783
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 168, ParquetLoss: 6.056543827056885
+对 Data/ProcessedData/train_landmarks/1662742697/1662742697_3.pkl 数据文件训练 2 轮耗时：6.4060 秒
+训练完 Data/ProcessedData/train_landmarks/1662742697/1662742697_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第169个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1785039512/1785039512_1.pkl
+pkl 训练数据文件名为: 1785039512/1785039512_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1785039512/1785039512_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 169, ParquetLoss: 6.122570435206096
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 169, ParquetLoss: 6.0977113246917725
+对 Data/ProcessedData/train_landmarks/1785039512/1785039512_1.pkl 数据文件训练 2 轮耗时：7.0460 秒
+训练完 Data/ProcessedData/train_landmarks/1785039512/1785039512_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第170个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1785039512/1785039512_3.pkl
+pkl 训练数据文件名为: 1785039512/1785039512_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1785039512/1785039512_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 170, ParquetLoss: 6.092483361562093
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 170, ParquetLoss: 6.100633462270101
+对 Data/ProcessedData/train_landmarks/1785039512/1785039512_3.pkl 数据文件训练 2 轮耗时：6.3995 秒
+训练完 Data/ProcessedData/train_landmarks/1785039512/1785039512_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第171个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1785039512/1785039512_0.pkl
+pkl 训练数据文件名为: 1785039512/1785039512_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1785039512/1785039512_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 171, ParquetLoss: 5.980874538421631
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 171, ParquetLoss: 5.952176491419475
+对 Data/ProcessedData/train_landmarks/1785039512/1785039512_0.pkl 数据文件训练 2 轮耗时：7.0750 秒
+训练完 Data/ProcessedData/train_landmarks/1785039512/1785039512_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第172个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1785039512/1785039512_2.pkl
+pkl 训练数据文件名为: 1785039512/1785039512_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1785039512/1785039512_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 172, ParquetLoss: 6.074348608652751
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 172, ParquetLoss: 6.0440207322438555
+对 Data/ProcessedData/train_landmarks/1785039512/1785039512_2.pkl 数据文件训练 2 轮耗时：7.1158 秒
+训练完 Data/ProcessedData/train_landmarks/1785039512/1785039512_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第173个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/683666742/683666742_3.pkl
+pkl 训练数据文件名为: 683666742/683666742_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/683666742/683666742_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 173, ParquetLoss: 6.2131885687510175
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 173, ParquetLoss: 6.108199278513591
+对 Data/ProcessedData/train_landmarks/683666742/683666742_3.pkl 数据文件训练 2 轮耗时：6.4292 秒
+训练完 Data/ProcessedData/train_landmarks/683666742/683666742_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第174个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/683666742/683666742_2.pkl
+pkl 训练数据文件名为: 683666742/683666742_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/683666742/683666742_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 174, ParquetLoss: 6.134451707204183
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 174, ParquetLoss: 6.131820837656657
+对 Data/ProcessedData/train_landmarks/683666742/683666742_2.pkl 数据文件训练 2 轮耗时：7.0998 秒
+训练完 Data/ProcessedData/train_landmarks/683666742/683666742_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第175个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/683666742/683666742_1.pkl
+pkl 训练数据文件名为: 683666742/683666742_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/683666742/683666742_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 175, ParquetLoss: 5.996465603510539
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 175, ParquetLoss: 5.972514629364014
+对 Data/ProcessedData/train_landmarks/683666742/683666742_1.pkl 数据文件训练 2 轮耗时：7.1020 秒
+训练完 Data/ProcessedData/train_landmarks/683666742/683666742_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第176个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/683666742/683666742_0.pkl
+pkl 训练数据文件名为: 683666742/683666742_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/683666742/683666742_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 176, ParquetLoss: 6.177800416946411
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 176, ParquetLoss: 6.156603574752808
+对 Data/ProcessedData/train_landmarks/683666742/683666742_0.pkl 数据文件训练 2 轮耗时：7.0302 秒
+训练完 Data/ProcessedData/train_landmarks/683666742/683666742_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第177个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1320204318/1320204318_1.pkl
+pkl 训练数据文件名为: 1320204318/1320204318_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1320204318/1320204318_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 177, ParquetLoss: 6.0055521329243975
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 177, ParquetLoss: 5.972653071085612
+对 Data/ProcessedData/train_landmarks/1320204318/1320204318_1.pkl 数据文件训练 2 轮耗时：7.0492 秒
+训练完 Data/ProcessedData/train_landmarks/1320204318/1320204318_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第178个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1320204318/1320204318_0.pkl
+pkl 训练数据文件名为: 1320204318/1320204318_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1320204318/1320204318_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 178, ParquetLoss: 6.1405519644419355
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 178, ParquetLoss: 6.120940446853638
+对 Data/ProcessedData/train_landmarks/1320204318/1320204318_0.pkl 数据文件训练 2 轮耗时：7.0409 秒
+训练完 Data/ProcessedData/train_landmarks/1320204318/1320204318_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第179个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1320204318/1320204318_2.pkl
+pkl 训练数据文件名为: 1320204318/1320204318_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1320204318/1320204318_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 179, ParquetLoss: 5.93892502784729
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 179, ParquetLoss: 5.900014003117879
+对 Data/ProcessedData/train_landmarks/1320204318/1320204318_2.pkl 数据文件训练 2 轮耗时：7.0764 秒
+训练完 Data/ProcessedData/train_landmarks/1320204318/1320204318_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第180个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1320204318/1320204318_3.pkl
+pkl 训练数据文件名为: 1320204318/1320204318_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1320204318/1320204318_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 180, ParquetLoss: 6.031496047973633
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 180, ParquetLoss: 6.072093645731608
+对 Data/ProcessedData/train_landmarks/1320204318/1320204318_3.pkl 数据文件训练 2 轮耗时：6.3650 秒
+训练完 Data/ProcessedData/train_landmarks/1320204318/1320204318_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第181个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2118949241/2118949241_2.pkl
+pkl 训练数据文件名为: 2118949241/2118949241_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2118949241/2118949241_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 181, ParquetLoss: 6.0681008497873945
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 181, ParquetLoss: 6.0393625895182295
+对 Data/ProcessedData/train_landmarks/2118949241/2118949241_2.pkl 数据文件训练 2 轮耗时：7.1052 秒
+训练完 Data/ProcessedData/train_landmarks/2118949241/2118949241_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第182个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2118949241/2118949241_0.pkl
+pkl 训练数据文件名为: 2118949241/2118949241_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2118949241/2118949241_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 182, ParquetLoss: 5.980939547220866
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 182, ParquetLoss: 5.966235637664795
+对 Data/ProcessedData/train_landmarks/2118949241/2118949241_0.pkl 数据文件训练 2 轮耗时：6.9893 秒
+训练完 Data/ProcessedData/train_landmarks/2118949241/2118949241_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第183个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2118949241/2118949241_3.pkl
+pkl 训练数据文件名为: 2118949241/2118949241_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2118949241/2118949241_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 183, ParquetLoss: 6.179401954015096
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 183, ParquetLoss: 6.13237460454305
+对 Data/ProcessedData/train_landmarks/2118949241/2118949241_3.pkl 数据文件训练 2 轮耗时：6.3558 秒
+训练完 Data/ProcessedData/train_landmarks/2118949241/2118949241_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第184个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2118949241/2118949241_1.pkl
+pkl 训练数据文件名为: 2118949241/2118949241_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2118949241/2118949241_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 184, ParquetLoss: 6.111842791239421
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 184, ParquetLoss: 6.085015773773193
+对 Data/ProcessedData/train_landmarks/2118949241/2118949241_1.pkl 数据文件训练 2 轮耗时：7.0326 秒
+训练完 Data/ProcessedData/train_landmarks/2118949241/2118949241_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第185个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1341528257/1341528257_1.pkl
+pkl 训练数据文件名为: 1341528257/1341528257_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1341528257/1341528257_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 185, ParquetLoss: 5.952748854955037
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 185, ParquetLoss: 5.938836971918742
+对 Data/ProcessedData/train_landmarks/1341528257/1341528257_1.pkl 数据文件训练 2 轮耗时：6.9969 秒
+训练完 Data/ProcessedData/train_landmarks/1341528257/1341528257_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第186个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1341528257/1341528257_3.pkl
+pkl 训练数据文件名为: 1341528257/1341528257_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1341528257/1341528257_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 186, ParquetLoss: 5.958872556686401
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 186, ParquetLoss: 6.025501489639282
+对 Data/ProcessedData/train_landmarks/1341528257/1341528257_3.pkl 数据文件训练 2 轮耗时：6.3637 秒
+训练完 Data/ProcessedData/train_landmarks/1341528257/1341528257_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第187个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1341528257/1341528257_0.pkl
+pkl 训练数据文件名为: 1341528257/1341528257_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1341528257/1341528257_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 187, ParquetLoss: 6.007254759470622
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 187, ParquetLoss: 5.9803041617075605
+对 Data/ProcessedData/train_landmarks/1341528257/1341528257_0.pkl 数据文件训练 2 轮耗时：7.0599 秒
+训练完 Data/ProcessedData/train_landmarks/1341528257/1341528257_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第188个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1341528257/1341528257_2.pkl
+pkl 训练数据文件名为: 1341528257/1341528257_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1341528257/1341528257_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 188, ParquetLoss: 6.1403539180755615
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 188, ParquetLoss: 6.099814812342326
+对 Data/ProcessedData/train_landmarks/1341528257/1341528257_2.pkl 数据文件训练 2 轮耗时：7.0207 秒
+训练完 Data/ProcessedData/train_landmarks/1341528257/1341528257_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第189个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/566963657/566963657_3.pkl
+pkl 训练数据文件名为: 566963657/566963657_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/566963657/566963657_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 189, ParquetLoss: 5.974595864613851
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 189, ParquetLoss: 6.012236436208089
+对 Data/ProcessedData/train_landmarks/566963657/566963657_3.pkl 数据文件训练 2 轮耗时：6.3546 秒
+训练完 Data/ProcessedData/train_landmarks/566963657/566963657_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第190个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/566963657/566963657_2.pkl
+pkl 训练数据文件名为: 566963657/566963657_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/566963657/566963657_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 190, ParquetLoss: 5.949130853017171
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 190, ParquetLoss: 5.913789828618367
+对 Data/ProcessedData/train_landmarks/566963657/566963657_2.pkl 数据文件训练 2 轮耗时：7.0415 秒
+训练完 Data/ProcessedData/train_landmarks/566963657/566963657_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第191个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/566963657/566963657_0.pkl
+pkl 训练数据文件名为: 566963657/566963657_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/566963657/566963657_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 191, ParquetLoss: 6.166716655095418
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 191, ParquetLoss: 6.124853293100993
+对 Data/ProcessedData/train_landmarks/566963657/566963657_0.pkl 数据文件训练 2 轮耗时：7.0626 秒
+训练完 Data/ProcessedData/train_landmarks/566963657/566963657_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第192个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/566963657/566963657_1.pkl
+pkl 训练数据文件名为: 566963657/566963657_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/566963657/566963657_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 192, ParquetLoss: 6.020397424697876
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 192, ParquetLoss: 5.985421816507976
+对 Data/ProcessedData/train_landmarks/566963657/566963657_1.pkl 数据文件训练 2 轮耗时：7.0582 秒
+训练完 Data/ProcessedData/train_landmarks/566963657/566963657_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第193个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/349393104/349393104_1.pkl
+pkl 训练数据文件名为: 349393104/349393104_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/349393104/349393104_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 193, ParquetLoss: 5.917873700459798
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 193, ParquetLoss: 5.899697939554851
+对 Data/ProcessedData/train_landmarks/349393104/349393104_1.pkl 数据文件训练 2 轮耗时：7.0193 秒
+训练完 Data/ProcessedData/train_landmarks/349393104/349393104_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第194个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/349393104/349393104_0.pkl
+pkl 训练数据文件名为: 349393104/349393104_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/349393104/349393104_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 194, ParquetLoss: 6.103983163833618
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 194, ParquetLoss: 6.083384195963542
+对 Data/ProcessedData/train_landmarks/349393104/349393104_0.pkl 数据文件训练 2 轮耗时：7.0906 秒
+训练完 Data/ProcessedData/train_landmarks/349393104/349393104_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第195个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/349393104/349393104_2.pkl
+pkl 训练数据文件名为: 349393104/349393104_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/349393104/349393104_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 195, ParquetLoss: 6.011173248291016
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 195, ParquetLoss: 5.978500763575236
+对 Data/ProcessedData/train_landmarks/349393104/349393104_2.pkl 数据文件训练 2 轮耗时：7.0455 秒
+训练完 Data/ProcessedData/train_landmarks/349393104/349393104_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第196个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/349393104/349393104_3.pkl
+pkl 训练数据文件名为: 349393104/349393104_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/349393104/349393104_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 196, ParquetLoss: 6.032665093739827
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 196, ParquetLoss: 5.996431748072307
+对 Data/ProcessedData/train_landmarks/349393104/349393104_3.pkl 数据文件训练 2 轮耗时：6.3842 秒
+训练完 Data/ProcessedData/train_landmarks/349393104/349393104_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第197个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/388576474/388576474_2.pkl
+pkl 训练数据文件名为: 388576474/388576474_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/388576474/388576474_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 197, ParquetLoss: 5.960121234258016
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 197, ParquetLoss: 5.937955379486084
+对 Data/ProcessedData/train_landmarks/388576474/388576474_2.pkl 数据文件训练 2 轮耗时：7.1370 秒
+训练完 Data/ProcessedData/train_landmarks/388576474/388576474_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第198个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/388576474/388576474_3.pkl
+pkl 训练数据文件名为: 388576474/388576474_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/388576474/388576474_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 198, ParquetLoss: 5.9776449998219805
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 198, ParquetLoss: 5.93333101272583
+对 Data/ProcessedData/train_landmarks/388576474/388576474_3.pkl 数据文件训练 2 轮耗时：6.3435 秒
+训练完 Data/ProcessedData/train_landmarks/388576474/388576474_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第199个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/388576474/388576474_1.pkl
+pkl 训练数据文件名为: 388576474/388576474_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/388576474/388576474_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 199, ParquetLoss: 5.966200987497966
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 199, ParquetLoss: 5.943943579991658
+对 Data/ProcessedData/train_landmarks/388576474/388576474_1.pkl 数据文件训练 2 轮耗时：7.0781 秒
+训练完 Data/ProcessedData/train_landmarks/388576474/388576474_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第200个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/388576474/388576474_0.pkl
+pkl 训练数据文件名为: 388576474/388576474_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/388576474/388576474_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 200, ParquetLoss: 5.829304854075114
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 200, ParquetLoss: 5.799500385920207
+对 Data/ProcessedData/train_landmarks/388576474/388576474_0.pkl 数据文件训练 2 轮耗时：7.1371 秒
+训练完 Data/ProcessedData/train_landmarks/388576474/388576474_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第201个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1133664520/1133664520_0.pkl
+pkl 训练数据文件名为: 1133664520/1133664520_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1133664520/1133664520_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 201, ParquetLoss: 6.002973794937134
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 201, ParquetLoss: 5.985828161239624
+对 Data/ProcessedData/train_landmarks/1133664520/1133664520_0.pkl 数据文件训练 2 轮耗时：7.0912 秒
+训练完 Data/ProcessedData/train_landmarks/1133664520/1133664520_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第202个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1133664520/1133664520_3.pkl
+pkl 训练数据文件名为: 1133664520/1133664520_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1133664520/1133664520_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 202, ParquetLoss: 5.870831648508708
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 202, ParquetLoss: 5.800949811935425
+对 Data/ProcessedData/train_landmarks/1133664520/1133664520_3.pkl 数据文件训练 2 轮耗时：6.4418 秒
+训练完 Data/ProcessedData/train_landmarks/1133664520/1133664520_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第203个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1133664520/1133664520_2.pkl
+pkl 训练数据文件名为: 1133664520/1133664520_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1133664520/1133664520_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 203, ParquetLoss: 6.182639757792155
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 203, ParquetLoss: 6.165523370107015
+对 Data/ProcessedData/train_landmarks/1133664520/1133664520_2.pkl 数据文件训练 2 轮耗时：7.1611 秒
+训练完 Data/ProcessedData/train_landmarks/1133664520/1133664520_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第204个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1133664520/1133664520_1.pkl
+pkl 训练数据文件名为: 1133664520/1133664520_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1133664520/1133664520_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 204, ParquetLoss: 5.783390204111735
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 204, ParquetLoss: 5.7442582448323565
+对 Data/ProcessedData/train_landmarks/1133664520/1133664520_1.pkl 数据文件训练 2 轮耗时：7.0735 秒
+训练完 Data/ProcessedData/train_landmarks/1133664520/1133664520_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第205个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1099408314/1099408314_0.pkl
+pkl 训练数据文件名为: 1099408314/1099408314_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1099408314/1099408314_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 205, ParquetLoss: 6.0475443204243975
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 205, ParquetLoss: 6.019904454549153
+对 Data/ProcessedData/train_landmarks/1099408314/1099408314_0.pkl 数据文件训练 2 轮耗时：7.1538 秒
+训练完 Data/ProcessedData/train_landmarks/1099408314/1099408314_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第206个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1099408314/1099408314_3.pkl
+pkl 训练数据文件名为: 1099408314/1099408314_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1099408314/1099408314_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 206, ParquetLoss: 5.966756502787272
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 206, ParquetLoss: 5.891337553660075
+对 Data/ProcessedData/train_landmarks/1099408314/1099408314_3.pkl 数据文件训练 2 轮耗时：6.5058 秒
+训练完 Data/ProcessedData/train_landmarks/1099408314/1099408314_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第207个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1099408314/1099408314_1.pkl
+pkl 训练数据文件名为: 1099408314/1099408314_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1099408314/1099408314_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 207, ParquetLoss: 5.88251527150472
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 207, ParquetLoss: 5.860185464223226
+对 Data/ProcessedData/train_landmarks/1099408314/1099408314_1.pkl 数据文件训练 2 轮耗时：7.0569 秒
+训练完 Data/ProcessedData/train_landmarks/1099408314/1099408314_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第208个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1099408314/1099408314_2.pkl
+pkl 训练数据文件名为: 1099408314/1099408314_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1099408314/1099408314_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 208, ParquetLoss: 6.037282307942708
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 208, ParquetLoss: 6.008870522181193
+对 Data/ProcessedData/train_landmarks/1099408314/1099408314_2.pkl 数据文件训练 2 轮耗时：7.3672 秒
+训练完 Data/ProcessedData/train_landmarks/1099408314/1099408314_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第209个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/149822653/149822653_3.pkl
+pkl 训练数据文件名为: 149822653/149822653_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/149822653/149822653_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 209, ParquetLoss: 6.034053405125936
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 209, ParquetLoss: 5.969552755355835
+对 Data/ProcessedData/train_landmarks/149822653/149822653_3.pkl 数据文件训练 2 轮耗时：6.4254 秒
+训练完 Data/ProcessedData/train_landmarks/149822653/149822653_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第210个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/149822653/149822653_2.pkl
+pkl 训练数据文件名为: 149822653/149822653_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/149822653/149822653_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 210, ParquetLoss: 5.919708649317424
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 210, ParquetLoss: 5.874538421630859
+对 Data/ProcessedData/train_landmarks/149822653/149822653_2.pkl 数据文件训练 2 轮耗时：7.0987 秒
+训练完 Data/ProcessedData/train_landmarks/149822653/149822653_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第211个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/149822653/149822653_0.pkl
+pkl 训练数据文件名为: 149822653/149822653_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/149822653/149822653_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 211, ParquetLoss: 5.921633005142212
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 211, ParquetLoss: 5.907742341359456
+对 Data/ProcessedData/train_landmarks/149822653/149822653_0.pkl 数据文件训练 2 轮耗时：7.0852 秒
+训练完 Data/ProcessedData/train_landmarks/149822653/149822653_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第212个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/149822653/149822653_1.pkl
+pkl 训练数据文件名为: 149822653/149822653_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/149822653/149822653_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 212, ParquetLoss: 5.861325025558472
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 212, ParquetLoss: 5.8410009543101
+对 Data/ProcessedData/train_landmarks/149822653/149822653_1.pkl 数据文件训练 2 轮耗时：7.1163 秒
+训练完 Data/ProcessedData/train_landmarks/149822653/149822653_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第213个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2072876091/2072876091_1.pkl
+pkl 训练数据文件名为: 2072876091/2072876091_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2072876091/2072876091_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 213, ParquetLoss: 6.086876471837361
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 213, ParquetLoss: 6.064675013224284
+对 Data/ProcessedData/train_landmarks/2072876091/2072876091_1.pkl 数据文件训练 2 轮耗时：7.0858 秒
+训练完 Data/ProcessedData/train_landmarks/2072876091/2072876091_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第214个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2072876091/2072876091_0.pkl
+pkl 训练数据文件名为: 2072876091/2072876091_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2072876091/2072876091_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 214, ParquetLoss: 6.156566699345906
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 214, ParquetLoss: 6.122874736785889
+对 Data/ProcessedData/train_landmarks/2072876091/2072876091_0.pkl 数据文件训练 2 轮耗时：7.0343 秒
+训练完 Data/ProcessedData/train_landmarks/2072876091/2072876091_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第215个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2072876091/2072876091_3.pkl
+pkl 训练数据文件名为: 2072876091/2072876091_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2072876091/2072876091_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 215, ParquetLoss: 5.917314529418945
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 215, ParquetLoss: 5.912404616673787
+对 Data/ProcessedData/train_landmarks/2072876091/2072876091_3.pkl 数据文件训练 2 轮耗时：6.3819 秒
+训练完 Data/ProcessedData/train_landmarks/2072876091/2072876091_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第216个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2072876091/2072876091_2.pkl
+pkl 训练数据文件名为: 2072876091/2072876091_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2072876091/2072876091_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 216, ParquetLoss: 6.093759139378865
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 216, ParquetLoss: 6.0405683517456055
+对 Data/ProcessedData/train_landmarks/2072876091/2072876091_2.pkl 数据文件训练 2 轮耗时：7.1052 秒
+训练完 Data/ProcessedData/train_landmarks/2072876091/2072876091_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第217个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/882979387/882979387_3.pkl
+pkl 训练数据文件名为: 882979387/882979387_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/882979387/882979387_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 217, ParquetLoss: 5.945033232371013
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 217, ParquetLoss: 5.992544492085774
+对 Data/ProcessedData/train_landmarks/882979387/882979387_3.pkl 数据文件训练 2 轮耗时：6.3116 秒
+训练完 Data/ProcessedData/train_landmarks/882979387/882979387_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第218个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/882979387/882979387_1.pkl
+pkl 训练数据文件名为: 882979387/882979387_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/882979387/882979387_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 218, ParquetLoss: 5.927885929743449
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 218, ParquetLoss: 5.886923313140869
+对 Data/ProcessedData/train_landmarks/882979387/882979387_1.pkl 数据文件训练 2 轮耗时：7.0684 秒
+训练完 Data/ProcessedData/train_landmarks/882979387/882979387_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第219个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/882979387/882979387_0.pkl
+pkl 训练数据文件名为: 882979387/882979387_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/882979387/882979387_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 219, ParquetLoss: 6.066070397694905
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 219, ParquetLoss: 6.037136236826579
+对 Data/ProcessedData/train_landmarks/882979387/882979387_0.pkl 数据文件训练 2 轮耗时：7.0252 秒
+训练完 Data/ProcessedData/train_landmarks/882979387/882979387_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第220个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/882979387/882979387_2.pkl
+pkl 训练数据文件名为: 882979387/882979387_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/882979387/882979387_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 220, ParquetLoss: 5.924479802449544
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 220, ParquetLoss: 5.89649494489034
+对 Data/ProcessedData/train_landmarks/882979387/882979387_2.pkl 数据文件训练 2 轮耗时：7.0210 秒
+训练完 Data/ProcessedData/train_landmarks/882979387/882979387_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第221个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1557244878/1557244878_0.pkl
+pkl 训练数据文件名为: 1557244878/1557244878_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1557244878/1557244878_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 221, ParquetLoss: 5.969859043757121
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 221, ParquetLoss: 5.954665501912435
+对 Data/ProcessedData/train_landmarks/1557244878/1557244878_0.pkl 数据文件训练 2 轮耗时：7.1156 秒
+训练完 Data/ProcessedData/train_landmarks/1557244878/1557244878_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第222个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1557244878/1557244878_1.pkl
+pkl 训练数据文件名为: 1557244878/1557244878_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1557244878/1557244878_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 222, ParquetLoss: 6.04741374651591
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 222, ParquetLoss: 6.021665891011556
+对 Data/ProcessedData/train_landmarks/1557244878/1557244878_1.pkl 数据文件训练 2 轮耗时：7.0454 秒
+训练完 Data/ProcessedData/train_landmarks/1557244878/1557244878_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第223个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1557244878/1557244878_2.pkl
+pkl 训练数据文件名为: 1557244878/1557244878_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1557244878/1557244878_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 223, ParquetLoss: 5.9108015696207685
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 223, ParquetLoss: 5.88830320040385
+对 Data/ProcessedData/train_landmarks/1557244878/1557244878_2.pkl 数据文件训练 2 轮耗时：7.0674 秒
+训练完 Data/ProcessedData/train_landmarks/1557244878/1557244878_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第224个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1557244878/1557244878_3.pkl
+pkl 训练数据文件名为: 1557244878/1557244878_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1557244878/1557244878_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 224, ParquetLoss: 5.885842800140381
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 224, ParquetLoss: 5.889047384262085
+对 Data/ProcessedData/train_landmarks/1557244878/1557244878_3.pkl 数据文件训练 2 轮耗时：6.3313 秒
+训练完 Data/ProcessedData/train_landmarks/1557244878/1557244878_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第225个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2026717426/2026717426_1.pkl
+pkl 训练数据文件名为: 2026717426/2026717426_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2026717426/2026717426_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 225, ParquetLoss: 6.174453099568685
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 225, ParquetLoss: 6.147684415181478
+对 Data/ProcessedData/train_landmarks/2026717426/2026717426_1.pkl 数据文件训练 2 轮耗时：7.0241 秒
+训练完 Data/ProcessedData/train_landmarks/2026717426/2026717426_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第226个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2026717426/2026717426_3.pkl
+pkl 训练数据文件名为: 2026717426/2026717426_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2026717426/2026717426_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 226, ParquetLoss: 6.09222944577535
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 226, ParquetLoss: 6.061284065246582
+对 Data/ProcessedData/train_landmarks/2026717426/2026717426_3.pkl 数据文件训练 2 轮耗时：6.4149 秒
+训练完 Data/ProcessedData/train_landmarks/2026717426/2026717426_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第227个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2026717426/2026717426_0.pkl
+pkl 训练数据文件名为: 2026717426/2026717426_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2026717426/2026717426_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 227, ParquetLoss: 6.044093211491902
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 227, ParquetLoss: 6.038775364557902
+对 Data/ProcessedData/train_landmarks/2026717426/2026717426_0.pkl 数据文件训练 2 轮耗时：7.0460 秒
+训练完 Data/ProcessedData/train_landmarks/2026717426/2026717426_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第228个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2026717426/2026717426_2.pkl
+pkl 训练数据文件名为: 2026717426/2026717426_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2026717426/2026717426_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 228, ParquetLoss: 5.982393821080525
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 228, ParquetLoss: 5.956634362538655
+对 Data/ProcessedData/train_landmarks/2026717426/2026717426_2.pkl 数据文件训练 2 轮耗时：7.0901 秒
+训练完 Data/ProcessedData/train_landmarks/2026717426/2026717426_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第229个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1405046009/1405046009_2.pkl
+pkl 训练数据文件名为: 1405046009/1405046009_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1405046009/1405046009_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 229, ParquetLoss: 5.9701011180877686
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 229, ParquetLoss: 5.961306015650432
+对 Data/ProcessedData/train_landmarks/1405046009/1405046009_2.pkl 数据文件训练 2 轮耗时：7.1236 秒
+训练完 Data/ProcessedData/train_landmarks/1405046009/1405046009_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第230个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1405046009/1405046009_3.pkl
+pkl 训练数据文件名为: 1405046009/1405046009_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1405046009/1405046009_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 230, ParquetLoss: 5.864784240722656
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 230, ParquetLoss: 5.874872446060181
+对 Data/ProcessedData/train_landmarks/1405046009/1405046009_3.pkl 数据文件训练 2 轮耗时：6.3968 秒
+训练完 Data/ProcessedData/train_landmarks/1405046009/1405046009_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第231个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1405046009/1405046009_1.pkl
+pkl 训练数据文件名为: 1405046009/1405046009_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1405046009/1405046009_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 231, ParquetLoss: 5.777337948481242
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 231, ParquetLoss: 5.744258483250936
+对 Data/ProcessedData/train_landmarks/1405046009/1405046009_1.pkl 数据文件训练 2 轮耗时：7.1132 秒
+训练完 Data/ProcessedData/train_landmarks/1405046009/1405046009_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第232个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1405046009/1405046009_0.pkl
+pkl 训练数据文件名为: 1405046009/1405046009_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1405046009/1405046009_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 232, ParquetLoss: 6.083694696426392
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 232, ParquetLoss: 6.052377621332805
+对 Data/ProcessedData/train_landmarks/1405046009/1405046009_0.pkl 数据文件训练 2 轮耗时：7.0500 秒
+训练完 Data/ProcessedData/train_landmarks/1405046009/1405046009_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第233个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1726141437/1726141437_2.pkl
+pkl 训练数据文件名为: 1726141437/1726141437_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1726141437/1726141437_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 233, ParquetLoss: 5.794446150461833
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 233, ParquetLoss: 5.762029488881429
+对 Data/ProcessedData/train_landmarks/1726141437/1726141437_2.pkl 数据文件训练 2 轮耗时：7.0356 秒
+训练完 Data/ProcessedData/train_landmarks/1726141437/1726141437_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第234个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1726141437/1726141437_0.pkl
+pkl 训练数据文件名为: 1726141437/1726141437_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1726141437/1726141437_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 234, ParquetLoss: 5.878383318583171
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 234, ParquetLoss: 5.858577648798625
+对 Data/ProcessedData/train_landmarks/1726141437/1726141437_0.pkl 数据文件训练 2 轮耗时：7.1405 秒
+训练完 Data/ProcessedData/train_landmarks/1726141437/1726141437_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第235个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1726141437/1726141437_3.pkl
+pkl 训练数据文件名为: 1726141437/1726141437_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1726141437/1726141437_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 235, ParquetLoss: 5.881791989008586
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 235, ParquetLoss: 5.885408242543538
+对 Data/ProcessedData/train_landmarks/1726141437/1726141437_3.pkl 数据文件训练 2 轮耗时：6.4433 秒
+训练完 Data/ProcessedData/train_landmarks/1726141437/1726141437_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第236个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1726141437/1726141437_1.pkl
+pkl 训练数据文件名为: 1726141437/1726141437_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1726141437/1726141437_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 236, ParquetLoss: 5.945972045262654
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 236, ParquetLoss: 5.921974261601766
+对 Data/ProcessedData/train_landmarks/1726141437/1726141437_1.pkl 数据文件训练 2 轮耗时：7.0689 秒
+训练完 Data/ProcessedData/train_landmarks/1726141437/1726141437_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第237个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/5414471/5414471_0.pkl
+pkl 训练数据文件名为: 5414471/5414471_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/5414471/5414471_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 237, ParquetLoss: 5.935150305430095
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 237, ParquetLoss: 5.907653570175171
+对 Data/ProcessedData/train_landmarks/5414471/5414471_0.pkl 数据文件训练 2 轮耗时：7.0544 秒
+训练完 Data/ProcessedData/train_landmarks/5414471/5414471_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第238个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/5414471/5414471_2.pkl
+pkl 训练数据文件名为: 5414471/5414471_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/5414471/5414471_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 238, ParquetLoss: 5.739453395207723
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 238, ParquetLoss: 5.728848854700725
+对 Data/ProcessedData/train_landmarks/5414471/5414471_2.pkl 数据文件训练 2 轮耗时：7.2042 秒
+训练完 Data/ProcessedData/train_landmarks/5414471/5414471_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第239个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/5414471/5414471_1.pkl
+pkl 训练数据文件名为: 5414471/5414471_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/5414471/5414471_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 239, ParquetLoss: 5.905694405237834
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 239, ParquetLoss: 5.884724855422974
+对 Data/ProcessedData/train_landmarks/5414471/5414471_1.pkl 数据文件训练 2 轮耗时：7.0937 秒
+训练完 Data/ProcessedData/train_landmarks/5414471/5414471_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第240个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/5414471/5414471_3.pkl
+pkl 训练数据文件名为: 5414471/5414471_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/5414471/5414471_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 240, ParquetLoss: 5.989246924718221
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 240, ParquetLoss: 5.948804616928101
+对 Data/ProcessedData/train_landmarks/5414471/5414471_3.pkl 数据文件训练 2 轮耗时：6.4388 秒
+训练完 Data/ProcessedData/train_landmarks/5414471/5414471_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第241个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2036580525/2036580525_2.pkl
+pkl 训练数据文件名为: 2036580525/2036580525_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2036580525/2036580525_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 241, ParquetLoss: 5.93113907178243
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 241, ParquetLoss: 5.912184397379558
+对 Data/ProcessedData/train_landmarks/2036580525/2036580525_2.pkl 数据文件训练 2 轮耗时：7.0383 秒
+训练完 Data/ProcessedData/train_landmarks/2036580525/2036580525_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第242个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2036580525/2036580525_3.pkl
+pkl 训练数据文件名为: 2036580525/2036580525_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2036580525/2036580525_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 242, ParquetLoss: 5.785908778508504
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 242, ParquetLoss: 5.819780190785726
+对 Data/ProcessedData/train_landmarks/2036580525/2036580525_3.pkl 数据文件训练 2 轮耗时：6.3205 秒
+训练完 Data/ProcessedData/train_landmarks/2036580525/2036580525_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第243个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2036580525/2036580525_1.pkl
+pkl 训练数据文件名为: 2036580525/2036580525_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2036580525/2036580525_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 243, ParquetLoss: 5.835250059763591
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 243, ParquetLoss: 5.8082882563273115
+对 Data/ProcessedData/train_landmarks/2036580525/2036580525_1.pkl 数据文件训练 2 轮耗时：7.0307 秒
+训练完 Data/ProcessedData/train_landmarks/2036580525/2036580525_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第244个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/2036580525/2036580525_0.pkl
+pkl 训练数据文件名为: 2036580525/2036580525_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/2036580525/2036580525_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 244, ParquetLoss: 5.769440730412801
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 244, ParquetLoss: 5.733717600504558
+对 Data/ProcessedData/train_landmarks/2036580525/2036580525_0.pkl 数据文件训练 2 轮耗时：7.1162 秒
+训练完 Data/ProcessedData/train_landmarks/2036580525/2036580525_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第245个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1562234637/1562234637_0.pkl
+pkl 训练数据文件名为: 1562234637/1562234637_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1562234637/1562234637_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 245, ParquetLoss: 5.844557285308838
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 245, ParquetLoss: 5.810931364695231
+对 Data/ProcessedData/train_landmarks/1562234637/1562234637_0.pkl 数据文件训练 2 轮耗时：7.0885 秒
+训练完 Data/ProcessedData/train_landmarks/1562234637/1562234637_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第246个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1562234637/1562234637_1.pkl
+pkl 训练数据文件名为: 1562234637/1562234637_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1562234637/1562234637_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 246, ParquetLoss: 5.9685468673706055
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 246, ParquetLoss: 5.955255587895711
+对 Data/ProcessedData/train_landmarks/1562234637/1562234637_1.pkl 数据文件训练 2 轮耗时：7.0605 秒
+训练完 Data/ProcessedData/train_landmarks/1562234637/1562234637_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第247个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1562234637/1562234637_3.pkl
+pkl 训练数据文件名为: 1562234637/1562234637_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1562234637/1562234637_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 247, ParquetLoss: 5.901604890823364
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 247, ParquetLoss: 5.861953655878703
+对 Data/ProcessedData/train_landmarks/1562234637/1562234637_3.pkl 数据文件训练 2 轮耗时：6.3132 秒
+训练完 Data/ProcessedData/train_landmarks/1562234637/1562234637_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第248个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1562234637/1562234637_2.pkl
+pkl 训练数据文件名为: 1562234637/1562234637_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1562234637/1562234637_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 248, ParquetLoss: 5.906040509541829
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 248, ParquetLoss: 5.885615825653076
+对 Data/ProcessedData/train_landmarks/1562234637/1562234637_2.pkl 数据文件训练 2 轮耗时：7.0261 秒
+训练完 Data/ProcessedData/train_landmarks/1562234637/1562234637_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第249个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/450474571/450474571_1.pkl
+pkl 训练数据文件名为: 450474571/450474571_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/450474571/450474571_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 249, ParquetLoss: 5.636180400848389
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 249, ParquetLoss: 5.62490177154541
+对 Data/ProcessedData/train_landmarks/450474571/450474571_1.pkl 数据文件训练 2 轮耗时：0.8713 秒
+训练完 Data/ProcessedData/train_landmarks/450474571/450474571_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第250个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/450474571/450474571_0.pkl
+pkl 训练数据文件名为: 450474571/450474571_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/450474571/450474571_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 250, ParquetLoss: 5.830484231313069
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 250, ParquetLoss: 5.808160940806071
+对 Data/ProcessedData/train_landmarks/450474571/450474571_0.pkl 数据文件训练 2 轮耗时：6.9950 秒
+训练完 Data/ProcessedData/train_landmarks/450474571/450474571_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第251个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/939623093/939623093_1.pkl
+pkl 训练数据文件名为: 939623093/939623093_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/939623093/939623093_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 251, ParquetLoss: 5.834130843480428
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 251, ParquetLoss: 5.796774943669637
+对 Data/ProcessedData/train_landmarks/939623093/939623093_1.pkl 数据文件训练 2 轮耗时：7.0175 秒
+训练完 Data/ProcessedData/train_landmarks/939623093/939623093_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第252个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/939623093/939623093_3.pkl
+pkl 训练数据文件名为: 939623093/939623093_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/939623093/939623093_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 252, ParquetLoss: 5.737502972284953
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 252, ParquetLoss: 5.768795410792033
+对 Data/ProcessedData/train_landmarks/939623093/939623093_3.pkl 数据文件训练 2 轮耗时：6.4303 秒
+训练完 Data/ProcessedData/train_landmarks/939623093/939623093_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第253个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/939623093/939623093_0.pkl
+pkl 训练数据文件名为: 939623093/939623093_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/939623093/939623093_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 253, ParquetLoss: 5.878456910451253
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 253, ParquetLoss: 5.857235511144002
+对 Data/ProcessedData/train_landmarks/939623093/939623093_0.pkl 数据文件训练 2 轮耗时：7.0257 秒
+训练完 Data/ProcessedData/train_landmarks/939623093/939623093_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第254个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/939623093/939623093_2.pkl
+pkl 训练数据文件名为: 939623093/939623093_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/939623093/939623093_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 254, ParquetLoss: 5.799117088317871
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 254, ParquetLoss: 5.757418553034465
+对 Data/ProcessedData/train_landmarks/939623093/939623093_2.pkl 数据文件训练 2 轮耗时：6.9999 秒
+训练完 Data/ProcessedData/train_landmarks/939623093/939623093_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第255个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/568753759/568753759_0.pkl
+pkl 训练数据文件名为: 568753759/568753759_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/568753759/568753759_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 255, ParquetLoss: 5.896838903427124
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 255, ParquetLoss: 5.857007026672363
+对 Data/ProcessedData/train_landmarks/568753759/568753759_0.pkl 数据文件训练 2 轮耗时：7.1058 秒
+训练完 Data/ProcessedData/train_landmarks/568753759/568753759_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第256个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/568753759/568753759_2.pkl
+pkl 训练数据文件名为: 568753759/568753759_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/568753759/568753759_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 256, ParquetLoss: 5.8191797733306885
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 256, ParquetLoss: 5.792036533355713
+对 Data/ProcessedData/train_landmarks/568753759/568753759_2.pkl 数据文件训练 2 轮耗时：7.0591 秒
+训练完 Data/ProcessedData/train_landmarks/568753759/568753759_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第257个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/568753759/568753759_3.pkl
+pkl 训练数据文件名为: 568753759/568753759_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/568753759/568753759_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 257, ParquetLoss: 6.0911760330200195
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 257, ParquetLoss: 6.1587724685668945
+对 Data/ProcessedData/train_landmarks/568753759/568753759_3.pkl 数据文件训练 2 轮耗时：6.3477 秒
+训练完 Data/ProcessedData/train_landmarks/568753759/568753759_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第258个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/568753759/568753759_1.pkl
+pkl 训练数据文件名为: 568753759/568753759_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/568753759/568753759_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 258, ParquetLoss: 5.872468630472819
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 258, ParquetLoss: 5.828151782353719
+对 Data/ProcessedData/train_landmarks/568753759/568753759_1.pkl 数据文件训练 2 轮耗时：7.0030 秒
+训练完 Data/ProcessedData/train_landmarks/568753759/568753759_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第259个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1497621680/1497621680_0.pkl
+pkl 训练数据文件名为: 1497621680/1497621680_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1497621680/1497621680_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 259, ParquetLoss: 5.804815451304118
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 259, ParquetLoss: 5.770965973536174
+对 Data/ProcessedData/train_landmarks/1497621680/1497621680_0.pkl 数据文件训练 2 轮耗时：7.0357 秒
+训练完 Data/ProcessedData/train_landmarks/1497621680/1497621680_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第260个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1497621680/1497621680_1.pkl
+pkl 训练数据文件名为: 1497621680/1497621680_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1497621680/1497621680_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 260, ParquetLoss: 5.768161694208781
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 260, ParquetLoss: 5.7409688631693525
+对 Data/ProcessedData/train_landmarks/1497621680/1497621680_1.pkl 数据文件训练 2 轮耗时：7.0128 秒
+训练完 Data/ProcessedData/train_landmarks/1497621680/1497621680_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第261个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1497621680/1497621680_2.pkl
+pkl 训练数据文件名为: 1497621680/1497621680_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1497621680/1497621680_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 261, ParquetLoss: 5.7859954833984375
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 261, ParquetLoss: 5.765456199645996
+对 Data/ProcessedData/train_landmarks/1497621680/1497621680_2.pkl 数据文件训练 2 轮耗时：7.0824 秒
+训练完 Data/ProcessedData/train_landmarks/1497621680/1497621680_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第262个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/1497621680/1497621680_3.pkl
+pkl 训练数据文件名为: 1497621680/1497621680_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/1497621680/1497621680_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 262, ParquetLoss: 5.9326707522074384
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 262, ParquetLoss: 5.8366178671518965
+对 Data/ProcessedData/train_landmarks/1497621680/1497621680_3.pkl 数据文件训练 2 轮耗时：6.3653 秒
+训练完 Data/ProcessedData/train_landmarks/1497621680/1497621680_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第263个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/649779897/649779897_1.pkl
+pkl 训练数据文件名为: 649779897/649779897_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/649779897/649779897_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 263, ParquetLoss: 5.94421402613322
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 263, ParquetLoss: 5.924736738204956
+对 Data/ProcessedData/train_landmarks/649779897/649779897_1.pkl 数据文件训练 2 轮耗时：6.9997 秒
+训练完 Data/ProcessedData/train_landmarks/649779897/649779897_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第264个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/649779897/649779897_3.pkl
+pkl 训练数据文件名为: 649779897/649779897_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/649779897/649779897_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 264, ParquetLoss: 6.164495627085368
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 264, ParquetLoss: 6.108755906422933
+对 Data/ProcessedData/train_landmarks/649779897/649779897_3.pkl 数据文件训练 2 轮耗时：6.4137 秒
+训练完 Data/ProcessedData/train_landmarks/649779897/649779897_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第265个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/649779897/649779897_0.pkl
+pkl 训练数据文件名为: 649779897/649779897_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/649779897/649779897_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 265, ParquetLoss: 5.855454683303833
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 265, ParquetLoss: 5.849062283833821
+对 Data/ProcessedData/train_landmarks/649779897/649779897_0.pkl 数据文件训练 2 轮耗时：7.0823 秒
+训练完 Data/ProcessedData/train_landmarks/649779897/649779897_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第266个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/649779897/649779897_2.pkl
+pkl 训练数据文件名为: 649779897/649779897_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/649779897/649779897_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 266, ParquetLoss: 5.910123825073242
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 266, ParquetLoss: 5.8811813195546465
+对 Data/ProcessedData/train_landmarks/649779897/649779897_2.pkl 数据文件训练 2 轮耗时：7.0183 秒
+训练完 Data/ProcessedData/train_landmarks/649779897/649779897_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第267个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/495378749/495378749_2.pkl
+pkl 训练数据文件名为: 495378749/495378749_2.pkl
+数据集已从 Data/ProcessedData/train_landmarks/495378749/495378749_2.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 267, ParquetLoss: 5.844376722971599
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 267, ParquetLoss: 5.813143968582153
+对 Data/ProcessedData/train_landmarks/495378749/495378749_2.pkl 数据文件训练 2 轮耗时：7.0849 秒
+训练完 Data/ProcessedData/train_landmarks/495378749/495378749_2.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第268个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/495378749/495378749_1.pkl
+pkl 训练数据文件名为: 495378749/495378749_1.pkl
+数据集已从 Data/ProcessedData/train_landmarks/495378749/495378749_1.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 268, ParquetLoss: 5.819567680358887
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 268, ParquetLoss: 5.790181875228882
+对 Data/ProcessedData/train_landmarks/495378749/495378749_1.pkl 数据文件训练 2 轮耗时：7.0962 秒
+训练完 Data/ProcessedData/train_landmarks/495378749/495378749_1.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第269个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/495378749/495378749_0.pkl
+pkl 训练数据文件名为: 495378749/495378749_0.pkl
+数据集已从 Data/ProcessedData/train_landmarks/495378749/495378749_0.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 269, ParquetLoss: 5.811591466267903
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 269, ParquetLoss: 5.791009108225505
+对 Data/ProcessedData/train_landmarks/495378749/495378749_0.pkl 数据文件训练 2 轮耗时：7.1403 秒
+训练完 Data/ProcessedData/train_landmarks/495378749/495378749_0.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+这个是第270个 pkl 训练数据文件: Data/ProcessedData/train_landmarks/495378749/495378749_3.pkl
+pkl 训练数据文件名为: 495378749/495378749_3.pkl
+数据集已从 Data/ProcessedData/train_landmarks/495378749/495378749_3.pkl 加载
+OuterEpoch: 1, InnerEpoch: 1, train_landmarks_pkl: 270, ParquetLoss: 5.949406703313191
+OuterEpoch: 1, InnerEpoch: 2, train_landmarks_pkl: 270, ParquetLoss: 5.906829992930095
+对 Data/ProcessedData/train_landmarks/495378749/495378749_3.pkl 数据文件训练 2 轮耗时：6.3407 秒
+训练完 Data/ProcessedData/train_landmarks/495378749/495378749_3.pkl 后，model保存成功
+更新record_csv文件 ./Data/ProcessedData/train_record.csv 成功
+./Data/ProcessedData/train_landmarks 下的所有训练数据文件都已经训练完毕一轮

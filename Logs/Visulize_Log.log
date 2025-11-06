@@ -1,0 +1,39 @@
+(venv) edzee3000@edzee3000-ASUS-TUF-Gaming-F16-FX607JV-FX607JV:/media/edzee3000/UbuntuData/CollegeCourses/ASL_Recognition$ python Visualise.py
+2025-08-07 11:52:43.010052: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-07 11:52:43.018022: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1754538763.027370   48454 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1754538763.030027   48454 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1754538763.037157   48454 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1754538763.037168   48454 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1754538763.037170   48454 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1754538763.037171   48454 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-08-07 11:52:43.039381: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+450474571.csv的形状为：(287, 5)
+csv中前几行数据为：
+                                path    file_id  sequence_id  participant_id               phrase
+0  train_landmarks/450474571.parquet  450474571   2138557488             219     guillermo melton
+1  train_landmarks/450474571.parquet  450474571   2138576693             188          davin bryan
+2  train_landmarks/450474571.parquet  450474571   2138604930              88   uz.astroshopee.com
+3  train_landmarks/450474571.parquet  450474571   2138669776             230  ggia.ir/bad-nauheim
+4  train_landmarks/450474571.parquet  450474571   2138780492              21          make-robalo
+sequence_id: 2138557488, file_id: 450474571, phrase: guillermo melton
+这里我们取sequence_id为：2138557488
+450474571.parquet文件中前几行数据为：
+             frame  x_face_0  x_face_1  x_face_2  x_face_3  x_face_4  ...  z_right_hand_15  z_right_hand_16  z_right_hand_17  z_right_hand_18  z_right_hand_19  z_right_hand_20
+sequence_id                                                           ...
+2138557488       0  0.663001  0.644330  0.657036  0.627135  0.640392  ...        -0.132086        -0.109608        -0.065347        -0.107437        -0.117422        -0.111925
+2138557488       1  0.667972  0.643810  0.656717  0.626106  0.639789  ...        -0.142422        -0.113242        -0.064694        -0.109843        -0.114211        -0.101464
+2138557488       2  0.671009  0.642717  0.655539  0.624751  0.638660  ...              NaN              NaN              NaN              NaN              NaN              NaN
+2138557488       3  0.668623  0.641970  0.654859  0.623967  0.637923  ...              NaN              NaN              NaN              NaN              NaN              NaN
+2138557488       4  0.669397  0.647073  0.658502  0.627655  0.643198  ...              NaN              NaN              NaN              NaN              NaN              NaN
+2138557488       5  0.668984  0.649496  0.660074  0.628289  0.645580  ...              NaN              NaN              NaN              NaN              NaN              NaN
+2138557488       6  0.667283  0.642401  0.654301  0.623136  0.638401  ...              NaN              NaN              NaN              NaN              NaN              NaN
+2138557488       7  0.665721  0.639938  0.651842  0.621399  0.636023  ...              NaN              NaN              NaN              NaN              NaN              NaN
+2138557488       8  0.664322  0.638919  0.650998  0.620762  0.634995  ...              NaN              NaN              NaN              NaN              NaN              NaN
+2138557488       9  0.666464  0.636544  0.649150  0.618948  0.632529  ...              NaN              NaN              NaN              NaN              NaN              NaN
+
+[10 rows x 1630 columns]
+450474571.parquet的形状为：(103, 1630)
+去重后的前缀名称：['frame', 'x_face', 'x_left_hand', 'x_pose', 'x_right_hand', 'y_face', 'y_left_hand', 'y_pose', 'y_right_hand', 'z_face', 'z_left_hand', 'z_pose', 'z_right_hand']

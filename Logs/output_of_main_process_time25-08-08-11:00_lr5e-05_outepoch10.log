@@ -1,0 +1,1924 @@
+Using device: cuda
+正在划分训练集、验证集以及数据加载器
+数据集划分完成 - 训练集: 34021 样本, 验证集: 8505 样本
+正在进行模型的评估
+验证集视频 2:
+预测结果:  the early bird gets the worm            
+真实标签:  the early bird gets the worm 
+验证集视频 3:
+预测结果:  the food at this restaurant             
+真实标签:  the food at this restaurant 
+验证集视频 4:
+预测结果:  naturalcouture.jp            
+真实标签:  naturalcouture.jp 
+验证集视频 5:
+预测结果:  relations are very strained              
+真实标签:  relations are very strained 
+验证集视频 6:
+预测结果:  that land is owned by the government           
+真实标签:  that land is owned by the government 
+验证集视频 7:
+预测结果:  no exchange without a bill             
+真实标签:  no exchange without a bill 
+验证集视频 8:
+预测结果:  it looks like a shack             
+真实标签:  it looks like a shack 
+验证集视频 9:
+预测结果:  9725 east vista boulevard           
+真实标签:  9725 east vista boulevard 
+验证集视频 10:
+预测结果:  edmond carroll              
+真实标签:  edmond carroll 
+验证集视频 11:
+预测结果:  d-star               
+真实标签:  d-star 
+验证集视频 12:
+预测结果:  1957 west 23rd court             
+真实标签:  1957 west 23rd court 
+验证集视频 13:
+预测结果:  important for political parties              
+真实标签:  important for political parties 
+验证集视频 14:
+预测结果:  do not worry about this             
+真实标签:  do not worry about this 
+验证集视频 15:
+预测结果:  3757 leonora road            
+真实标签:  3757 leonora road 
+验证集视频 16:
+预测结果:  7755 meurer field             
+真实标签:  7755 meurer field 
+验证集视频 17:
+预测结果:  look in the syllabus for the course          
+真实标签:  look in the syllabus for the course 
+验证集视频 18:
+预测结果:  /covid-19-pandante/21_01/  /
+真实标签:  /covid-19-pandemic/21_01/ 
+验证集视频 19:
+预测结果:  we better investigate this              
+真实标签:  we better investigate this 
+验证集视频 20:
+预测结果:  +54-432-494-69-60167      -
+真实标签:  +54-432-494-69-60167 
+验证集视频 21:
+预测结果:  csaladi-haz-szomod       c
+真实标签:  csaladi-haz-szomod 
+验证集视频 22:
+预测结果:  4677 dalhoff downs            
+真实标签:  4677 dalhoff downs 
+验证集视频 23:
+预测结果:  the library is closed today             
+真实标签:  the library is closed today 
+验证集视频 24:
+预测结果:  it is difficult to concentrate             
+真实标签:  it is difficult to concentrate 
+验证集视频 25:
+预测结果:  a correction had to be published            
+真实标签:  a correction had to be published 
+验证集视频 26:
+预测结果:  3328 old concord             
+真实标签:  3328 old concord 
+验证集视频 27:
+预测结果:  soon we will return from the city           
+真实标签:  soon we will return from the city 
+验证集视频 28:
+预测结果:  298-634-3450           
+真实标签:  298-634-3450 
+验证集视频 29:
+预测结果:  this leather jacket is too warm            
+真实标签:  this leather jacket is too warm 
+验证集视频 30:
+预测结果:  rapidly running short on words             
+真实标签:  rapidly running short on words 
+验证集视频 31:
+预测结果:  a tumor is ok provided it is benign          
+真实标签:  a tumor is ok provided it is benign 
+验证集视频 32:
+预测结果:  the cat has a pleasant temperament            
+真实标签:  the cat has a pleasant temperament 
+验证集视频 33:
+预测结果:  beatriz walsh              
+真实标签:  beatriz walsh 
+验证集视频 34:
+预测结果:  weston ryan              
+真实标签:  weston ryan 
+验证集视频 35:
+预测结果:  962 brookway             
+真实标签:  962 brookway 
+验证集视频 36:
+预测结果:  everyone wants to win the lottery            
+真实标签:  everyone wants to win the lottery 
+验证集视频 37:
+预测结果:  339ubotica.rs/nachudesu       nation
+真实标签:  visitsubotica.rs/nachudesu 
+验证集视频 38:
+预测结果:  time to go shopping              
+真实标签:  time to go shopping 
+验证集视频 39:
+预测结果:  the daring young man              
+真实标签:  the daring young man 
+验证集视频 40:
+预测结果:  gun powder must be handled with care           
+真实标签:  gun powder must be handled with care 
+验证集视频 41:
+预测结果:  acutely aware of her good looks            
+真实标签:  acutely aware of her good looks 
+验证集视频 42:
+预测结果:  6815 royston bend             
+真实标签:  6815 royston homes 
+验证集视频 43:
+预测结果:  our silver anniversary is coming             
+真实标签:  our silver anniversary is coming 
+验证集视频 44:
+预测结果:  frequently asked questions               
+真实标签:  frequently asked questions 
+验证集视频 45:
+预测结果:  +31-138-61-7261-31-889    -
+真实标签:  +31-138-61-7261-31-889 
+验证集视频 46:
+预测结果:  yes you are very smart             
+真实标签:  yes you are very smart 
+验证集视频 47:
+预测结果:  ville-80235             
+真实标签:  ville-80235 
+验证集视频 48:
+预测结果:  appplyian.nccardamic.org        nation
+真实标签:  appalachian.nccardinal.org 
+验证集视频 49:
+预测结果:  792.lake drive             
+真实标签:  792 flaglake drive 
+验证集视频 50:
+预测结果:  3757 leonora road            
+真实标签:  3757 leonora road 
+验证集视频 51:
+预测结果:  the chamber makes important decisions             
+真实标签:  the chamber makes important decisions 
+验证集视频 52:
+预测结果:  if diplomacy does not work             
+真实标签:  if diplomacy does not work 
+验证集视频 53:
+预测结果:  the plug does not fit the socket           
+真实标签:  the plug does not fit the socket 
+验证集视频 54:
+预测结果:  lmc896.org/tetradio         
+真实标签:  lmc896.org/tetradio 
+验证集视频 55:
+预测结果:  burglars never leave their business card           
+真实标签:  burglars never leave their business card 
+验证集视频 56:
+预测结果:  no exchange without a bill             
+真实标签:  no exchange without a bill 
+验证集视频 57:
+预测结果:  +61-9666-038          
+真实标签:  +61-9666-038 
+验证集视频 58:
+预测结果:  one hour is allotted for questions            
+真实标签:  one hour is allotted for questions 
+验证集视频 59:
+预测结果:  the fire raged for an entire month           
+真实标签:  the fire raged for an entire month 
+验证集视频 60:
+预测结果:  8634 del verde way            
+真实标签:  8634 del verde way 
+验证集视频 61:
+预测结果:  people blow their horn a lot            
+真实标签:  people blow their horn a lot 
+验证集视频 62:
+预测结果:  this system of taxation              
+真实标签:  this system of taxation 
+验证集视频 63:
+预测结果:  be home before midnight              
+真实标签:  be home before midnight 
+验证集视频 64:
+预测结果:  www.trip2at..com          
+真实标签:  www.trip2athens.com 
+验证集视频 65:
+预测结果:  a fox is a very smart animal           
+真实标签:  a fox is a very smart animal 
+验证集视频 66:
+预测结果:  we better investigate this              
+真实标签:  we better investigate this 
+验证集视频 67:
+预测结果:  9146 west road 200 north            
+真实标签:  9146 west road 200 north 
+验证集视频 68:
+预测结果:  one of the poorest nations             
+真实标签:  one of the poorest nations 
+验证集视频 69:
+预测结果:  what to do when the oil runs dry          
+真实标签:  what to do when the oil runs dry 
+验证集视频 70:
+预测结果:  one of the poorest nations             
+真实标签:  one of the poorest nations 
+验证集视频 71:
+预测结果:  2092 beaver slide rd           
+真实标签:  2092 beaver slide rd 
+验证集视频 72:
+预测结果:  never too rich and never too thin           
+真实标签:  never too rich and never too thin 
+验证集视频 73:
+预测结果:  luckily my wallet was found             
+真实标签:  luckily my wallet was found 
+验证集视频 74:
+预测结果:  that is very unfortunate              
+真实标签:  that is very unfortunate 
+验证集视频 75:
+预测结果:  9448 alley 2              
+真实标签:  9448 alley 2 
+验证集视频 76:
+预测结果:  zdnet.co.kr/hifiimhinterhof/  /
+真实标签:  zdnet.co.kr/hifiimhinterhof/ 
+验证集视频 77:
+预测结果:  clayton salas              
+真实标签:  clayton salas 
+验证集视频 78:
+预测结果:  2803 stinson street             
+真实标签:  2803 stinson street 
+验证集视频 79:
+预测结果:  mom made her a turtleneck           
+真实标签:  mom made her a turtleneck 
+验证集视频 80:
+预测结果:  they might find your comment offensive            
+真实标签:  they might find your comment offensive 
+验证集视频 81:
+预测结果:  if at first you do not succeed           
+真实标签:  if at first you do not succeed 
+验证集视频 82:
+预测结果:  that is a very nasty cut            
+真实标签:  that is a very nasty cut 
+验证集视频 83:
+预测结果:  9877 frank wade             
+真实标签:  9877 frank wade 
+验证集视频 84:
+预测结果:  every saturday he folds the laundry           
+真实标签:  every saturday he folds the laundry 
+验证集视频 85:
+预测结果:  a touchdown in the last minute            
+真实标签:  a touchdown in the last minute 
+验证集视频 86:
+预测结果:  mamapapabubba.com/3708      to
+真实标签:  mamapapabubba.com/3708 
+验证集视频 87:
+预测结果:  insurance is important for bad drivers            
+真实标签:  insurance is important for bad drivers 
+验证集视频 88:
+预测结果:  breathing is difficult               
+真实标签:  breathing is difficult 
+验证集视频 89:
+预测结果:  video camera with a zoom lens            
+真实标签:  video camera with a zoom lens 
+验证集视频 90:
+预测结果:  www.fibreopticlighting.com        
+真实标签:  www.fibreopticlighting.com 
+验证集视频 91:
+预测结果:  the cotton is high              
+真实标签:  the cotton is high 
+验证集视频 92:
+预测结果:  get aboard the ship is leaving            
+真实标签:  get aboard the ship is leaving 
+验证集视频 93:
+预测结果:  oatd.org             
+真实标签:  oatd.org 
+验证集视频 94:
+预测结果:  experience is hard to come by            
+真实标签:  experience is hard to come by 
+验证集视频 95:
+预测结果:  suzanna vance             
+真实标签:  suzanna vance 
+验证集视频 96:
+预测结果:  7610 deer parks loop             
+真实标签:  7610 deer parks loop 
+验证集视频 97:
+预测结果:  just what the doctor ordered             
+真实标签:  just what the doctor ordered 
+验证集视频 98:
+预测结果:  our silver anniversary is coming             
+真实标签:  our silver anniversary is coming 
+验证集视频 99:
+预测结果:  i do not fully agree with you           
+真实标签:  i do not fully agree with you 
+验证集视频 100:
+预测结果:  gun powder must be handled with care           
+真实标签:  gun powder must be handled with care 
+验证集视频 101:
+预测结果:  7106 maries road 620            
+真实标签:  7106 maries road 620 
+验证集视频 102:
+预测结果:  he played a pimp in that movie          
+真实标签:  he played a pimp in that movie 
+验证集视频 103:
+预测结果:  we are having spaghetti              
+真实标签:  we are having spaghetti 
+验证集视频 104:
+预测结果:  2181 saddle ridge state             
+真实标签:  2181 saddle ridge state 
+验证集视频 105:
+预测结果:  4708 janka rd            
+真实标签:  4708 janka rd 
+验证集视频 106:
+预测结果: energyenergy.com.cn            
+真实标签:  cmenergy.com.cn 
+验证集视频 107:
+预测结果:  90323544 glen trail           
+真实标签:  903235 settlers glen trail 
+验证集视频 108:
+预测结果:  a yard is almost as long as a meter         
+真实标签:  a yard is almost as long as a meter 
+验证集视频 109:
+预测结果:  the minimum amount of time             
+真实标签:  the minimum amount of time 
+验证集视频 110:
+预测结果:  video camera with a zoom lens            
+真实标签:  video camera with a zoom lens 
+验证集视频 111:
+预测结果:  sad to hear that news             
+真实标签:  sad to hear that news 
+验证集视频 112:
+预测结果:  if at first you do not succeed           
+真实标签:  if at first you do not succeed 
+验证集视频 113:
+预测结果:  empresa_acdi-voca.html       c
+真实标签:  empresa_acdi-voca.html 
+验证集视频 114:
+预测结果:  what to do when the oil runs dry          
+真实标签:  what to do when the oil runs dry 
+验证集视频 115:
+预测结果:  7059 south 181st drive            
+真实标签:  7059 south 181st drive 
+验证集视频 116:
+预测结果:  a dog is the best friend of a man         
+真实标签:  a dog is the best friend of a man 
+验证集视频 117:
+预测结果:  937-628-8573           
+真实标签:  937-628-8573 
+验证集视频 118:
+预测结果:  try to enjoy your maternity leave            
+真实标签:  try to enjoy your maternity leave 
+验证集视频 119:
+预测结果:  just what the doctor ordered             
+真实标签:  just what the doctor ordered 
+验证集视频 120:
+预测结果:  194-305-2763            
+真实标签:  194-305-2763 
+验证集视频 121:
+预测结果:  what a monkey sees a monkey will do          
+真实标签:  what a monkey sees a monkey will do 
+验证集视频 122:
+预测结果:  3418 7636              
+真实标签:  3418 7636 
+验证集视频 123:
+预测结果:  this watch is too expensive             
+真实标签:  this watch is too expensive 
+验证集视频 124:
+预测结果:  players must know all the rules            
+真实标签:  players must know all the rules 
+验证集视频 125:
+预测结果:  bring the offenders to justice             
+真实标签:  bring the offenders to justice 
+验证集视频 126:
+预测结果:  effort is what it will take            
+真实标签:  effort is what it will take 
+验证集视频 127:
+预测结果:  573-236-2351           
+真实标签:  573-236-2351 
+验证集视频 128:
+预测结果:  +41-2699-59-91         
+真实标签:  +41-2699-59-91 
+验证集视频 129:
+预测结果:  a fox is a very smart animal           
+真实标签:  a fox is a very smart animal 
+验证集视频 130:
+预测结果:  an inefficient way to heat a house           
+真实标签:  an inefficient way to heat a house 
+验证集视频 131:
+预测结果:  important news always seems to be late           
+真实标签:  important news always seems to be late 
+验证集视频 132:
+预测结果:  seasoned golfers love the game            
+真实标签:  seasoned golfers love the game 
+验证集视频 133:
+预测结果:  be persistent to win a strike            
+真实标签:  be persistent to win a strike 
+验证集视频 134:
+预测结果:  9537 wilbus dr             
+真实标签:  9537 wilbus dr 
+验证集视频 135:
+预测结果:  just what the doctor ordered             
+真实标签:  just what the doctor ordered 
+验证集视频 136:
+预测结果:  www.hrmagasinet.no          
+真实标签:  www.hrmagasinet.no 
+验证集视频 137:
+预测结果:  please take a bath this month            
+真实标签:  please take a bath this month 
+验证集视频 138:
+预测结果:  well connected with people              
+真实标签:  well connected with people 
+验证集视频 139:
+预测结果:  careless driving results in a fine            
+真实标签:  careless driving results in a fine 
+验证集视频 140:
+预测结果:  just in time for the party            
+真实标签:  just in time for the party 
+验证集视频 141:
+预测结果:  /byron-allen-11733a36       nation
+真实标签:  /byron-allen-11733a36 
+验证集视频 142:
+预测结果:  theplayersaid.com             
+真实标签:  theplayersaid.com 
+验证集视频 143:
+预测结果:  2428 morris ridge rd           
+真实标签:  2428 morris ridge rd 
+验证集视频 144:
+预测结果:  correct your diction immediately              
+真实标签:  correct your diction immediately 
+验证集视频 145:
+预测结果:  gas bills are sent monthly             
+真实标签:  gas bills are sent monthly 
+验证集视频 146:
+预测结果:  they watched the entire movie             
+真实标签:  they watched the entire movie 
+验证集视频 147:
+预测结果:  saving that child was a heroic effort           
+真实标签:  saving that child was a heroic effort 
+验证集视频 148:
+预测结果:  /ph-temperatur-og-ledningsevne    c
+真实标签:  /ph-temperatur-og-ledningsevne 
+验证集视频 149:
+预测结果:  pay off a mortgage for a house           
+真实标签:  pay off a mortgage for a house 
+验证集视频 150:
+预测结果:  if diplomacy does not work             
+真实标签:  if diplomacy does not work 
+验证集视频 151:
+预测结果:  rfv-prien.de/         
+真实标签:  rfv-prien.de/ 
+验证集视频 152:
+预测结果:  i skimmed through your proposal            
+真实标签:  i skimmed through your proposal 
+验证集视频 153:
+预测结果:  infoleader.am/            
+真实标签:  infoleader.am/ 
+验证集视频 154:
+预测结果:  acutely aware of her good looks            
+真实标签:  acutely aware of her good looks 
+验证集视频 155:
+预测结果:  earth quakes are predictable             
+真实标签:  earth quakes are predictable 
+验证集视频 156:
+预测结果:  a little encouragement is needed             
+真实标签:  a little encouragement is needed 
+验证集视频 157:
+预测结果:  mesterilocali.ro           
+真实标签:  mesterilocali.ro 
+验证集视频 158:
+预测结果:  www.shokoren-toyama.or.jp     c
+真实标签:  www.shokoren-toyama.or.jp 
+验证集视频 159:
+预测结果:  5610 lilita              
+真实标签:  5610 lilita 
+验证集视频 160:
+预测结果:  uzory/?s=lise-lotte%20nor// i
+真实标签:  uzory/?s=lise-lotte%20norup/ 
+验证集视频 161:
+预测结果:  841-220-0026           
+真实标签:  841-220-0026 
+验证集视频 162:
+预测结果:  notts-county-wrexham-47558      nation
+真实标签:  notts-county-wrexham-47558 
+验证集视频 163:
+预测结果:  the children are playing              
+真实标签:  the children are playing 
+验证集视频 164:
+预测结果:  outy-kursow/ mur          
+真实标签:  terminy-kursow/unit 
+验证集视频 165:
+预测结果:  5228 s 195th rd           
+真实标签:  5228 s 195th rd 
+验证集视频 166:
+预测结果:  i hate baking pies              
+真实标签:  i hate baking pies 
+验证集视频 167:
+预测结果:  henry fletcher              
+真实标签:  henry fletcher 
+验证集视频 168:
+预测结果:  everyone wants to win the lottery            
+真实标签:  everyone wants to win the lottery 
+验证集视频 169:
+预测结果:  the collapse of the roman empire           
+真实标签:  the collapse of the roman empire 
+验证集视频 170:
+预测结果:  exceed the maximum speed limit             
+真实标签:  exceed the maximum speed limit 
+验证集视频 171:
+预测结果:  15 kealakaha dr            
+真实标签:  15 kealakaha dr 
+验证集视频 172:
+预测结果:  simon gibson              
+真实标签:  simon gibson 
+验证集视频 173:
+预测结果:  peek out the window              
+真实标签:  peek out the window 
+验证集视频 174:
+预测结果:  drugs should be avoided              
+真实标签:  drugs should be avoided 
+验证集视频 175:
+预测结果:  www.divazworld.com           
+真实标签:  www.divazworld.com 
+验证集视频 176:
+预测结果:  716076 est head            
+真实标签:  716076 shovel head 
+验证集视频 177:
+预测结果:  rent is paid at the beginning of the month         nation
+真实标签:  rent is paid at the beginning of the month 
+验证集视频 178:
+预测结果:  exercise is good for the mind            
+真实标签:  exercise is good for the mind 
+验证集视频 179:
+预测结果:  1069 michelane             
+真实标签:  1069 michelane 
+验证集视频 180:
+预测结果:  www.biganzifanwen.com/streets    b
+真实标签:  www.biganzifanwen.com/streets 
+验证集视频 181:
+预测结果:  spill coffee on the carpet             
+真实标签:  spill coffee on the carpet 
+验证集视频 182:
+预测结果:  +507-46-17-991-808      -
+真实标签:  +507-46-17-991-808 
+验证集视频 183:
+预测结果:  a duck quacks to ask for food          
+真实标签:  a duck quacks to ask for food 
+验证集视频 184:
+预测结果:  the insulation is not working             
+真实标签:  the insulation is not working 
+验证集视频 185:
+预测结果:  do not feel too bad about it           
+真实标签:  do not feel too bad about it 
+验证集视频 186:
+预测结果:  rectangular objects have four sides             
+真实标签:  rectangular objects have four sides 
+验证集视频 187:
+预测结果:  put garbage in an abandoned mine            
+真实标签:  put garbage in an abandoned mine 
+验证集视频 188:
+预测结果:  lie detector tests never work             
+真实标签:  lie detector tests never work 
+验证集视频 189:
+预测结果:  629 tangi lakes             
+真实标签:  629 tangi lakes 
+验证集视频 190:
+预测结果:  a duck quacks to ask for food          
+真实标签:  a duck quacks to ask for food 
+验证集视频 191:
+预测结果:  papaya/watford-city/ecuavisa/    /
+真实标签:  papaya/watford-city/ecuavisa/ 
+验证集视频 192:
+预测结果:  mobinuke.com/sicretmom         
+真实标签:  mobinuke.com/sicretmom 
+验证集视频 193:
+预测结果:  1019 st all              
+真实标签:  1019poolsession 
+验证集视频 194:
+预测结果:  irregular verbs are the hardest to learn           
+真实标签:  irregular verbs are the hardest to learn 
+验证集视频 195:
+预测结果:  arisurang.tistory.com        
+真实标签:  arisurang.tistory.com 
+验证集视频 196:
+预测结果:  844-233-4773           
+真实标签:  844-233-4773 
+验证集视频 197:
+预测结果:  are you sure you want this            
+真实标签:  are you sure you want this 
+验证集视频 198:
+预测结果:  tracey steele              
+真实标签:  tracey steele 
+验证集视频 199:
+预测结果:  904-198-1016            
+真实标签:  904-198-1016 
+验证集视频 200:
+预测结果: el h harrison              
+真实标签:  lionel harrison 
+验证集视频 201:
+预测结果:  you will lose your voice             
+真实标签:  you will lose your voice 
+验证集视频 202:
+预测结果:  nothing wrong with his style             
+真实标签:  nothing wrong with his style 
+验证集视频 203:
+预测结果:  www.2k.com/usemistas        nation
+真实标签:  support.2k.com/usemistas 
+验证集视频 204:
+预测结果:  meet tomorrow in the lavatory            
+真实标签:  meet tomorrow in the lavatory 
+验证集视频 205:
+预测结果:  590909 horse ridge drive            
+真实标签:  590909 horse ridge drive 
+验证集视频 206:
+预测结果:  a fox is a very smart animal           
+真实标签:  a fox is a very smart animal 
+验证集视频 207:
+预测结果:  this is a very good idea            
+真实标签:  this is a very good idea 
+验证集视频 208:
+预测结果:  he is still on our team            
+真实标签:  he is still on our team 
+验证集视频 209:
+预测结果:  index.php?id=156           
+真实标签:  index.php?id=156 
+验证集视频 210:
+预测结果:  +508-3257-27           
+真实标签:  +508-3257-27 
+验证集视频 211:
+预测结果:  the algorithm is too complicated             
+真实标签:  the algorithm is too complicated 
+验证集视频 212:
+预测结果:  be persistent to win a strike            
+真实标签:  be persistent to win a strike 
+验证集视频 213:
+预测结果:  361-622-1325           
+真实标签:  361-622-1325 
+验证集视频 214:
+预测结果:  donta leonard             
+真实标签:  donta leonard 
+验证集视频 215:
+预测结果:  431387 natl forest develop           
+真实标签:  431387 natl forest develop 
+验证集视频 216:
+预测结果:  +66-8147-02           
+真实标签:  +66-8147-02 
+验证集视频 217:
+预测结果:  281862 bob watkins road           
+真实标签:  281862 bob watkins road 
+验证集视频 218:
+预测结果:  rent is paid at the beginning of the month         nation
+真实标签:  rent is paid at the beginning of the month 
+验证集视频 219:
+预测结果:  the children are playing              
+真实标签:  the children are playing 
+验证集视频 220:
+预测结果:  an occasional taste of chocolate             
+真实标签:  an occasional taste of chocolate 
+验证集视频 221:
+预测结果:  we are subjects and must obey            
+真实标签:  we are subjects and must obey 
+验证集视频 222:
+预测结果:  www.piscina-online.com         
+真实标签:  www.piscina-online.com 
+验证集视频 223:
+预测结果:  drugs should be avoided              
+真实标签:  drugs should be avoided 
+验证集视频 224:
+预测结果:  mom made her a turtleneck           
+真实标签:  mom made her a turtleneck 
+验证集视频 225:
+预测结果:  a psychiatrist will help you             
+真实标签:  a psychiatrist will help you 
+验证集视频 226:
+预测结果:  everyone wants to win the lottery            
+真实标签:  everyone wants to win the lottery 
+验证集视频 227:
+预测结果:  accompanied by an adult              
+真实标签:  accompanied by an adult 
+验证集视频 228:
+预测结果:  your presentation was inspiring              
+真实标签:  your presentation was inspiring 
+验证集视频 229:
+预测结果:  115 walnut dale             
+真实标签:  115 walnut dale 
+验证集视频 230:
+预测结果:  accompanied by an adult              
+真实标签:  accompanied by an adult 
+验证集视频 231:
+预测结果:  my fingers are very cold             
+真实标签:  my fingers are very cold 
+验证集视频 232:
+预测结果:  the dreamers of dreams             
+真实标签:  the dreamers of dreams 
+验证集视频 233:
+预测结果:  davis drake              
+真实标签:  davis drake 
+验证集视频 234:
+预测结果:  staying up all night is a bad idea          
+真实标签:  staying up all night is a bad idea 
+验证集视频 235:
+预测结果:  the elevator door appears to be stuck           
+真实标签:  the elevator door appears to be stuck 
+验证集视频 236:
+预测结果:  the world is a stage             
+真实标签:  the world is a stage 
+验证集视频 237:
+预测结果:  dinosaurs have been extinct for ages            
+真实标签:  dinosaurs have been extinct for ages 
+验证集视频 238:
+预测结果:  interesting observation was made              
+真实标签:  interesting observation was made 
+验证集视频 239:
+预测结果:  a tumor is ok provided it is benign          
+真实标签:  a tumor is ok provided it is benign 
+验证集视频 240:
+预测结果:  the elevator door appears to be stuck           
+真实标签:  the elevator door appears to be stuck 
+验证集视频 241:
+预测结果:  construction makes traveling difficult              
+真实标签:  construction makes traveling difficult 
+验证集视频 242:
+预测结果:  the facts get in the way            
+真实标签:  the facts get in the way 
+验证集视频 243:
+预测结果:  shari mckenzie             
+真实标签:  shari mckenzie 
+验证集视频 244:
+预测结果:  nobody cares anymore               
+真实标签:  nobody cares anymore 
+验证集视频 245:
+预测结果:  where can my little dog be            
+真实标签:  where can my little dog be 
+验证集视频 246:
+预测结果:  my fingers are very cold             
+真实标签:  my fingers are very cold 
+验证集视频 247:
+预测结果:  he is just like everyone else            
+真实标签:  he is just like everyone else 
+验证集视频 248:
+预测结果:  6355 farris trail southwest            
+真实标签:  6355 farris trail southwest 
+验证集视频 249:
+预测结果:  devin franco              
+真实标签:  devin franco 
+验证集视频 250:
+预测结果:  8262 guadalupe felbo          
+真实标签:  8262 guadalupe feliciano 
+验证集视频 251:
+预测结果:  drove my chevy to the levee          
+真实标签:  drove my chevy to the levee 
+验证集视频 252:
+预测结果:  she wears too much makeup             
+真实标签:  she wears too much makeup 
+验证集视频 253:
+预测结果:  limited warranty of two years             
+真实标签:  limited warranty of two years 
+验证集视频 254:
+预测结果:  dashing through the snow             
+真实标签:  dashing through the snow 
+验证集视频 255:
+预测结果:  stability of the nation              
+真实标签:  stability of the nation 
+验证集视频 256:
+预测结果:  hindi-big-xxx-hd/         
+真实标签:  hindi-big-xxx-hd/ 
+验证集视频 257:
+预测结果:  all work and no play             
+真实标签:  all work and no play 
+验证集视频 258:
+预测结果:  the accident scene is a shrine for fans          
+真实标签:  the accident scene is a shrine for fans 
+验证集视频 259:
+预测结果:  that is a very nasty cut            
+真实标签:  that is a very nasty cut 
+验证集视频 260:
+预测结果:  i just cannot figure this out            
+真实标签:  i just cannot figure this out 
+验证集视频 261:
+预测结果:  this watch is too expensive             
+真实标签:  this watch is too expensive 
+验证集视频 262:
+预测结果:  137-839-7578           
+真实标签:  137-839-7578 
+验证集视频 263:
+预测结果:  https://ebm.qjy168.com       c
+真实标签:  https://ebm.qjy168.com 
+验证集视频 264:
+预测结果:  4084 co road 4582            
+真实标签:  4084 co road 4582 
+验证集视频 265:
+预测结果:  +599-43-080-62-31       -
+真实标签:  +599-43-080-62-31 
+验证集视频 266:
+预测结果:  user friendly interface               
+真实标签:  user friendly interface 
+验证集视频 267:
+预测结果:  766 route 627             
+真实标签:  766 route 627 
+验证集视频 268:
+预测结果:  t_man_cams/           
+真实标签:  t_man_cams/ 
+验证集视频 269:
+预测结果:  /openweekend              
+真实标签:  /freedomweekend 
+验证集视频 270:
+预测结果:  the registration period is over             
+真实标签:  the registration period is over 
+验证集视频 271:
+预测结果:  we are subjects and must obey            
+真实标签:  we are subjects and must obey 
+验证集视频 272:
+预测结果:  spill coffee on the carpet             
+真实标签:  spill coffee on the carpet 
+验证集视频 273:
+预测结果:  a-mi-novio-no-le-importa    -
+真实标签:  a-mi-novio-no-le-importa 
+验证集视频 274:
+预测结果:  prevailing wind from the east             
+真实标签:  prevailing wind from the east 
+验证集视频 275:
+预测结果:  chemical spill took forever              
+真实标签:  chemical spill took forever 
+验证集视频 276:
+预测结果:  starlight and dewdrop            
+真实标签:  starlight and dewdrop 
+验证集视频 277:
+预测结果:  randi.bg/67_67104/paraguay    /
+真实标签:  randi.bg/67_67104/paraguay 
+验证集视频 278:
+预测结果:  coziniland.tistory.com         
+真实标签:  coziniland.tistory.com 
+验证集视频 279:
+预测结果:  hands on experience with a job            
+真实标签:  hands on experience with a job 
+验证集视频 280:
+预测结果:  jumping right out of the water            
+真实标签:  jumping right out of the water 
+验证集视频 281:
+预测结果:  www.lingospot.msk.ru/       nation
+真实标签:  www.lingospot.msk.ru/ 
+验证集视频 282:
+预测结果:  do not say anything              
+真实标签:  do not say anything 
+验证集视频 283:
+预测结果:  918 gulden             
+真实标签:  918 gulden 
+验证集视频 284:
+预测结果:  geglud/relreaou          
+真实标签:  geglobo/relendingou 
+验证集视频 285:
+预测结果:  www.9i0i.com/j-l-wallpaper  i
+真实标签:  www.9i0i.com/j-l-wallpaper 
+验证集视频 286:
+预测结果:  weeping willows are found near water           
+真实标签:  weeping willows are found near water 
+验证集视频 287:
+预测结果:  medieval times were very hard             
+真实标签:  medieval times were very hard 
+验证集视频 288:
+预测结果:  everyone wants to win the lottery            
+真实标签:  everyone wants to win the lottery 
+验证集视频 289:
+预测结果:  you must be getting old             
+真实标签:  you must be getting old 
+验证集视频 290:
+预测结果:  www.oandcplastic.com/hanoi/    c
+真实标签:  www.oandcplastic.com/hanoi/ 
+验证集视频 291:
+预测结果:  +92-54-223-758          
+真实标签:  +92-54-223-758 
+验证集视频 292:
+预测结果:  would you like to come to my house          to
+真实标签:  would you like to come to my house 
+验证集视频 293:
+预测结果:  the location of the crime             
+真实标签:  the location of the crime 
+验证集视频 294:
+预测结果:  space is a high priority             
+真实标签:  space is a high priority 
+验证集视频 295:
+预测结果:  spencer walton              
+真实标签:  spencer walton 
+验证集视频 296:
+预测结果:  willie strickland             
+真实标签:  willie strickland 
+验证集视频 297:
+预测结果:  an offer you cannot refuse             
+真实标签:  an offer you cannot refuse 
+验证集视频 298:
+预测结果:  come and see our new car            
+真实标签:  come and see our new car 
+验证集视频 299:
+预测结果:  just like it says on the can           
+真实标签:  just like it says on the can 
+验证集视频 300:
+预测结果:  it is difficult to concentrate             
+真实标签:  it is difficult to concentrate 
+验证集视频 301:
+预测结果:  suburbs are sprawling up everywhere             
+真实标签:  suburbs are sprawling up everywhere 
+验证集视频 302:
+预测结果:  sophies-on-airwaves/          
+真实标签:  sophies-on-airwaves/ 
+验证集视频 303:
+预测结果:  a problem with the engine             
+真实标签:  a problem with the engine 
+验证集视频 304:
+预测结果:  5259 corliss place            
+真实标签:  5259 corliss place 
+验证集视频 305:
+预测结果:  exceed the maximum speed limit             
+真实标签:  exceed the maximum speed limit 
+验证集视频 306:
+预测结果:  rain rain go away              
+真实标签:  rain rain go away 
+验证集视频 307:
+预测结果:  it is very windy today            
+真实标签:  it is very windy today 
+验证集视频 308:
+预测结果:  coalition governments never work              
+真实标签:  coalition governments never work 
+验证集视频 309:
+预测结果:  have a good weekend              
+真实标签:  have a good weekend 
+验证集视频 310:
+预测结果:  canada has ten provinces             
+真实标签:  canada has ten provinces 
+验证集视频 311:
+预测结果:  203-283-9961            
+真实标签:  203-283-9961 
+验证集视频 312:
+预测结果:  a good response to the question            
+真实标签:  a good response to the question 
+验证集视频 313:
+预测结果:  9456 bibiana             
+真实标签:  9456 bibiana 
+验证集视频 314:
+预测结果:  do not lie in court or else           
+真实标签:  do not lie in court or else 
+验证集视频 315:
+预测结果:  sonja dorsey             
+真实标签:  sonja dorsey 
+验证集视频 316:
+预测结果: js-health/anzhuoruanjian        nation
+真实标签:  allied-health/anzhuoruanjian 
+验证集视频 317:
+预测结果:  put garbage in an abandoned mine            
+真实标签:  put garbage in an abandoned mine 
+验证集视频 318:
+预测结果:  916-130-1543           
+真实标签:  916-130-1543 
+验证集视频 319:
+预测结果:  299 mount auburn place            
+真实标签:  299 mount auburn place 
+验证集视频 320:
+预测结果:  www.brflejey.se/sing-me-away    out
+真实标签:  www.brflejonet.se/sing-me-away 
+验证集视频 321:
+预测结果:  jasper shields               
+真实标签:  jasper shields 
+验证集视频 322:
+预测结果:  mulenga659/xiaoyaxuan         
+真实标签:  mulenga659/xiaoyaxuan 
+验证集视频 323:
+预测结果:  jolene moore             
+真实标签:  jolene moore 
+验证集视频 324:
+预测结果:  most judges are very honest             
+真实标签:  most judges are very honest 
+验证集视频 325:
+预测结果:  11-12/xinyang/rej.2018.2156  /
+真实标签:  11-12/xinyang/rej.2018.2156 
+验证集视频 326:
+预测结果:  www.goodstuffco.in/editori        nation
+真实标签:  www.goodstuffco.in/editori 
+验证集视频 327:
+预测结果:  sit at the front of the bus           
+真实标签:  sit at the front of the bus 
+验证集视频 328:
+预测结果:  electric cars need big fuel cells            
+真实标签:  electric cars need big fuel cells 
+验证集视频 329:
+预测结果:  exceed the maximum speed limit             
+真实标签:  exceed the maximum speed limit 
+验证集视频 330:
+预测结果:  the fire blazed all weekend            
+真实标签:  the fire blazed all weekend 
+验证集视频 331:
+预测结果:  1007 425a              
+真实标签:  1007 425a 
+验证集视频 332:
+预测结果:  we missed your birthday              
+真实标签:  we missed your birthday 
+验证集视频 333:
+预测结果:  we run the risk of failure            
+真实标签:  we run the risk of failure 
+验证集视频 334:
+预测结果:  this library has many books             
+真实标签:  this library has many books 
+验证集视频 335:
+预测结果:  +211-3387-37877          
+真实标签:  +211-3387-37877 
+验证集视频 336:
+预测结果:  we must redouble our efforts            
+真实标签:  we must redouble our efforts 
+验证集视频 337:
+预测结果:  332 cobb street              
+真实标签:  332 cready street 
+验证集视频 338:
+预测结果:  this equation is too complicated             
+真实标签:  this equation is too complicated 
+验证集视频 339:
+预测结果:  so you think you deserve a raise           
+真实标签:  so you think you deserve a raise 
+验证集视频 340:
+预测结果:  fort worth tx               
+真实标签:  fort worth tx 
+验证集视频 341:
+预测结果:  round robin scheduling              
+真实标签:  round robin scheduling 
+验证集视频 342:
+预测结果:  sing the gospel and the blues            
+真实标签:  sing the gospel and the blues 
+验证集视频 343:
+预测结果:  the protesters blocked all traffic             
+真实标签:  the protesters blocked all traffic 
+验证集视频 344:
+预测结果:  every saturday he folds the laundry           
+真实标签:  every saturday he folds the laundry 
+验证集视频 345:
+预测结果:  you must be getting old             
+真实标签:  you must be getting old 
+验证集视频 346:
+预测结果:  +31-083-3721           
+真实标签:  +31-083-3721 
+验证集视频 347:
+预测结果:  the insulation is not working             
+真实标签:  the insulation is not working 
+验证集视频 348:
+预测结果:  7723 utt              
+真实标签:  7723 utt 
+验证集视频 349:
+预测结果:  marina duncan              
+真实标签:  marina duncan 
+验证集视频 350:
+预测结果:  770-214-6674            
+真实标签:  770-214-6674 
+验证集视频 351:
+预测结果:  yichengjianzhuqc.com/      c
+真实标签:  yichengjianzhuqc.com/ 
+验证集视频 352:
+预测结果:  kellie davenport            
+真实标签:  kellie davenport 
+验证集视频 353:
+预测结果:  2638095               
+真实标签:  2638095 
+验证集视频 354:
+预测结果:  1 mcmurry              
+真实标签:  1 mcmurry 
+验证集视频 355:
+预测结果:  it looks like a shack             
+真实标签:  it looks like a shack 
+验证集视频 356:
+预测结果:  087com/billundvej/lakehuzi    /
+真实标签:  087com/billundvej/lakehuzi 
+验证集视频 357:
+预测结果:  quit while you are ahead             
+真实标签:  quit while you are ahead 
+验证集视频 358:
+预测结果:  blog.aemza-kun.com/1095099     c
+真实标签:  blog.aemza-kun.com/1095099 
+验证集视频 359:
+预测结果:  you are not a jedi yet           
+真实标签:  you are not a jedi yet 
+验证集视频 360:
+预测结果:  these barracks are big enough             
+真实标签:  these barracks are big enough 
+验证集视频 361:
+预测结果:  907 cll alto de cuba b        c
+真实标签:  907 cll alto de cuba b 
+验证集视频 362:
+预测结果:  do you get nervous when you speak           
+真实标签:  do you get nervous when you speak 
+验证集视频 363:
+预测结果:  980-352-5813            
+真实标签:  980-352-5813 
+验证集视频 364:
+预测结果:  charlie jarvis              
+真实标签:  charlie jarvis 
+验证集视频 365:
+预测结果:  longer than a football field             
+真实标签:  longer than a football field 
+验证集视频 366:
+预测结果:  +47-0779-05-67-47-931   -
+真实标签:  +47-0779-05-67-47-931 
+验证集视频 367:
+预测结果:  wakewild.project.com            
+真实标签:  urbanwildernessproject.com 
+验证集视频 368:
+预测结果:  olympic athletes use drugs            
+真实标签:  olympic athletes use drugs 
+验证集视频 369:
+预测结果:  i cannot believe i ate the whole thing          
+真实标签:  i cannot believe i ate the whole thing 
+验证集视频 370:
+预测结果:  7669 east north poe drive           
+真实标签:  7669 east north poe drive 
+验证集视频 371:
+预测结果:  the children are playing              
+真实标签:  the children are playing 
+验证集视频 372:
+预测结果:  270 old countyhighway k rd          
+真实标签:  270 old countyhighway k rd 
+验证集视频 373:
+预测结果:  643-916-3804           
+真实标签:  643-916-3804 
+验证集视频 374:
+预测结果:  +590-68-55-6008-45814     -
+真实标签:  +590-68-55-6008-45814 
+验证集视频 375:
+预测结果:  8388 frank b smith            
+真实标签:  8388 frank b smith 
+验证集视频 376:
+预测结果:  +46-43-8041-55-4700     -
+真实标签:  +46-43-8041-55-4700 
+验证集视频 377:
+预测结果:  jeannette castaneda            
+真实标签:  jeannette castaneda 
+验证集视频 378:
+预测结果:  fukriyan/four-sides         
+真实标签:  fukriyan/four-sides 
+验证集视频 379:
+预测结果:  +58-393-311-565          
+真实标签:  +58-393-311-565 
+验证集视频 380:
+预测结果:  +595-742-3890-9537-72    -
+真实标签:  +595-742-3890-9537-72 
+验证集视频 381:
+预测结果:  5338 no 2 9077           
+真实标签:  5338 no name 9077 
+验证集视频 382:
+预测结果:  869-754-9287           
+真实标签:  869-754-9287 
+验证集视频 383:
+预测结果:  thank you for your help             
+真实标签:  thank you for your help 
+验证集视频 384:
+预测结果:  public transit is much faster             
+真实标签:  public transit is much faster 
+验证集视频 385:
+预测结果:  everybody loses in custody battles             
+真实标签:  everybody loses in custody battles 
+验证集视频 386:
+预测结果:  fdoc 330.nl/hacia-pyrenees      c
+真实标签:  fdocuments.nl/hautes-pyrenees 
+验证集视频 387:
+预测结果:  see you later alligator             
+真实标签:  see you later alligator 
+验证集视频 388:
+预测结果:  65270 elati              
+真实标签:  65270 elati 
+验证集视频 389:
+预测结果:  riool-verstopt-2/ejagos    c
+真实标签:  riool-verstopt-2/ejemplos 
+验证集视频 390:
+预测结果:  zero in on the facts             
+真实标签:  zero in on the facts 
+验证集视频 391:
+预测结果:  a most ridiculous thing              
+真实标签:  a most ridiculous thing 
+验证集视频 392:
+预测结果:  get aboard the ship is leaving            
+真实标签:  get aboard the ship is leaving 
+验证集视频 393:
+预测结果:  just like it says on the can           
+真实标签:  just like it says on the can 
+验证集视频 394:
+预测结果:  they might find your comment offensive            
+真实标签:  they might find your comment offensive 
+验证集视频 395:
+预测结果:  traveling to conferences is fun             
+真实标签:  traveling to conferences is fun 
+验证集视频 396:
+预测结果:  2064 co 2880e            
+真实标签:  2064 co 2880e 
+验证集视频 397:
+预测结果:  these barracks are big enough             
+真实标签:  these barracks are big enough 
+验证集视频 398:
+预测结果:  +65-91-03885          
+真实标签:  +65-91-03885 
+验证集视频 399:
+预测结果:  the rationale behind the decision             
+真实标签:  the rationale behind the decision 
+验证集视频 400:
+预测结果:  thomas weiss              
+真实标签:  thomas weiss 
+验证集视频 401:
+预测结果:  they watched the entire movie             
+真实标签:  they watched the entire movie 
+验证集视频 402:
+预测结果:  a coupon for a free sample            
+真实标签:  a coupon for a free sample 
+验证集视频 403:
+预测结果:  a good response to the question            
+真实标签:  a good response to the question 
+验证集视频 404:
+预测结果:  issasports.com             
+真实标签:  issasports.com 
+验证集视频 405:
+预测结果:  a rattle snake is very poisonous           
+真实标签:  a rattle snake is very poisonous 
+验证集视频 406:
+预测结果:  that agreement is rife with problems            
+真实标签:  that agreement is rife with problems 
+验证集视频 407:
+预测结果:  +86-9987-8039-57-10     -
+真实标签:  +86-9987-8039-57-10 
+验证集视频 408:
+预测结果:  always cover all the bases             
+真实标签:  always cover all the bases 
+验证集视频 409:
+预测结果:  exercise is good for the mind            
+真实标签:  exercise is good for the mind 
+验证集视频 410:
+预测结果:  766381 rest drive             
+真实标签:  766381 rest drive 
+验证集视频 411:
+预测结果:  see you later alligator             
+真实标签:  see you later alligator 
+验证集视频 412:
+预测结果:  lie detector tests never work             
+真实标签:  lie detector tests never work 
+验证集视频 413:
+预测结果:  5014 co road 2863a           
+真实标签:  5014 co road 2863a 
+验证集视频 414:
+预测结果:  do you like to go camping            
+真实标签:  do you like to go camping 
+验证集视频 415:
+预测结果:  shivering is one way to keep warm          
+真实标签:  shivering is one way to keep warm 
+验证集视频 416:
+预测结果:  i am wearing a tie and a jacket          
+真实标签:  i am wearing a tie and a jacket 
+验证集视频 417:
+预测结果:  canada has ten provinces             
+真实标签:  canada has ten provinces 
+验证集视频 418:
+预测结果:  fine but only in moderation             
+真实标签:  fine but only in moderation 
+验证集视频 419:
+预测结果:  keep receipts for all your expenses            
+真实标签:  keep receipts for all your expenses 
+验证集视频 420:
+预测结果:  our fax number has changed             
+真实标签:  our fax number has changed 
+验证集视频 421:
+预测结果:  the king sends you to the tower           
+真实标签:  the king sends you to the tower 
+验证集视频 422:
+预测结果:  www.kaliterilamia.gr         
+真实标签:  www.kaliterilamia.gr 
+验证集视频 423:
+预测结果:  https://www.sexthaixhd.com/       c
+真实标签:  https://www.sexthaixhd.com/ 
+验证集视频 424:
+预测结果:  761 alotadoe road northwest           
+真实标签:  761 alotadoe road northwest 
+验证集视频 425:
+预测结果:  peacelutheran.net            
+真实标签:  peacelutheran.net 
+验证集视频 426:
+预测结果:  8613 watermelon st             
+真实标签:  8613 waterloo st 
+验证集视频 427:
+预测结果:  a coupon for a free sample            
+真实标签:  a coupon for a free sample 
+验证集视频 428:
+预测结果:  the presidential suite is very busy            
+真实标签:  the presidential suite is very busy 
+验证集视频 429:
+预测结果:  my bike has a flat tire            
+真实标签:  my bike has a flat tire 
+验证集视频 430:
+预测结果:  players must know all the rules            
+真实标签:  players must know all the rules 
+验证集视频 431:
+预测结果:  102icblack               
+真实标签:  102 flagstad 
+验证集视频 432:
+预测结果:  espacenature.aveyron.fr/       nation
+真实标签:  espacenature.aveyron.fr/ 
+验证集视频 433:
+预测结果:  the store will close at ten            
+真实标签:  the store will close at ten 
+验证集视频 434:
+预测结果:  video camera with a zoom lens            
+真实标签:  video camera with a zoom lens 
+验证集视频 435:
+预测结果:  the library is closed today             
+真实标签:  the library is closed today 
+验证集视频 436:
+预测结果:  faster than a speeding bullet             
+真实标签:  faster than a speeding bullet 
+验证集视频 437:
+预测结果:  that agreement is rife with problems            
+真实标签:  that agreement is rife with problems 
+验证集视频 438:
+预测结果:  981-600-2895           
+真实标签:  981-600-2895 
+验证集视频 439:
+预测结果:  yes you are very smart             
+真实标签:  yes you are very smart 
+验证集视频 440:
+预测结果:  completely sold out of that             
+真实标签:  completely sold out of that 
+验证集视频 441:
+预测结果:  i can play much better now            
+真实标签:  i can play much better now 
+验证集视频 442:
+预测结果:  the back yard of our house            
+真实标签:  the back yard of our house 
+验证集视频 443:
+预测结果:  do not worry about this             
+真实标签:  do not worry about this 
+验证集视频 444:
+预测结果:  8099343 you              
+真实标签:  8099 magic mantle 
+验证集视频 445:
+预测结果:  get rid of that immediately             
+真实标签:  get rid of that immediately 
+验证集视频 446:
+预测结果:  the price of gas is high            
+真实标签:  the price of gas is high 
+验证集视频 447:
+预测结果:  pay off a mortgage for a house           
+真实标签:  pay off a mortgage for a house 
+验证集视频 448:
+预测结果:  7883 hillmont dr nw           
+真实标签:  7883 hillmont dr nw 
+验证集视频 449:
+预测结果:  our fax number has changed             
+真实标签:  our fax number has changed 
+验证集视频 450:
+预测结果:  please take a bath this month            
+真实标签:  please take a bath this month 
+验证集视频 451:
+预测结果:  the sum of the parts             
+真实标签:  the sum of the parts 
+验证集视频 452:
+预测结果:  www.wizard101.com/jaworzno     c
+真实标签:  www.wizard101.com/jaworzno 
+验证集视频 453:
+预测结果:  www.jakpronajimatbyty.cz      c
+真实标签:  www.jakpronajimatbyty.cz 
+验证集视频 454:
+预测结果:  if diplomacy does not work             
+真实标签:  if diplomacy does not work 
+验证集视频 455:
+预测结果:  did you have a good time            
+真实标签:  did you have a good time 
+验证集视频 456:
+预测结果:  the cat has a pleasant temperament            
+真实标签:  the cat has a pleasant temperament 
+验证集视频 457:
+预测结果:  5612 daniel boone owen          
+真实标签:  5612 daniel boone owen 
+验证集视频 458:
+预测结果:  the living is easy              
+真实标签:  the living is easy 
+验证集视频 459:
+预测结果:  that referendum asked a silly question            
+真实标签:  that referendum asked a silly question 
+验证集视频 460:
+预测结果:  the coronation was very exciting            
+真实标签:  the coronation was very exciting 
+验证集视频 461:
+预测结果:  7935 fs road 234a            
+真实标签:  7935 fs road 234a 
+验证集视频 462:
+预测结果:  301178 wendy hill            
+真实标签:  301178 wendy hill 
+验证集视频 463:
+预测结果:  what a lovely red jacket             
+真实标签:  what a lovely red jacket 
+验证集视频 464:
+预测结果:  361-867-2545           
+真实标签:  361-867-2545 
+验证集视频 465:
+预测结果:  a quarter of a century             
+真实标签:  a quarter of a century 
+验证集视频 466:
+预测结果:  704-355-3651           
+真实标签:  704-355-3651 
+验证集视频 467:
+预测结果:  the cat has a pleasant temperament            
+真实标签:  the cat has a pleasant temperament 
+验证集视频 468:
+预测结果:  http://m.xeefeechip.com        nation
+真实标签:  http://m.xeefeechip.com 
+验证集视频 469:
+预测结果:  vote according to your conscience             
+真实标签:  vote according to your conscience 
+验证集视频 470:
+预测结果:  if diplomacy does not work             
+真实标签:  if diplomacy does not work 
+验证集视频 471:
+预测结果:  i am wearing a tie and a jacket          
+真实标签:  i am wearing a tie and a jacket 
+验证集视频 472:
+预测结果:  he watched in astonishment             
+真实标签:  he watched in astonishment 
+验证集视频 473:
+预测结果:  he played a pimp in that movie          
+真实标签:  he played a pimp in that movie 
+验证集视频 474:
+预测结果:  the fax machine is broken             
+真实标签:  the fax machine is broken 
+验证集视频 475:
+预测结果:  +882-90-74-001-70-63     -
+真实标签:  +882-90-74-001-70-63 
+验证集视频 476:
+预测结果:  earth quakes are predictable             
+真实标签:  earth quakes are predictable 
+验证集视频 477:
+预测结果:  +84-6188-77-820         
+真实标签:  +84-6188-77-820 
+验证集视频 478:
+预测结果:  +264-66-70-61-9960-8295   -
+真实标签:  +264-66-70-61-9960-8295 
+验证集视频 479:
+预测结果:  173 private road 340              
+真实标签:  173 private road 340 
+验证集视频 480:
+预测结果:  come and see our new car            
+真实标签:  come and see our new car 
+验证集视频 481:
+预测结果:  you must make an appointment             
+真实标签:  you must make an appointment 
+验证集视频 482:
+预测结果:  +970-0578-190-11         
+真实标签:  +970-0578-190-11 
+验证集视频 483:
+预测结果:  i hate baking pies              
+真实标签:  i hate baking pies 
+验证集视频 484:
+预测结果:  important news always seems to be late           
+真实标签:  important news always seems to be late 
+验证集视频 485:
+预测结果:  gas bills are sent monthly             
+真实标签:  gas bills are sent monthly 
+验证集视频 486:
+预测结果:  a yard is almost as long as a meter         
+真实标签:  a yard is almost as long as a meter 
+验证集视频 487:
+预测结果:  get rid of that immediately             
+真实标签:  get rid of that immediately 
+验证集视频 488:
+预测结果:  beware the ides of march            
+真实标签:  beware the ides of march 
+验证集视频 489:
+预测结果:  acutely aware of her good looks            
+真实标签:  acutely aware of her good looks 
+验证集视频 490:
+预测结果:  insurance is important for bad drivers            
+真实标签:  insurance is important for bad drivers 
+验证集视频 491:
+预测结果:  granite is the hardest of all rocks           
+真实标签:  granite is the hardest of all rocks 
+验证集视频 492:
+预测结果:  marion knapp              
+真实标签:  marion knapp 
+验证集视频 493:
+预测结果:  m.zhongyunzn.com         
+真实标签:  m.zhongyunzn.com 
+验证集视频 494:
+预测结果:  the generation gap gets wider             
+真实标签:  the generation gap gets wider 
+验证集视频 495:
+预测结果:  just in time for the party            
+真实标签:  just in time for the party 
+验证集视频 496:
+预测结果:  this is too much to handle            
+真实标签:  this is too much to handle 
+验证集视频 497:
+预测结果:  he watched in astonishment             
+真实标签:  he watched in astonishment 
+验证集视频 498:
+预测结果:  always cover all the bases             
+真实标签:  always cover all the bases 
+验证集视频 499:
+预测结果:  correct your diction immediately              
+真实标签:  correct your diction immediately 
+验证集视频 500:
+预测结果:  relations are very strained              
+真实标签:  relations are very strained 
+验证集视频 501:
+预测结果:  streetopation               
+真实标签:  syncopation 
+验证集视频 502:
+预测结果:  that land is owned by the government           
+真实标签:  that land is owned by the government 
+验证集视频 503:
+预测结果:  7531 dewson             
+真实标签:  7531 dewson 
+验证集视频 504:
+预测结果:  the pen is mightier than the sword          
+真实标签:  the pen is mightier than the sword 
+验证集视频 505:
+预测结果:  this watch is too expensive             
+真实标签:  this watch is too expensive 
+验证集视频 506:
+预测结果:  pia_otterstad/bmad_army/    /
+真实标签:  pia_otterstad/bmad_army/ 
+验证集视频 507:
+预测结果:  mom made her a turtleneck           
+真实标签:  mom made her a turtleneck 
+验证集视频 508:
+预测结果:  life is but a dream             
+真实标签:  life is but a dream 
+验证集视频 509:
+预测结果:  sit at the front of the bus           
+真实标签:  sit at the front of the bus 
+验证集视频 510:
+预测结果:  just like it says on the can           
+真实标签:  just like it says on the can 
+验证集视频 511:
+预测结果:  1843 jennine drive            
+真实标签:  1843 jennine drive 
+验证集视频 512:
+预测结果:  you should visit to a doctor            
+真实标签:  you should visit to a doctor 
+验证集视频 513:
+预测结果:  never too rich and never too thin           
+真实标签:  never too rich and never too thin 
+验证集视频 514:
+预测结果:  148 natl forest develop road            
+真实标签:  148 natl forest develop road 
+验证集视频 515:
+预测结果:  7495 william teague            
+真实标签:  7495 william teague 
+验证集视频 516:
+预测结果:  they might find your comment offensive            
+真实标签:  they might find your comment offensive 
+验证集视频 517:
+预测结果:  the world is a stage             
+真实标签:  the world is a stage 
+验证集视频 518:
+预测结果:  www.dienerpreparacoes.com.br      c
+真实标签:  www.dienerpreparacoes.com.br 
+验证集视频 519:
+预测结果:  7391 ruthette            
+真实标签:  7391 ruthette 
+验证集视频 520:
+预测结果:  time to go shopping              
+真实标签:  time to go shopping 
+验证集视频 521:
+预测结果:  7216 springhillener             
+真实标签:  7216 springhill furnace 
+验证集视频 522:
+预测结果:  you must make an appointment             
+真实标签:  you must make an appointment 
+验证集视频 523:
+预测结果:  the force is with you             
+真实标签:  the force is with you 
+验证集视频 524:
+预测结果:  8069 marie alicia drive          
+真实标签:  8069 marie alicia drive 
+验证集视频 525:
+预测结果:  9572 private road 2286            
+真实标签:  9572 private road 2286 
+验证集视频 526:
+预测结果:  sharpur.mk/persever           
+真实标签:  glamur.mk/perlite 
+验证集视频 527:
+预测结果:  bring the offenders to justice             
+真实标签:  bring the offenders to justice 
+验证集视频 528:
+预测结果:  the children are playing              
+真实标签:  the children are playing 
+验证集视频 529:
+预测结果:  construction makes traveling difficult              
+真实标签:  construction makes traveling difficult 
+验证集视频 530:
+预测结果:  abbie esc mart              
+真实标签:  abbie escobar 
+验证集视频 531:
+预测结果:  9236 co 476b            
+真实标签:  9236 co 476b 
+验证集视频 532:
+预测结果:  www.boxonlinefuture.store           
+真实标签:  www.boxonlinefuture.store 
+验证集视频 533:
+预测结果:  safe to walk the streets in the evening          
+真实标签:  safe to walk the streets in the evening 
+验证集视频 534:
+预测结果:  a quarter of a century             
+真实标签:  a quarter of a century 
+验证集视频 535:
+预测结果:  do not drink too much             
+真实标签:  do not drink too much 
+验证集视频 536:
+预测结果:  double double toil and trouble            
+真实标签:  double double toil and trouble 
+验证集视频 537:
+预测结果:  motivational seminars make me sick             
+真实标签:  motivational seminars make me sick 
+验证集视频 538:
+预测结果:  1335 ugn pkwy           
+真实标签:  1335 ugn pkwy 
+验证集视频 539:
+预测结果:  universities are too expensive              
+真实标签:  universities are too expensive 
+验证集视频 540:
+预测结果:  bbw-hairy-pogi-close-up/   /
+真实标签:  bbw-hairy-pussy-close-up/ 
+验证集视频 541:
+预测结果:  www.flixbus.pt/bebisar        
+真实标签:  www.flixbus.pt/bebisar 
+验证集视频 542:
+预测结果:  prevailing wind from the east             
+真实标签:  prevailing wind from the east 
+验证集视频 543:
+预测结果:  8678lywood boulevard            
+真实标签:  8678 health sciences boulevard 
+验证集视频 544:
+预测结果:  no exchange without a bill             
+真实标签:  no exchange without a bill 
+验证集视频 545:
+预测结果:  destruction of the rain forest             
+真实标签:  destruction of the rain forest 
+验证集视频 546:
+预测结果:  9196 old delta road             
+真实标签:  9196 old delta road 
+验证集视频 547:
+预测结果:  richelle robles              
+真实标签:  richelle robles 
+验证集视频 548:
+预测结果:  the gun discharged by accident             
+真实标签:  the gun discharged by accident 
+验证集视频 549:
+预测结果:  754 e county 17 3/4 st         
+真实标签:  754 e county 17 3/4 st 
+验证集视频 550:
+预测结果:  mark mcguire              
+真实标签:  mark mcguire 
+验证集视频 551:
+预测结果:  the chancellor was very boring             
+真实标签:  the chancellor was very boring 
+验证集视频 552:
+预测结果:  you want to eat your cake            
+真实标签:  you want to eat your cake 
+验证集视频 553:
+预测结果:  4ie-schmetterlinge          
+真实标签:  folie-schmetterlinge 
+验证集视频 554:
+预测结果:  918-462-5332           
+真实标签:  918-462-5332 
+验证集视频 555:
+预测结果:  a dog is the best friend of a man         
+真实标签:  a dog is the best friend of a man 
+验证集视频 556:
+预测结果:  6606 s carlos ave           
+真实标签:  6606 s carlos ave 
+验证集视频 557:
+预测结果:  +264-1858-1229-8854-43    -
+真实标签:  +264-1858-1229-8854-43 
+验证集视频 558:
+预测结果:  669-662-5336           
+真实标签:  669-662-5336 
+验证集视频 559:
+预测结果:  shivering is one way to keep warm          
+真实标签:  shivering is one way to keep warm 
+验证集视频 560:
+预测结果:  i do not care if you do that          
+真实标签:  i do not care if you do that 
+验证集视频 561:
+预测结果:  55 co f19              
+真实标签:  55 co f19 
+验证集视频 562:
+预测结果:  her majesty visited our country             
+真实标签:  her majesty visited our country 
+验证集视频 563:
+预测结果:  the postal service is very slow            
+真实标签:  the postal service is very slow 
+验证集视频 564:
+预测结果:  3dimensioner.dk             
+真实标签:  3dimensioner.dk 
+验证集视频 565:
+预测结果:  flashing red light means stop             
+真实标签:  flashing red light means stop 
+验证集视频 566:
+预测结果:  999 south trillium lane            
+真实标签:  999 south trillium lane 
+验证集视频 567:
+预测结果:  a lot of chlorine in the water           
+真实标签:  a lot of chlorine in the water 
+验证集视频 568:
+预测结果:  www.brooksrichey.com          
+真实标签:  www.brooksrichey.com 
+验证集视频 569:
+预测结果:  elvin leonard             
+真实标签:  elvin leonard 
+验证集视频 570:
+预测结果:  this system of taxation              
+真实标签:  this system of taxation 
+验证集视频 571:
+预测结果:  but the levee was dry            
+真实标签:  but the levee was dry 
+验证集视频 572:
+预测结果:  fine but only in moderation             
+真实标签:  fine but only in moderation 
+验证集视频 573:
+预测结果:  www.shanxijialilai.com/      c
+真实标签:  www.shanxijialilai.com/ 
+验证集视频 574:
+预测结果:  if diplomacy does not work             
+真实标签:  if diplomacy does not work 
+验证集视频 575:
+预测结果:  if you were not so stupid            
+真实标签:  if you were not so stupid 
+验证集视频 576:
+预测结果:  rain rain go away              
+真实标签:  rain rain go away 
+验证集视频 577:
+预测结果:  completely sold out of that             
+真实标签:  completely sold out of that 
+验证集视频 578:
+预测结果:  6730 steve gregory           
+真实标签:  6730 steve gregory 
+验证集视频 579:
+预测结果:  toss the ball around              
+真实标签:  toss the ball around 
+验证集视频 580:
+预测结果:  9182 northwest 184th terrace           
+真实标签:  9182 northwest 184th terrace 
+验证集视频 581:
+预测结果:  https://www.fisthaoto.dk        c
+真实标签:  https://www.fiskefoto.dk 
+验证集视频 582:
+预测结果:  be home before midnight              
+真实标签:  be home before midnight 
+验证集视频 583:
+预测结果:  coalition governments never work              
+真实标签:  coalition governments never work 
+验证集视频 584:
+预测结果:  my dog sheds his hair             
+真实标签:  my dog sheds his hair 
+验证集视频 585:
+预测结果:  +690-648-3630-969         
+真实标签:  +690-648-3630-969 
+验证集视频 586:
+预测结果:  the high waves will swamp us            
+真实标签:  the high waves will swamp us 
+验证集视频 587:
+预测结果:  420 west tortolita mountain ci          c
+真实标签:  420 west tortolita mountain ci 
+验证集视频 588:
+预测结果:  all together in one big pile            
+真实标签:  all together in one big pile 
+验证集视频 589:
+预测结果:  drugs should be avoided              
+真实标签:  drugs should be avoided 
+验证集视频 590:
+预测结果:  daniel-soph?locale2=pl_pl     c
+真实标签:  daniel-soph?locale2=pl_pl 
+验证集视频 591:
+预测结果:  sad to hear that news             
+真实标签:  sad to hear that news 
+验证集视频 592:
+预测结果:  7630 northorient              
+真实标签:  7630 northledge 
+验证集视频 593:
+预测结果:  this watch is too expensive             
+真实标签:  this watch is too expensive 
+验证集视频 594:
+预测结果:  290-109-2582            
+真实标签:  290-109-2582 
+验证集视频 595:
+预测结果:  presidents drive expensive cars              
+真实标签:  presidents drive expensive cars 
+验证集视频 596:
+预测结果:  an offer you cannot refuse             
+真实标签:  an offer you cannot refuse 
+验证集视频 597:
+预测结果:  they love to yap about nothing           
+真实标签:  they love to yap about nothing 
+验证集视频 598:
+预测结果:  6915 foote lane             
+真实标签:  6915 foote lane 
+验证集视频 599:
+预测结果:  traveling requires a lot of fuel            
+真实标签:  traveling requires a lot of fuel 
+验证集视频 600:
+预测结果:  874408 dorwood parks           
+真实标签:  874408 dorwood parks 
+验证集视频 601:
+预测结果:  i agree with you              
+真实标签:  i agree with you 
+验证集视频 602:
+预测结果:  if at first you do not succeed           
+真实标签:  if at first you do not succeed 
+验证集视频 603:
+预测结果:  beware the ides of march            
+真实标签:  beware the ides of march 
+验证集视频 604:
+预测结果:  the plug does not fit the socket           
+真实标签:  the plug does not fit the socket 
+验证集视频 605:
+预测结果:  we better investigate this              
+真实标签:  we better investigate this 
+验证集视频 606:
+预测结果:  81203 southwest fondura road           
+真实标签:  81203 southwest fondura road 
+验证集视频 607:
+预测结果:  love means many things              
+真实标签:  love means many things 
+验证集视频 608:
+预测结果:  communicate through email               
+真实标签:  communicate through email 
+验证集视频 609:
+预测结果:  be persistent to win a strike            
+真实标签:  be persistent to win a strike 
+验证集视频 610:
+预测结果:  important news always seems to be late           
+真实标签:  important news always seems to be late 
+验证集视频 611:
+预测结果:  a good joke deserves a good laugh           
+真实标签:  a good joke deserves a good laugh 
+验证集视频 612:
+预测结果:  sit at the front of the bus           
+真实标签:  sit at the front of the bus 
+验证集视频 613:
+预测结果:  the acceptance speech was boring             
+真实标签:  the acceptance speech was boring 
+验证集视频 614:
+预测结果:  https://www.1768.com.tw/       c
+真实标签:  https://www.1768.com.tw/ 
+验证集视频 615:
+预测结果:  video camera with a zoom lens            
+真实标签:  video camera with a zoom lens 
+验证集视频 616:
+预测结果:  7213 south butler alley            
+真实标签:  7213 south butler alley 
+验证集视频 617:
+预测结果:  5696 3951              
+真实标签:  5696 3951 
+验证集视频 618:
+预测结果:  the fire raged for an entire month           
+真实标签:  the fire raged for an entire month 
+验证集视频 619:
+预测结果:  +62-0208-629-7589        
+真实标签:  +62-0208-629-7589 
+验证集视频 620:
+预测结果:  limited warranty of two years             
+真实标签:  limited warranty of two years 
+验证集视频 621:
+预测结果:  i can still feel your presence            
+真实标签:  i can still feel your presence 
+验证集视频 622:
+预测结果:  miguel hardy              
+真实标签:  miguel hardy 
+验证集视频 623:
+预测结果:  motivational seminars make me sick             
+真实标签:  motivational seminars make me sick 
+验证集视频 624:
+预测结果:  the registration period is over             
+真实标签:  the registration period is over 
+验证集视频 625:
+预测结果:  arguing with the boss is futile            
+真实标签:  arguing with the boss is futile 
+验证集视频 626:
+预测结果:  emancipacaofeminina/live-tokou      c
+真实标签:  emancipacaofeminina/live-tokou 
+验证集视频 627:
+预测结果:  make up a few more phrases            
+真实标签:  make up a few more phrases 
+验证集视频 628:
+预测结果:  movie about a nutty professor            
+真实标签:  movie about a nutty professor 
+验证集视频 629:
+预测结果:  prevailing wind from the east             
+真实标签:  prevailing wind from the east 
+验证集视频 630:
+预测结果:  reallifemag.com/kilitiiskola     out
+真实标签:  reallifemag.com/kilitiiskola 
+验证集视频 631:
+预测结果:  7746 black thunder              
+真实标签:  7746 black thunder 
+验证集视频 632:
+预测结果:  http://www.avis.ne.jp         
+真实标签:  http://www.avis.ne.jp 
+验证集视频 633:
+预测结果:  all together in one big pile            
+真实标签:  all together in one big pile 
+验证集视频 634:
+预测结果:  +39-469-64-145-758        
+真实标签:  +39-469-64-145-758 
+验证集视频 635:
+预测结果:  a coupon for a free sample            
+真实标签:  a coupon for a free sample 
+验证集视频 636:
+预测结果:  did you have a good time            
+真实标签:  did you have a good time 
+验证集视频 637:
+预测结果:  regan mcdonald              
+真实标签:  regan mcdonald 
+验证集视频 638:
+预测结果:  destruction of the rain forest             
+真实标签:  destruction of the rain forest 
+验证集视频 639:
+预测结果:  burglars never leave their business card           
+真实标签:  burglars never leave their business card 
+验证集视频 640:
+预测结果:  take a coffee break              
+真实标签:  take a coffee break 
+验证集视频 641:
+预测结果:  the laser printer is jammed             
+真实标签:  the laser printer is jammed 

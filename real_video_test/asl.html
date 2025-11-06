@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL手语识别系统 | 完整修复版</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #1a2a6c);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1s ease-out;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #ffcc00;
+            max-width: 800px;
+            margin: 15px auto 0;
+            line-height: 1.6;
+        }
+
+        .app-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .video-section {
+            flex: 1;
+            min-width: 300px;
+            background: rgba(30, 30, 60, 0.7);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            animation: slideInLeft 0.8s ease-out;
+        }
+
+        .results-section {
+            flex: 1;
+            min-width: 300px;
+            background: rgba(30, 30, 60, 0.7);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            animation: slideInRight 0.8s ease-out;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4a9eff;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title i {
+            margin-right: 10px;
+            color: #4a9eff;
+        }
+
+        .upload-area {
+            border: 3px dashed #4a9eff;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: all 0.3s;
+            background: rgba(20, 20, 40, 0.5);
+            cursor: pointer;
+            position: relative;
+        }
+
+        .upload-area:hover {
+            background: rgba(30, 50, 80, 0.5);
+            transform: translateY(-5px);
+        }
+
+        .upload-area p {
+            margin: 15px 0;
+            font-size: 1.1rem;
+        }
+
+        .upload-btn {
+            background: linear-gradient(45deg, #4a9eff, #1a5cb0);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .upload-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(45deg, #5aaeff, #2a6cd0);
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            background: #000;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            aspect-ratio: 16/9;
+        }
+
+        video, canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .control-btn {
+            background: linear-gradient(45deg, #ff6b6b, #ff416c);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .control-btn.process {
+            background: linear-gradient(45deg, #4facfe, #00f2fe);
+        }
+
+        .control-btn.download {
+            background: linear-gradient(45deg, #42e695, #3bb2b8);
+        }
+
+        .control-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .control-btn:disabled {
+            background: #666;
+            transform: none;
+            box-shadow: none;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .results-content {
+            background: rgba(20, 20, 40, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            min-height: 200px;
+        }
+
+        .transcription {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            animation: fadeIn 1s;
+        }
+
+        .transcription h3 {
+            color: #ffcc00;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .transcription-text {
+            font-size: 1.4rem;
+            min-height: 60px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            border-left: 4px solid #4a9eff;
+            transition: all 0.5s;
+        }
+
+        .keypoints-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .info-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .info-card h4 {
+            color: #ffcc00;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .info-card .value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #4a9eff;
+        }
+
+        .progress-container {
+            margin-top: 20px;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .progress {
+            height: 100%;
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
+            border-radius: 5px;
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        .status {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        .debug-info {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .debug-title {
+            color: #ffcc00;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .model-section {
+            background: rgba(30, 30, 60, 0.7);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .model-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .model-btn {
+            background: linear-gradient(45deg, #9c27b0, #673ab7);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .model-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .model-btn.load {
+            background: linear-gradient(45deg, #4a9eff, #1a5cb0);
+        }
+
+        .model-info {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        .preprocess-info {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .preprocess-info h4 {
+            color: #ffcc00;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .preprocess-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .stat-item {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        .stat-item .value {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #4a9eff;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid #4a9eff;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        .detection-tips {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            border-left: 4px solid #ffcc00;
+        }
+
+        .tip-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+
+        .tip-list {
+            padding-left: 20px;
+        }
+
+        .tip-list li {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .hand-preview {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+        }
+
+        .hand-icon {
+            font-size: 3rem;
+            color: #4a9eff;
+            animation: pulse 2s infinite;
+        }
+
+        .landmarks-stats {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .landmarks-stats h4 {
+            color: #ffcc00;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .stat-box {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-box .title {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-bottom: 5px;
+        }
+
+        .stat-box .value {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #4a9eff;
+        }
+
+        .model-status-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .status-offline {
+            background-color: #ff6b6b;
+        }
+
+        .status-loading {
+            background-color: #ffcc00;
+        }
+
+        .status-online {
+            background-color: #42e695;
+        }
+
+        .model-upload-area {
+            border: 2px dashed #9c27b0;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            margin-top: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .model-upload-area:hover {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInLeft {
+            from { transform: translateX(-50px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        @keyframes slideInRight {
+            from { transform: translateX(50px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @media (max-width: 768px) {
+            .app-container {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            .preprocess-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ASL手语识别系统</h1>
+            <p class="subtitle">基于SqueezeformerTransformer模型实现实时手语识别，提取1629个关键点特征</p>
+        </header>
+
+        <div class="app-container">
+            <div class="video-section">
+                <h2 class="section-title"><i class="fas fa-video"></i> 视频处理</h2>
+
+                <div class="upload-area" id="uploadArea">
+                    <i class="fas fa-cloud-upload-alt" style="font-size: 48px; color: #4a9eff;"></i>
+                    <p>上传ASL手语视频文件</p>
+                    <p style="color: #aaa; font-size: 0.9rem;">支持MP4, MOV, AVI等格式 (最大100MB)</p>
+                    <input type="file" id="videoUpload" accept="video/*" style="display: none;">
+                    <button class="upload-btn" id="uploadBtn"><i class="fas fa-upload"></i> 选择视频文件</button>
+                </div>
+
+                <div class="detection-tips">
+                    <h3 class="tip-title"><i class="fas fa-lightbulb"></i> 检测提示</h3>
+                    <ul class="tip-list">
+                        <li>确保上半身清晰可见，背景简洁</li>
+                        <li>尽量在明亮环境下拍摄，避免阴影</li>
+                        <li>与摄像头保持1-2米距离</li>
+                        <li>避免快速移动身体</li>
+                        <li>确保手部和脸部在画面内</li>
+                    </ul>
+                    <div class="hand-preview">
+                        <i class="fas fa-hand-point-up hand-icon pulse"></i>
+                        <i class="fas fa-user head-icon pulse" style="font-size: 3rem; color: #ffcc00; margin: 0 20px;"></i>
+                        <i class="fas fa-hand-peace hand-icon pulse"></i>
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <video id="inputVideo" controls style="display: none;"></video>
+                    <canvas id="outputCanvas"></canvas>
+                </div>
+
+                <div class="controls">
+                    <button class="control-btn process" id="processBtn" disabled><i class="fas fa-play-circle"></i> 开始处理</button>
+                    <button class="control-btn" id="resetBtn" disabled><i class="fas fa-redo"></i> 重置</button>
+                    <button class="control-btn download" id="downloadBtn" disabled><i class="fas fa-download"></i> 下载结果视频</button>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress" id="progressBar"></div>
+                    </div>
+                    <div class="status">
+                        <span id="progressStatus">等待上传视频...</span>
+                        <span id="progressPercent">0%</span>
+                    </div>
+                </div>
+
+                <div class="loading" id="loadingIndicator">
+                    <div class="spinner"></div>
+                    <p>处理中，请稍候...</p>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <h2 class="section-title"><i class="fas fa-chart-line"></i> 识别结果</h2>
+
+                <div class="results-content">
+                    <div class="transcription">
+                        <h3><i class="fas fa-comment-dots"></i> 手语转录结果</h3>
+                        <div class="transcription-text" id="transcriptionText">处理完成后，识别结果将显示在这里...</div>
+                    </div>
+
+                    <div class="keypoints-info">
+                        <div class="info-card">
+                            <h4>检测到的帧数</h4>
+                            <div class="value" id="gestureCount">0</div>
+                        </div>
+                        <div class="info-card">
+                            <h4>关键点总数</h4>
+                            <div class="value" id="keypointCount">1629</div>
+                        </div>
+                        <div class="info-card">
+                            <h4>处理帧数</h4>
+                            <div class="value" id="processedFrames">0</div>
+                        </div>
+                        <div class="info-card">
+                            <h4>识别准确率</h4>
+                            <div class="value" id="accuracyRate">0%</div>
+                        </div>
+                    </div>
+
+                    <div class="landmarks-stats">
+                        <h4><i class="fas fa-chart-bar"></i> 关键点统计</h4>
+                        <div class="stats-grid" id="landmarksStats">
+                            <div class="stat-box">
+                                <div class="title">姿势关键点</div>
+                                <div class="value" id="posePoints">33</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="title">脸部关键点</div>
+                                <div class="value" id="facePoints">468</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="title">左手关键点</div>
+                                <div class="value" id="leftHandPoints">21</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="title">右手关键点</div>
+                                <div class="value" id="rightHandPoints">21</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="title">帧率</div>
+                                <div class="value" id="frameRate">0</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="title">序列长度</div>
+                                <div class="value" id="sequenceLength">0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="model-section">
+            <h2 class="section-title"><i class="fas fa-brain"></i> 模型控制</h2>
+
+            <div class="model-controls">
+                <div class="model-status-container">
+                    <span class="status-indicator status-offline" id="statusIndicator"></span>
+                    <strong>模型状态:</strong> <span id="modelStatus">未加载</span>
+                </div>
+
+                <button class="model-btn load" id="loadModelBtn">
+                    <i class="fas fa-download"></i> 加载模型
+                </button>
+
+                <div class="model-upload-area" id="modelUploadArea">
+                    <p><i class="fas fa-info-circle"></i> 或上传本地模型文件</p>
+                    <input type="file" id="modelUpload" accept=".onnx" style="display: none;">
+                    <button class="model-btn" id="modelUploadBtn">
+                        <i class="fas fa-upload"></i> 选择ONNX模型文件
+                    </button>
+                </div>
+
+                <button class="model-btn" id="runInferenceBtn" disabled>
+                    <i class="fas fa-play"></i> 运行推理
+                </button>
+
+                <button class="model-btn" id="saveModelBtn">
+                    <i class="fas fa-save"></i> 保存关键点
+                </button>
+            </div>
+
+            <div class="model-info">
+                <p><i class="fas fa-cube"></i> 模型名称: SqueezeformerTransformer</p>
+                <p><i class="fas fa-database"></i> 关键点序列长度: <span id="keypointSequenceLength">0</span> 帧</p>
+                <p><i class="fas fa-info-circle"></i> 输入张量形状: [1, 250, 1629]</p>
+            </div>
+
+            <div class="preprocess-info">
+                <h4><i class="fas fa-cogs"></i> 数据预处理信息</h4>
+                <div class="preprocess-stats">
+                    <div class="stat-item">
+                        <div class="label">最大视频帧数</div>
+                        <div class="value" id="maxVideoFrames">250</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="label">实际视频帧数</div>
+                        <div class="value" id="actualVideoFrames">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="label">填充帧数</div>
+                        <div class="value" id="paddedFrames">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="label">截断帧数</div>
+                        <div class="value" id="truncatedFrames">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="debug-info">
+                <h4 class="debug-title"><i class="fas fa-bug"></i> 调试信息</h4>
+                <div id="debugOutput">系统准备就绪...</div>
+            </div>
+        </div>
+
+        <footer style="text-align: center; margin-top: 30px; padding: 20px; color: #aaa; font-size: 0.9rem;">
+            <p>ASL手语识别系统 | 人工智能+参赛项目 | 基于SqueezeformerTransformer实现 | © 2025</p>
+        </footer>
+    </div>
+
+    <script>
+        // 页面元素
+        const videoUpload = document.getElementById('videoUpload');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const uploadArea = document.getElementById('uploadArea');
+        const inputVideo = document.getElementById('inputVideo');
+        const outputCanvas = document.getElementById('outputCanvas');
+        const processBtn = document.getElementById('processBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const progressBar = document.getElementById('progressBar');
+        const progressStatus = document.getElementById('progressStatus');
+        const progressPercent = document.getElementById('progressPercent');
+        const transcriptionText = document.getElementById('transcriptionText');
+        const gestureCount = document.getElementById('gestureCount');
+        const keypointCount = document.getElementById('keypointCount');
+        const processedFrames = document.getElementById('processedFrames');
+        const accuracyRate = document.getElementById('accuracyRate');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const debugOutput = document.getElementById('debugOutput');
+        const statusIndicator = document.getElementById('statusIndicator');
+
+        // 模型控制元素
+        const loadModelBtn = document.getElementById('loadModelBtn');
+        const runInferenceBtn = document.getElementById('runInferenceBtn');
+        const saveModelBtn = document.getElementById('saveModelBtn');
+        const modelStatus = document.getElementById('modelStatus');
+        const keypointSequenceLength = document.getElementById('keypointSequenceLength');
+        const modelUpload = document.getElementById('modelUpload');
+        const modelUploadBtn = document.getElementById('modelUploadBtn');
+        const modelUploadArea = document.getElementById('modelUploadArea');
+
+        // 预处理信息元素
+        const maxVideoFrames = document.getElementById('maxVideoFrames');
+        const actualVideoFrames = document.getElementById('actualVideoFrames');
+        const paddedFrames = document.getElementById('paddedFrames');
+        const truncatedFrames = document.getElementById('truncatedFrames');
+
+        // 关键点统计元素
+        const posePoints = document.getElementById('posePoints');
+        const facePoints = document.getElementById('facePoints');
+        const leftHandPoints = document.getElementById('leftHandPoints');
+        const rightHandPoints = document.getElementById('rightHandPoints');
+        const frameRate = document.getElementById('frameRate');
+        const sequenceLength = document.getElementById('sequenceLength');
+
+        // 初始化变量
+        let mediaRecorder;
+        let recordedChunks = [];
+        let isProcessing = false;
+        let frameCount = 0;
+        let detectedGestures = 0;
+        let ctx;
+        let holistic;
+        let model;
+        let keypointSequence = [];
+        let debugLogs = [];
+        let isORTLoaded = false;
+        let isProcessingFrame = false;
+        let startTime = 0;
+        let processedFrameCount = 0;
+
+        // 常量配置
+        const MAX_VIDEO_FRAME_LEN = 250;
+        const TOTAL_KEYPOINTS = 543; // 33+468+21+21=543
+        const KEYPOINT_DIMS = 3;
+        const TOTAL_FEATURES = 1629; // 543*3=1629
+
+        // 更新模型状态显示
+        function updateModelStatus(status, colorClass) {
+            modelStatus.textContent = status;
+            statusIndicator.className = 'status-indicator ' + colorClass;
+        }
+
+        // 初始化MediaPipe Holistic
+        function initMediaPipe() {
+            addDebugLog("正在初始化MediaPipe Holistic...");
+            holistic = new Holistic({
+                locateFile: (file) => {
+                    return `https://cdn.jsdelivr.net/npm/@mediapipe/holistic/${file}`;
+                }
+            });
+
+            holistic.setOptions({
+                modelComplexity: 1,
+                smoothLandmarks: true,
+                enableSegmentation: false,
+                refineFaceLandmarks: true,
+                minDetectionConfidence: 0.5,
+                minTrackingConfidence: 0.5
+            });
+
+            holistic.onResults(onHolisticResults);
+            addDebugLog("MediaPipe Holistic初始化完成");
+        }
+
+        // 添加调试信息
+        function addDebugLog(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            debugLogs.push(`[${timestamp}] ${message}`);
+
+            if (debugLogs.length > 10) {
+                debugLogs.shift();
+            }
+
+            debugOutput.innerHTML = debugLogs.map(log => `<div>${log}</div>`).join('');
+            debugOutput.scrollTop = debugOutput.scrollHeight;
+        }
+
+        // 检查ONNX Runtime是否加载
+        function checkORTLoaded() {
+            if (typeof ort !== 'undefined') {
+                isORTLoaded = true;
+                addDebugLog("ONNX Runtime已加载");
+                return true;
+            } else {
+                addDebugLog("ONNX Runtime未加载");
+                return false;
+            }
+        }
+
+        // 上传按钮事件
+        uploadBtn.addEventListener('click', () => {
+            videoUpload.click();
+        });
+
+        uploadArea.addEventListener('click', () => {
+            videoUpload.click();
+        });
+
+        videoUpload.addEventListener('change', (e) => {
+            if (e.target.files && e.target.files[0]) {
+                const file = e.target.files[0];
+                addDebugLog(`已选择视频文件: ${file.name} (${Math.round(file.size / 1024)} KB)`);
+                const url = URL.createObjectURL(file);
+                inputVideo.src = url;
+                inputVideo.style.display = 'block';
+
+                processBtn.disabled = false;
+                resetBtn.disabled = false;
+
+                progressStatus.textContent = '视频已上传，准备处理';
+                uploadArea.innerHTML = `
+                    <i class="fas fa-check-circle" style="font-size: 48px; color: #42e695;"></i>
+                    <p>${file.name}</p>
+                    <p style="color: #42e695;">上传成功！点击"开始处理"按钮</p>
+                `;
+
+                keypointSequence = [];
+                keypointSequenceLength.textContent = '0';
+
+                inputVideo.addEventListener('loadedmetadata', () => {
+                    addDebugLog(`视频尺寸: ${inputVideo.videoWidth}x${inputVideo.videoHeight}`);
+                    outputCanvas.width = inputVideo.videoWidth;
+                    outputCanvas.height = inputVideo.videoHeight;
+                    ctx = outputCanvas.getContext('2d');
+                    ctx.fillStyle = "#000000";
+                    ctx.fillRect(0, 0, outputCanvas.width, outputCanvas.height);
+                });
+
+                inputVideo.addEventListener('error', (e) => {
+                    addDebugLog(`视频加载错误: ${e.message}`);
+                    alert(`视频加载失败: ${e.message}`);
+                });
+            }
+        });
+
+        // 模型上传按钮事件
+        modelUploadBtn.addEventListener('click', () => {
+            modelUpload.click();
+        });
+
+        modelUpload.addEventListener('change', async (e) => {
+            if (e.target.files && e.target.files[0]) {
+                const file = e.target.files[0];
+                addDebugLog(`已选择模型文件: ${file.name}`);
+
+                try {
+                    updateModelStatus('加载中...', 'status-loading');
+
+                    // 读取模型文件
+                    const arrayBuffer = await readFileAsArrayBuffer(file);
+
+                    // 加载ONNX模型
+                    model = await ort.InferenceSession.create(arrayBuffer, {
+                        executionProviders: ['wasm']
+                    });
+
+                    updateModelStatus('已加载', 'status-online');
+                    runInferenceBtn.disabled = false;
+                    addDebugLog("本地模型加载成功");
+                } catch (e) {
+                    console.error("模型加载失败:", e);
+                    updateModelStatus('加载失败', 'status-offline');
+                    addDebugLog(`模型加载失败: ${e.message}`);
+                    alert(`模型加载失败: ${e.message}`);
+                }
+            }
+        });
+
+        // 读取文件为ArrayBuffer
+        function readFileAsArrayBuffer(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = () => resolve(reader.result);
+                reader.onerror = reject;
+                reader.readAsArrayBuffer(file);
+            });
+        }
+
+        // 处理按钮事件
+        processBtn.addEventListener('click', () => {
+            if (isProcessing) {
+                inputVideo.pause();
+                isProcessing = false;
+                processBtn.innerHTML = '<i class="fas fa-play-circle"></i> 继续处理';
+                progressStatus.textContent = '处理已暂停';
+                loadingIndicator.style.display = 'none';
+                addDebugLog("处理已暂停");
+            } else {
+                startProcessing();
+                processBtn.innerHTML = '<i class="fas fa-pause-circle"></i> 暂停处理';
+                loadingIndicator.style.display = 'block';
+                addDebugLog("开始处理视频");
+            }
+        });
+
+        // 重置按钮事件
+        resetBtn.addEventListener('click', () => {
+            resetProcessing();
+            addDebugLog("系统已重置");
+        });
+
+        // 下载按钮事件
+        downloadBtn.addEventListener('click', () => {
+            downloadProcessedVideo();
+            addDebugLog("下载结果视频");
+        });
+
+        // 加载模型按钮
+        loadModelBtn.addEventListener('click', async () => {
+            // 先检查ort是否加载
+            if (!checkORTLoaded()) {
+                updateModelStatus("ONNX Runtime加载失败", "status-offline");
+                addDebugLog("ONNX Runtime未加载");
+                alert("ONNX Runtime加载失败，请检查网络连接并刷新页面重试");
+                return;
+            }
+
+            updateModelStatus("加载中...", "status-loading");
+            addDebugLog("开始加载模型...");
+
+            try {
+                const modelPath = './squeezeformer_model.onnx';
+                addDebugLog(`尝试从路径加载模型: ${modelPath}`);
+
+                // 加载 ONNX 模型
+                model = await ort.InferenceSession.create(modelPath, {
+                    executionProviders: ['wasm']
+                });
+
+                updateModelStatus("已加载", "status-online");
+                runInferenceBtn.disabled = false;
+                addDebugLog("模型加载成功");
+
+            } catch (e) {
+                console.error("模型加载失败:", e);
+                updateModelStatus("加载失败", "status-offline");
+                addDebugLog(`模型加载失败: ${e.message}`);
+
+                let errorMsg = "模型加载失败。";
+                if (e.message.includes("404") || e.message.includes("not found")) {
+                    errorMsg += " 文件未找到。请确保模型文件与HTML在同一目录。";
+                } else if (e.message.includes("network error")) {
+                    errorMsg += " 网络错误。请通过本地服务器运行（如Python的http.server）。";
+                } else if (e.message.includes("invalid ONNX")) {
+                    errorMsg += " ONNX文件格式无效。请检查模型文件。";
+                } else {
+                    errorMsg += " 错误详情: " + e.message;
+                }
+
+                alert(errorMsg);
+            }
+        });
+
+        // 运行推理按钮
+        runInferenceBtn.addEventListener('click', async () => {
+            if (!model) {
+                alert("请先加载模型");
+                return;
+            }
+
+            if (keypointSequence.length === 0) {
+                alert("请先处理视频以提取关键点序列");
+                return;
+            }
+
+            transcriptionText.textContent = "推理中...";
+            transcriptionText.style.color = "#4a9eff";
+            addDebugLog("开始运行推理...");
+
+            try {
+                // 1. 数据预处理
+                const { processedData, stats } = preprocessKeypoints(keypointSequence);
+                addDebugLog(`数据预处理完成: 实际帧数=${stats.actualFrames}, 填充帧数=${stats.paddedFrames}, 截断帧数=${stats.truncatedFrames}`);
+                addDebugLog(`处理后的数据长度: ${processedData.length}, 预期长度: ${1 * MAX_VIDEO_FRAME_LEN * TOTAL_FEATURES}`);
+
+                // 更新预处理统计信息
+                updatePreprocessStats(stats);
+
+                // 2. 准备模型输入
+                const videoFeatures = new ort.Tensor('float32', processedData, [1, MAX_VIDEO_FRAME_LEN, TOTAL_FEATURES]);
+                addDebugLog(`模型输入张量创建完成: 形状=[1, ${MAX_VIDEO_FRAME_LEN}, ${TOTAL_FEATURES}]`);
+
+                // 3. 运行模型推理 - 使用正确的输入名称
+                const outputs = await model.run({
+                    'squeezeformer_model': videoFeatures  // 修正输入名称
+                });
+                addDebugLog("模型推理完成");
+
+                // 4. 处理输出结果
+                const logits = outputs.output.data;
+                const predictedTokenId = argmax(logits);
+                addDebugLog(`预测的Token ID: ${predictedTokenId}`);
+
+                // 5. 将 token ID 转换为文本
+                const predictedText = decodeToken(predictedTokenId);
+                addDebugLog(`识别结果: ${predictedText}`);
+
+                transcriptionText.textContent = predictedText;
+                transcriptionText.style.color = "#42e695";
+
+            } catch (e) {
+                console.error("推理失败:", e);
+                addDebugLog(`推理失败: ${e.message}`);
+                transcriptionText.textContent = "推理失败: " + e.message;
+                transcriptionText.style.color = "#ff6b6b";
+            }
+        });
+
+        // 保存关键点按钮
+        saveModelBtn.addEventListener('click', () => {
+            saveKeypointSequence();
+            addDebugLog("保存关键点数据");
+        });
+
+        // Holistic处理结果回调
+        function onHolisticResults(results) {
+            ctx.save();
+            ctx.clearRect(0, 0, outputCanvas.width, outputCanvas.height);
+            ctx.drawImage(results.image, 0, 0, outputCanvas.width, outputCanvas.height);
+
+            // 提取所有关键点 (姿势+脸部+双手)
+            const frameKeypoints = [];
+
+            // 姿势关键点 (33个)
+            if (results.poseLandmarks) {
+                for (const landmark of results.poseLandmarks) {
+                    frameKeypoints.push(landmark.x, landmark.y, landmark.z);
+                }
+            } else {
+                for (let i = 0; i < 33 * 3; i++) {
+                    frameKeypoints.push(0);
+                }
+            }
+
+            // 脸部关键点 (468个)
+            if (results.faceLandmarks) {
+                for (const landmark of results.faceLandmarks) {
+                    frameKeypoints.push(landmark.x, landmark.y, landmark.z);
+                }
+            } else {
+                for (let i = 0; i < 468 * 3; i++) {
+                    frameKeypoints.push(0);
+                }
+            }
+
+            // 左手关键点 (21个)
+            if (results.leftHandLandmarks) {
+                for (const landmark of results.leftHandLandmarks) {
+                    frameKeypoints.push(landmark.x, landmark.y, landmark.z);
+                }
+            } else {
+                for (let i = 0; i < 21 * 3; i++) {
+                    frameKeypoints.push(0);
+                }
+            }
+
+            // 右手关键点 (21个)
+            if (results.rightHandLandmarks) {
+                for (const landmark of results.rightHandLandmarks) {
+                    frameKeypoints.push(landmark.x, landmark.y, landmark.z);
+                }
+            } else {
+                for (let i = 0; i < 21 * 3; i++) {
+                    frameKeypoints.push(0);
+                }
+            }
+
+            // 确保关键点长度正确
+            if (frameKeypoints.length !== TOTAL_FEATURES) {
+                addDebugLog(`警告: 帧数据长度错误 (${frameKeypoints.length} 但应为 ${TOTAL_FEATURES})，将进行截断`);
+                frameKeypoints.length = TOTAL_FEATURES;
+            }
+
+            // 存储关键点序列
+            keypointSequence.push(frameKeypoints);
+            keypointSequenceLength.textContent = keypointSequence.length;
+            sequenceLength.textContent = keypointSequence.length;
+
+            // 检测到手部
+            if (results.leftHandLandmarks || results.rightHandLandmarks) {
+                detectedGestures++;
+            }
+
+            // 更新统计数据
+            updateStats();
+
+            // 计算帧率
+            processedFrameCount++;
+            const elapsed = (Date.now() - startTime) / 1000;
+            const fps = Math.round(processedFrameCount / elapsed);
+            frameRate.textContent = `${fps} FPS`;
+
+            ctx.restore();
+
+            // 标记当前帧处理完成
+            isProcessingFrame = false;
+        }
+
+        // 关键点数据预处理
+        function preprocessKeypoints(keypointSequence) {
+            const stats = {
+                actualFrames: keypointSequence.length,
+                paddedFrames: 0,
+                truncatedFrames: 0,
+                maxFrames: MAX_VIDEO_FRAME_LEN,
+                featureDimensions: TOTAL_FEATURES
+            };
+
+            let processedSequence;
+            if (keypointSequence.length > MAX_VIDEO_FRAME_LEN) {
+                processedSequence = keypointSequence.slice(0, MAX_VIDEO_FRAME_LEN);
+                stats.truncatedFrames = keypointSequence.length - MAX_VIDEO_FRAME_LEN;
+            } else if (keypointSequence.length < MAX_VIDEO_FRAME_LEN) {
+                processedSequence = [...keypointSequence];
+                const padding = new Array(TOTAL_FEATURES).fill(0);
+                for (let i = keypointSequence.length; i < MAX_VIDEO_FRAME_LEN; i++) {
+                    processedSequence.push(padding);
+                }
+                stats.paddedFrames = MAX_VIDEO_FRAME_LEN - keypointSequence.length;
+            } else {
+                processedSequence = keypointSequence;
+            }
+
+            const flatArray = [];
+            for (const frame of processedSequence) {
+                if (frame.length !== TOTAL_FEATURES) {
+                    addDebugLog(`警告: 预处理中帧数据长度错误 (${frame.length} 但应为 ${TOTAL_FEATURES})，将进行截断`);
+                    flatArray.push(...frame.slice(0, TOTAL_FEATURES));
+                } else {
+                    flatArray.push(...frame);
+                }
+            }
+
+            return {
+                processedData: flatArray,
+                stats
+            };
+        }
+
+        // 更新预处理统计信息
+        function updatePreprocessStats(stats) {
+            actualVideoFrames.textContent = stats.actualFrames;
+            paddedFrames.textContent = stats.paddedFrames;
+            truncatedFrames.textContent = stats.truncatedFrames;
+            maxVideoFrames.textContent = stats.maxFrames;
+        }
+
+        // 保存关键点序列
+        function saveKeypointSequence() {
+            if (keypointSequence.length === 0) {
+                alert("没有可保存的关键点数据");
+                return;
+            }
+
+            const saveData = {
+                keypoints: keypointSequence,
+                timestamp: new Date().toISOString(),
+                featureCount: TOTAL_FEATURES
+            };
+
+            const blob = new Blob([JSON.stringify(saveData, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `asl_keypoints_${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
+            document.body.appendChild(a);
+            a.click();
+
+            setTimeout(() => {
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+                alert("关键点数据已保存!");
+            }, 100);
+        }
+
+        // 开始处理函数
+        function startProcessing() {
+            if (!inputVideo.src) return;
+
+            isProcessing = true;
+            inputVideo.play();
+            addDebugLog("视频开始播放");
+            startTime = Date.now();
+            processedFrameCount = 0;
+
+            if (!ctx) {
+                outputCanvas.width = inputVideo.videoWidth;
+                outputCanvas.height = inputVideo.videoHeight;
+                ctx = outputCanvas.getContext('2d');
+                addDebugLog(`Canvas尺寸设置为: ${outputCanvas.width}x${outputCanvas.height}`);
+            }
+
+            recordedChunks = [];
+            const stream = outputCanvas.captureStream(30);
+            mediaRecorder = new MediaRecorder(stream);
+
+            mediaRecorder.ondataavailable = (event) => {
+                if (event.data.size > 0) {
+                    recordedChunks.push(event.data);
+                }
+            };
+
+            mediaRecorder.onstop = () => {
+                downloadBtn.disabled = false;
+                addDebugLog("录制完成，可以下载结果视频");
+            };
+
+            mediaRecorder.start();
+            addDebugLog("媒体录制器已启动");
+
+            frameCount = 0;
+            detectedGestures = 0;
+            updateStats();
+
+            function processFrame() {
+                if (!isProcessing || inputVideo.paused || inputVideo.ended) {
+                    finishProcessing();
+                    return;
+                }
+
+                // 如果前一帧仍在处理中，则跳过当前帧
+                if (isProcessingFrame) {
+                    requestAnimationFrame(processFrame);
+                    return;
+                }
+
+                // 处理视频帧
+                processVideoFrame();
+                frameCount++;
+
+                const progress = Math.min(100, Math.floor((inputVideo.currentTime / inputVideo.duration) * 100));
+                progressBar.style.width = `${progress}%`;
+                progressPercent.textContent = `${progress}%`;
+                progressStatus.textContent = `处理中: ${frameCount} 帧已处理`;
+
+                requestAnimationFrame(processFrame);
+            }
+
+            requestAnimationFrame(processFrame);
+        }
+
+        // 处理视频帧
+        function processVideoFrame() {
+            ctx.clearRect(0, 0, outputCanvas.width, outputCanvas.height);
+            ctx.drawImage(inputVideo, 0, 0, outputCanvas.width, outputCanvas.height);
+
+            if (holistic) {
+                try {
+                    isProcessingFrame = true;
+
+                    // 使用canvas直接作为图像源
+                    holistic.send({image: outputCanvas});
+                } catch (e) {
+                    addDebugLog(`处理帧时出错: ${e.message}`);
+                    isProcessingFrame = false;
+                }
+            }
+        }
+
+        // 完成处理
+        function finishProcessing() {
+            isProcessing = false;
+            isProcessingFrame = false;
+
+            if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                mediaRecorder.stop();
+            }
+
+            processBtn.innerHTML = '<i class="fas fa-play-circle"></i> 开始处理';
+            processBtn.disabled = false;
+            progressStatus.textContent = '处理完成！';
+            loadingIndicator.style.display = 'none';
+            addDebugLog(`视频处理完成，共处理 ${frameCount} 帧`);
+            addDebugLog(`关键点序列长度: ${keypointSequence.length}, 每帧特征数: ${TOTAL_FEATURES}`);
+
+            const { stats } = preprocessKeypoints(keypointSequence);
+            updatePreprocessStats(stats);
+
+            if (modelStatus.textContent === "已加载") {
+                runInferenceBtn.click();
+            }
+        }
+
+        // 重置处理
+        function resetProcessing() {
+            isProcessing = false;
+            isProcessingFrame = false;
+
+            if (inputVideo) {
+                inputVideo.pause();
+                inputVideo.currentTime = 0;
+                inputVideo.style.display = 'none';
+            }
+
+            if (ctx) {
+                ctx.clearRect(0, 0, outputCanvas.width, outputCanvas.height);
+                ctx.fillStyle = "#000000";
+                ctx.fillRect(0, 0, outputCanvas.width, outputCanvas.height);
+            }
+
+            if (mediaRecorder && mediaRecorder.state === 'recording') {
+                mediaRecorder.stop();
+            }
+
+            processBtn.innerHTML = '<i class="fas fa-play-circle"></i> 开始处理';
+            processBtn.disabled = true;
+            resetBtn.disabled = true;
+            downloadBtn.disabled = true;
+            runInferenceBtn.disabled = true;
+
+            progressBar.style.width = '0%';
+            progressPercent.textContent = '0%';
+            progressStatus.textContent = '等待上传视频...';
+            loadingIndicator.style.display = 'none';
+
+            transcriptionText.textContent = '处理完成后，识别结果将显示在这里...';
+            transcriptionText.style.color = "";
+
+            uploadArea.innerHTML = `
+                <i class="fas fa-cloud-upload-alt" style="font-size: 48px; color: #4a9eff;"></i>
+                <p>上传ASL手语视频文件</p>
+                <p style="color: #aaa; font-size: 0.9rem;">支持MP4, MOV, AVI等格式 (最大100MB)</p>
+                <button class="upload-btn" id="uploadBtn"><i class="fas fa-upload"></i> 选择视频文件</button>
+            `;
+
+            document.getElementById('uploadBtn').addEventListener('click', () => {
+                videoUpload.click();
+            });
+
+            frameCount = 0;
+            detectedGestures = 0;
+            keypointSequence = [];
+            keypointSequenceLength.textContent = '0';
+            sequenceLength.textContent = '0';
+            updateStats();
+        }
+
+        // 更新统计信息
+        function updateStats() {
+            gestureCount.textContent = detectedGestures;
+            processedFrames.textContent = frameCount;
+            const accuracy = frameCount > 0 ? Math.min(100, Math.round((detectedGestures / frameCount) * 100)) : 0;
+            accuracyRate.textContent = `${accuracy}%`;
+        }
+
+        // 下载处理后的视频
+        function downloadProcessedVideo() {
+            if (recordedChunks.length === 0) {
+                alert("没有可下载的视频内容");
+                return;
+            }
+
+            const blob = new Blob(recordedChunks, {type: 'video/webm'});
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'asl-recognition-result.webm';
+            document.body.appendChild(a);
+            a.click();
+
+            setTimeout(() => {
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+            }, 100);
+        }
+
+        // 辅助函数：找到数组中最大值的索引
+        function argmax(array) {
+            let maxIndex = 0;
+            for (let i = 1; i < array.length; i++) {
+                if (array[i] > array[maxIndex]) {
+                    maxIndex = i;
+                }
+            }
+            return maxIndex;
+        }
+
+        // token 解码器
+        function decodeToken(tokenId) {
+            const commonWords = [
+                "hello", "thank", "please", "help", "goodbye",
+                "name", "what", "where", "when", "why",
+                "how", "who", "which", "this", "that",
+                "here", "there", "my", "your", "his",
+                "her", "our", "their", "I", "you",
+                "he", "she", "we", "they", "be",
+                "have", "do", "can", "will", "want", "need"
+            ];
+
+            if (tokenId === 0) return "[PAD]";
+            if (tokenId === 101) return "[CLS]";
+            if (tokenId === 102) return "[SEP]";
+            if (tokenId === 103) return "[MASK]";
+
+            return commonWords[tokenId % commonWords.length] || `[UNK:${tokenId}]`;
+        }
+
+        // 初始化页面
+        function initPage() {
+            updateModelStatus("未加载", "status-offline");
+            initMediaPipe();
+
+            maxVideoFrames.textContent = MAX_VIDEO_FRAME_LEN;
+            posePoints.textContent = "33";
+            facePoints.textContent = "468";
+            leftHandPoints.textContent = "21";
+            rightHandPoints.textContent = "21";
+            keypointCount.textContent = "1629";
+            frameRate.textContent = "0";
+
+            addDebugLog("系统初始化完成");
+        }
+        
+        // 页面加载完成后初始化
+        window.addEventListener('load', initPage);
+    </script>
+</body>
+</html>

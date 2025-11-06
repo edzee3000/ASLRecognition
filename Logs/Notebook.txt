@@ -1,0 +1,8 @@
+总结对比
+掩码类型	作用对象	屏蔽内容	形状
+src_mask	编码器输入（源序列）	源序列中的填充位置	[batch_size, src_len]
+tgt_mask	解码器输入（目标序列）	1. 未来位置（下三角掩码）2. 填充位置	[batch_size, tgt_len, tgt_len]
+memory_mask	解码器对编码器的注意力	编码器输出中的填充位置	[batch_size, src_len]
+
+
+

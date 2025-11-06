@@ -1,0 +1,1156 @@
+Using device: cuda
+正在划分训练集、验证集以及数据加载器
+数据集划分完成 - 训练集: 34473 样本, 验证集: 8618 样本
+正在进行模型的评估（逐个token生成）
+验证集视频 1:
+预测结果:  169arararararararararararararararararar
+真实标签:  6963 covelli road  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 2:
+预测结果:  169arararararararararararararararararar
+真实标签:  the kids are very excited  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 3:
+预测结果:  169arararararararararararararararararar
+真实标签:  +81-4549-77-01-919  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 4:
+预测结果:  169arararararararararararararararararar
+真实标签:  it is difficult to concentrate  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 5:
+预测结果:  169arararararararararararararararararar
+真实标签:  he is shouting loudly  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 6:
+预测结果:  169arararararararararararararararararar
+真实标签:  that is a very nasty cut  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 7:
+预测结果:  169arararararararararararararararararar
+真实标签:  +58-385-5261-603  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 8:
+预测结果:  169arararararararararararararararararar
+真实标签:  you should visit to a doctor  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 9:
+预测结果:  169arararararararararararararararararar
+真实标签:  /kotak-perfect-love  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 10:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.hdpornmovies.xxx  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 11:
+预测结果:  169arararararararararararararararararar
+真实标签:  +98-503-359-568  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 12:
+预测结果:  169arararararararararararararararararar
+真实标签:  the cat has a pleasant temperament  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 13:
+预测结果:  169arararararararararararararararararar
+真实标签:  did you have a good time  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 14:
+预测结果:  169arararararararararararararararararar
+真实标签:  there are winners and losers  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 15:
+预测结果:  169arararararararararararararararararar
+真实标签:  the force is with you  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 16:
+预测结果:  169arararararararararararararararararar
+真实标签:  lincoln ellison  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 17:
+预测结果:  169arararararararararararararararararar
+真实标签:  ariana cameron  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 18:
+预测结果:  169arararararararararararararararararar
+真实标签:  9807 northwest 195th terrace  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 19:
+预测结果:  169arararararararararararararararararar
+真实标签:  a steep learning curve in riding a unicycle  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 20:
+预测结果:  169arararararararararararararararararar
+真实标签:  675-290-0884  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 21:
+预测结果:  169arararararararararararararararararar
+真实标签:  +269-6370-5046-998  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 22:
+预测结果:  169arararararararararararararararararar
+真实标签:  if you come home late the doors are locked  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 23:
+预测结果:  169arararararararararararararararararar
+真实标签:  +221-8393-77  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 24:
+预测结果:  169arararararararararararararararararar
+真实标签:  the assault took six months  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 25:
+预测结果:  169arararararararararararararararararar
+真实标签:  dazzlingkai.tumblr.com  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 26:
+预测结果:  169arararararararararararararararararar
+真实标签:  5667 co road 2345  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 27:
+预测结果:  169arararararararararararararararararar
+真实标签:  do not drink the water  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 28:
+预测结果:  169arararararararararararararararararar
+真实标签:  luckily my wallet was found  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 29:
+预测结果:  169arararararararararararararararararar
+真实标签:  watch out for low flying objects  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 30:
+预测结果:  169arararararararararararararararararar
+真实标签:  30 waterworks  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 31:
+预测结果:  169arararararararararararararararararar
+真实标签:  completely sold out of that  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 32:
+预测结果:  169arararararararararararararararararar
+真实标签:  victims deserve more redress  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 33:
+预测结果:  169arararararararararararararararararar
+真实标签:  the treasurer must balance her books  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 34:
+预测结果:  169arararararararararararararararararar
+真实标签:  healthy food is good for you  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 35:
+预测结果:  169arararararararararararararararararar
+真实标签:  players must know all the rules  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 36:
+预测结果:  169arararararararararararararararararar
+真实标签:  +32-82-2185-93  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 37:
+预测结果:  169arararararararararararararararararar
+真实标签:  toss the ball around  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 38:
+预测结果:  169arararararararararararararararararar
+真实标签:  the union will go on strike  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 39:
+预测结果:  169arararararararararararararararararar
+真实标签:  the fire raged for an entire month  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 40:
+预测结果:  169arararararararararararararararararar
+真实标签:  the early bird gets the worm  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 41:
+预测结果:  169arararararararararararararararararar
+真实标签:  the generation gap gets wider  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 42:
+预测结果:  169arararararararararararararararararar
+真实标签:  the opposing team is over there  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 43:
+预测结果:  169arararararararararararararararararar
+真实标签:  call for more details  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 44:
+预测结果:  169arararararararararararararararararar
+真实标签:  rogelio carpenter  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 45:
+预测结果:  169arararararararararararararararararar
+真实标签:  blog-column  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 46:
+预测结果:  169arararararararararararararararararar
+真实标签:  +687-0287-194  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 47:
+预测结果:  169arararararararararararararararararar
+真实标签:  frequently asked questions  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 48:
+预测结果:  169arararararararararararararararararar
+真实标签:  the dog buried the bone  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 49:
+预测结果:  169arararararararararararararararararar
+真实标签:  the assignment is due today  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 50:
+预测结果:  169arararararararararararararararararar
+真实标签:  64 bavaria place drive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 51:
+预测结果:  169arararararararararararararararararar
+真实标签:  just like it says on the can  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 52:
+预测结果:  169arararararararararararararararararar
+真实标签:  a touchdown in the last minute  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 53:
+预测结果:  169arararararararararararararararararar
+真实标签:  you have my sympathy  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 54:
+预测结果:  169arararararararararararararararararar
+真实标签:  the library is closed today  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 55:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.cuzinlogic.vg  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 56:
+预测结果:  169arararararararararararararararararar
+真实标签:  a little encouragement is needed  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 57:
+预测结果:  169arararararararararararararararararar
+真实标签:  +43-447-98-214-794-147  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 58:
+预测结果:  169arararararararararararararararararar
+真实标签:  just in time for the party  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 59:
+预测结果:  169arararararararararararararararararar
+真实标签:  camshaip.com/zcarlander  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 60:
+预测结果:  169arararararararararararararararararar
+真实标签:  close-open-app-iphone-5  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 61:
+预测结果:  169arararararararararararararararararar
+真实标签:  time to go shopping  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 62:
+预测结果:  169arararararararararararararararararar
+真实标签:  no kissing in the library  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 63:
+预测结果:  169arararararararararararararararararar
+真实标签:  victims deserve more redress  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 64:
+预测结果:  169arararararararararararararararararar
+真实标签:  sherrie peralta  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 65:
+预测结果:  169arararararararararararararararararar
+真实标签:  kristal ward  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 66:
+预测结果:  169arararararararararararararararararar
+真实标签:  kaszel/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 67:
+预测结果:  169arararararararararararararararararar
+真实标签:  get your priorities in order  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 68:
+预测结果:  169arararararararararararararararararar
+真实标签:  this watch is too expensive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 69:
+预测结果:  169arararararararararararararararararar
+真实标签:  do not say anything  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 70:
+预测结果:  169arararararararararararararararararar
+真实标签:  122-031-8053  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 71:
+预测结果:  169arararararararararararararararararar
+真实标签:  +995-696-13-28-38844  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 72:
+预测结果:  169arararararararararararararararararar
+真实标签:  144738 120ec hamilton  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 73:
+预测结果:  169arararararararararararararararararar
+真实标签:  +98-98-14-4167-65-41  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 74:
+预测结果:  169arararararararararararararararararar
+真实标签:  beautiful paintings in the gallery  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 75:
+预测结果:  169arararararararararararararararararar
+真实标签:  the second largest country  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 76:
+预测结果:  169arararararararararararararararararar
+真实标签:  +65-0020-5953-5457  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 77:
+预测结果:  169arararararararararararararararararar
+真实标签:  quick there is someone knocking  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 78:
+预测结果:  169arararararararararararararararararar
+真实标签:  beware the ides of march  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 79:
+预测结果:  169arararararararararararararararararar
+真实标签:  dashing through the snow  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 80:
+预测结果:  169arararararararararararararararararar
+真实标签:  171-405-5725  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 81:
+预测结果:  169arararararararararararararararararar
+真实标签:  a very traditional way to dress  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 82:
+预测结果:  169arararararararararararararararararar
+真实标签:  drugs should be avoided  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 83:
+预测结果:  169arararararararararararararararararar
+真实标签:  705-428-7721  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 84:
+预测结果:  169arararararararararararararararararar
+真实标签:  s2542-4351(21)00390-1  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 85:
+预测结果:  169arararararararararararararararararar
+真实标签:  every saturday he folds the laundry  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 86:
+预测结果:  169arararararararararararararararararar
+真实标签:  dashing through the snow  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 87:
+预测结果:  169arararararararararararararararararar
+真实标签:  a very traditional way to dress  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 88:
+预测结果:  169arararararararararararararararararar
+真实标签:  420 highway 534  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 89:
+预测结果:  169arararararararararararararararararar
+真实标签:  a subject one can really enjoy  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 90:
+预测结果:  169arararararararararararararararararar
+真实标签:  the collapse of the roman empire  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 91:
+预测结果:  169arararararararararararararararararar
+真实标签:  companies announce a merger  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 92:
+预测结果:  169arararararararararararararararararar
+真实标签:  teaching services will help  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 93:
+预测结果:  169arararararararararararararararararar
+真实标签:  we have enough witnesses  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 94:
+预测结果:  169arararararararararararararararararar
+真实标签:  round robin scheduling  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 95:
+预测结果:  169arararararararararararararararararar
+真实标签:  sharp cheese keeps the mind sharp  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 96:
+预测结果:  169arararararararararararararararararar
+真实标签:  i watched blazing saddles  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 97:
+预测结果:  169arararararararararararararararararar
+真实标签:  /vittoria00/marekchinedu  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 98:
+预测结果:  169arararararararararararararararararar
+真实标签:  yarzarmg.blogspot.com/ecobonus  <end> <|endoftext|><|endoftext|><|endoftext|>
+验证集视频 99:
+预测结果:  169arararararararararararararararararar
+真实标签:  life is but a dream  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 100:
+预测结果:  169arararararararararararararararararar
+真实标签:  the dog will bite you  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 101:
+预测结果:  169arararararararararararararararararar
+真实标签:  motivational seminars make me sick  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 102:
+预测结果:  169arararararararararararararararararar
+真实标签:  rosie martinez  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 103:
+预测结果:  169arararararararararararararararararar
+真实标签:  vincianereflexo/deathpile  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 104:
+预测结果:  169arararararararararararararararararar
+真实标签:  138 blooming dale  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 105:
+预测结果:  169arararararararararararararararararar
+真实标签:  8101 frains lake  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 106:
+预测结果:  169arararararararararararararararararar
+真实标签:  6425 seasurf  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 107:
+预测结果:  169arararararararararararararararararar
+真实标签:  the second largest country  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 108:
+预测结果:  169arararararararararararararararararar
+真实标签:  fine but only in moderation  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 109:
+预测结果:  169arararararararararararararararararar
+真实标签:  audi/framepix/geinox/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 110:
+预测结果:  169arararararararararararararararararar
+真实标签:  the trains are always late  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 111:
+预测结果:  169arararararararararararararararararar
+真实标签:  cangwu_aimsohengups4  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 112:
+预测结果:  169arararararararararararararararararar
+真实标签:  that sticker needs to be validated  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 113:
+预测结果:  169arararararararararararararararararar
+真实标签:  a good joke deserves a good laugh  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 114:
+预测结果:  169arararararararararararararararararar
+真实标签:  the collapse of the roman empire  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 115:
+预测结果:  169arararararararararararararararararar
+真实标签:  effort is what it will take  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 116:
+预测结果:  169arararararararararararararararararar
+真实标签:  +61-134-13-6774  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 117:
+预测结果:  169arararararararararararararararararar
+真实标签:  interactions between men and women  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 118:
+预测结果:  169arararararararararararararararararar
+真实标签:  the world is a stage  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 119:
+预测结果:  169arararararararararararararararararar
+真实标签:  the accident scene is a shrine for fans  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 120:
+预测结果:  169arararararararararararararararararar
+真实标签:  every apple from every tree  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 121:
+预测结果:  169arararararararararararararararararar
+真实标签:  +51-78-59-7163-32  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 122:
+预测结果:  169arararararararararararararararararar
+真实标签:  the cat has a pleasant temperament  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 123:
+预测结果:  169arararararararararararararararararar
+真实标签:  the king sends you to the tower  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 124:
+预测结果:  169arararararararararararararararararar
+真实标签:  apartments are too expensive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 125:
+预测结果:  169arararararararararararararararararar
+真实标签:  2537 bartfield drive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 126:
+预测结果:  169arararararararararararararararararar
+真实标签:  electric cars need big fuel cells  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 127:
+预测结果:  169arararararararararararararararararar
+真实标签:  coming up with killer sound bites  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 128:
+预测结果:  169arararararararararararararararararar
+真实标签:  please keep this confidential  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 129:
+预测结果:  169arararararararararararararararararar
+真实标签:  an airport is a very busy place  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 130:
+预测结果:  169arararararararararararararararararar
+真实标签:  nicepage.com/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 131:
+预测结果:  169arararararararararararararararararar
+真实标签:  you should visit to a doctor  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 132:
+预测结果:  169arararararararararararararararararar
+真实标签:  the minimum amount of time  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 133:
+预测结果:  169arararararararararararararararararar
+真实标签:  the location of the crime  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 134:
+预测结果:  169arararararararararararararararararar
+真实标签:  the fire blazed all weekend  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 135:
+预测结果:  169arararararararararararararararararar
+真实标签:  907-455-8134  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 136:
+预测结果:  169arararararararararararararararararar
+真实标签:  the back yard of our house  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 137:
+预测结果:  169arararararararararararararararararar
+真实标签:  the dog buried the bone  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 138:
+预测结果:  169arararararararararararararararararar
+真实标签:  prayer in schools offends some  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 139:
+预测结果:  169arararararararararararararararararar
+真实标签:  dinosaurs have been extinct for ages  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 140:
+预测结果:  169arararararararararararararararararar
+真实标签:  stability of the nation  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 141:
+预测结果:  169arararararararararararararararararar
+真实标签:  the voters turfed him out  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 142:
+预测结果:  169arararararararararararararararararar
+真实标签:  lucas lu  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 143:
+预测结果:  169arararararararararararararararararar
+真实标签:  the chamber makes important decisions  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 144:
+预测结果:  169arararararararararararararararararar
+真实标签:  +66-06-20-92  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 145:
+预测结果:  169arararararararararararararararararar
+真实标签:  prescription drugs require a note  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 146:
+预测结果:  169arararararararararararararararararar
+真实标签:  mezakiglass.sakura.ne.jp  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 147:
+预测结果:  169arararararararararararararararararar
+真实标签:  70 usvi 58  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 148:
+预测结果:  169arararararararararararararararararar
+真实标签:  pll/katimba  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 149:
+预测结果:  169arararararararararararararararararar
+真实标签:  the kids are very excited  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 150:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.jangseong.go.kr  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 151:
+预测结果:  169arararararararararararararararararar
+真实标签:  48 north rockne road  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 152:
+预测结果:  169arararararararararararararararararar
+真实标签:  this library has many books  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 153:
+预测结果:  169arararararararararararararararararar
+真实标签:  quick there is someone knocking  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 154:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.1news.info/groves.elaine  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 155:
+预测结果:  169arararararararararararararararararar
+真实标签:  do not say anything  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 156:
+预测结果:  169arararararararararararararararararar
+真实标签:  zackery maldonado  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 157:
+预测结果:  169arararararararararararararararararar
+真实标签:  he was wearing a sweatshirt  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 158:
+预测结果:  169arararararararararararararararararar
+真实标签:  protect your environment  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 159:
+预测结果:  169arararararararararararararararararar
+真实标签:  rectangular objects have four sides  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 160:
+预测结果:  169arararararararararararararararararar
+真实标签:  10.1596/pooh/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 161:
+预测结果:  169arararararararararararararararararar
+真实标签:  the voters turfed him out  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 162:
+预测结果:  169arararararararararararararararararar
+真实标签:  that is a very nasty cut  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 163:
+预测结果:  169arararararararararararararararararar
+真实标签:  this watch is too expensive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 164:
+预测结果:  169arararararararararararararararararar
+真实标签:  sharp cheese keeps the mind sharp  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 165:
+预测结果:  169arararararararararararararararararar
+真实标签:  jeremiah cortes  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 166:
+预测结果:  169arararararararararararararararararar
+真实标签:  8010 lamneck  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 167:
+预测结果:  169arararararararararararararararararar
+真实标签:  that referendum asked a silly question  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 168:
+预测结果:  169arararararararararararararararararar
+真实标签:  james truong  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 169:
+预测结果:  169arararararararararararararararararar
+真实标签:  http://www.adazi.lv  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 170:
+预测结果:  169arararararararararararararararararar
+真实标签:  a tumor is ok provided it is benign  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 171:
+预测结果:  169arararararararararararararararararar
+真实标签:  you must make an appointment  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 172:
+预测结果:  169arararararararararararararararararar
+真实标签:  dormitory doors are locked at midnight  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 173:
+预测结果:  169arararararararararararararararararar
+真实标签:  shopzters.com/kategoriya  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 174:
+预测结果:  169arararararararararararararararararar
+真实标签:  effort is what it will take  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 175:
+预测结果:  169arararararararararararararararararar
+真实标签:  do not worry about this  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 176:
+预测结果:  169arararararararararararararararararar
+真实标签:  +41-60-947-45-133  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 177:
+预测结果:  169arararararararararararararararararar
+真实标签:  shall we play a round of cards  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 178:
+预测结果:  169arararararararararararararararararar
+真实标签:  important news always seems to be late  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 179:
+预测结果:  169arararararararararararararararararar
+真实标签:  he called seven times  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 180:
+预测结果:  169arararararararararararararararararar
+真实标签:  do not walk too quickly  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 181:
+预测结果:  169arararararararararararararararararar
+真实标签:  the opposing team is over there  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 182:
+预测结果:  169arararararararararararararararararar
+真实标签:  +90-07-5453-406  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 183:
+预测结果:  169arararararararararararararararararar
+真实标签:  no exchange without a bill  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 184:
+预测结果:  169arararararararararararararararararar
+真实标签:  this person is a disaster  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 185:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.almaimotthona.hu/en/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 186:
+预测结果:  169arararararararararararararararararar
+真实标签:  the sum of the parts  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 187:
+预测结果:  169arararararararararararararararararar
+真实标签:  that is a very odd question  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 188:
+预测结果:  169arararararararararararararararararar
+真实标签:  this mission statement is baloney  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 189:
+预测结果:  169arararararararararararararararararar
+真实标签:  only an idiot would lie in court  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 190:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.kaliterilamia.gr  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 191:
+预测结果:  169arararararararararararararararararar
+真实标签:  all together in one big pile  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 192:
+预测结果:  169arararararararararararararararararar
+真实标签:  369865 south william street  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 193:
+预测结果:  169arararararararararararararararararar
+真实标签:  what a monkey sees a monkey will do  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 194:
+预测结果:  169arararararararararararararararararar
+真实标签:  tell a lie and your nose will grow  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 195:
+预测结果:  169arararararararararararararararararar
+真实标签:  an injustice is committed every day  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 196:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.asuncioncuestablanca.es/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 197:
+预测结果:  169arararararararararararararararararar
+真实标签:  destruction of the rain forest  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 198:
+预测结果:  169arararararararararararararararararar
+真实标签:  fine but only in moderation  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 199:
+预测结果:  169arararararararararararararararararar
+真实标签:  vote according to your conscience  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 200:
+预测结果:  169arararararararararararararararararar
+真实标签:  druckfeld.org/he  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 201:
+预测结果:  169arararararararararararararararararar
+真实标签:  2506 co 394  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 202:
+预测结果:  169arararararararararararararararararar
+真实标签:  do not worry about this  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 203:
+预测结果:  169arararararararararararararararararar
+真实标签:  be home before midnight  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 204:
+预测结果:  169arararararararararararararararararar
+真实标签:  669 east kansas city  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 205:
+预测结果:  169arararararararararararararararararar
+真实标签:  get rid of that immediately  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 206:
+预测结果:  169arararararararararararararararararar
+真实标签:  you must be getting old  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 207:
+预测结果:  169arararararararararararararararararar
+真实标签:  136-149-1533  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 208:
+预测结果:  169arararararararararararararararararar
+真实标签:  fr.danskesex.com/137_137203  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 209:
+预测结果:  169arararararararararararararararararar
+真实标签:  that agreement is rife with problems  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 210:
+预测结果:  169arararararararararararararararararar
+真实标签:  world population is growing  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 211:
+预测结果:  169arararararararararararararararararar
+真实标签:  1099 davington  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 212:
+预测结果:  169arararararararararararararararararar
+真实标签:  428324 napoli circle  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 213:
+预测结果:  169arararararararararararararararararar
+真实标签:  urbeamea.ro/moshi  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 214:
+预测结果:  169arararararararararararararararararar
+真实标签:  that agreement is rife with problems  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 215:
+预测结果:  169arararararararararararararararararar
+真实标签:  toss the ball around  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 216:
+预测结果:  169arararararararararararararararararar
+真实标签:  we dine out on the weekends  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 217:
+预测结果:  169arararararararararararararararararar
+真实标签:  +47-28-7052-550  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 218:
+预测结果:  169arararararararararararararararararar
+真实标签:  want to join us for lunch  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 219:
+预测结果:  169arararararararararararararararararar
+真实标签:  we must redouble our efforts  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 220:
+预测结果:  169arararararararararararararararararar
+真实标签:  the capital of our nation  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 221:
+预测结果:  169arararararararararararararararararar
+真实标签:  there will be some fog tonight  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 222:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.greenov-techna.com  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 223:
+预测结果:  169arararararararararararararararararar
+真实标签:  4 castle crest court  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 224:
+预测结果:  169arararararararararararararararararar
+真实标签:  attach/sudesco-energy  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 225:
+预测结果:  169arararararararararararararararararar
+真实标签:  561-828-8507  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 226:
+预测结果:  169arararararararararararararararararar
+真实标签:  5135 bennett lake  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 227:
+预测结果:  169arararararararararararararararararar
+真实标签:  191 diagonal drive  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 228:
+预测结果:  169arararararararararararararararararar
+真实标签:  2473 section 20  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 229:
+预测结果:  169arararararararararararararararararar
+真实标签:  i can play much better now  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 230:
+预测结果:  169arararararararararararararararararar
+真实标签:  http://www.rcpe.ac.uk  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 231:
+预测结果:  169arararararararararararararararararar
+真实标签:  /pps_as/kerman/1811.00301  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 232:
+预测结果:  169arararararararararararararararararar
+真实标签:  +687-556-19-9162-671  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 233:
+预测结果:  169arararararararararararararararararar
+真实标签:  what a lovely red jacket  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 234:
+预测结果:  169arararararararararararararararararar
+真实标签:  i just cannot figure this out  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 235:
+预测结果:  169arararararararararararararararararar
+真实标签:  +64-00-225-476-09-8199  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 236:
+预测结果:  169arararararararararararararararararar
+真实标签:  8901 courtnie cir  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 237:
+预测结果:  169arararararararararararararararararar
+真实标签:  980-235-4262  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 238:
+预测结果:  169arararararararararararararararararar
+真实标签:  learn to walk before you run  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 239:
+预测结果:  169arararararararararararararararararar
+真实标签:  soon we will return from the city  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 240:
+预测结果:  169arararararararararararararararararar
+真实标签:  3237 7731  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 241:
+预测结果:  169arararararararararararararararararar
+真实标签:  7977 pratt avenue northeast  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 242:
+预测结果:  169arararararararararararararararararar
+真实标签:  companies announce a merger  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 243:
+预测结果:  169arararararararararararararararararar
+真实标签:  moses glass  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 244:
+预测结果:  169arararararararararararararararararar
+真实标签:  electric cars need big fuel cells  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 245:
+预测结果:  169arararararararararararararararararar
+真实标签:  interesting observation was made  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 246:
+预测结果:  169arararararararararararararararararar
+真实标签:  buckle up for safety  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 247:
+预测结果:  169arararararararararararararararararar
+真实标签:  https://www.menom3ay.com/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 248:
+预测结果:  169arararararararararararararararararar
+真实标签:  4289 sagert rd  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 249:
+预测结果:  169arararararararararararararararararar
+真实标签:  unisize.makip.co.jp  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 250:
+预测结果:  169arararararararararararararararararar
+真实标签:  517-977-0644  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 251:
+预测结果:  169arararararararararararararararararar
+真实标签:  he watched in astonishment  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 252:
+预测结果:  169arararararararararararararararararar
+真实标签:  924-746-0491  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 253:
+预测结果:  169arararararararararararararararararar
+真实标签:  the most beautiful sunset  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 254:
+预测结果:  169arararararararararararararararararar
+真实标签:  the second largest country  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 255:
+预测结果:  169arararararararararararararararararar
+真实标签:  video camera with a zoom lens  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 256:
+预测结果:  169arararararararararararararararararar
+真实标签:  nlovesomejliqqbl/materiel-neuf  <end> <|endoftext|><|endoftext|>
+验证集视频 257:
+预测结果:  169arararararararararararararararararar
+真实标签:  her majesty visited our country  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 258:
+预测结果:  169arararararararararararararararararar
+真实标签:  dinosaurs have been extinct for ages  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 259:
+预测结果:  169arararararararararararararararararar
+真实标签:  skylander/by_sub_category/  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 260:
+预测结果:  169arararararararararararararararararar
+真实标签:  sally francis  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 261:
+预测结果:  169arararararararararararararararararar
+真实标签:  939-035-3180  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 262:
+预测结果:  169arararararararararararararararararar
+真实标签:  i just cannot figure this out  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 263:
+预测结果:  169arararararararararararararararararar
+真实标签:  i spilled coffee on the carpet  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 264:
+预测结果:  169arararararararararararararararararar
+真实标签:  on the way to the cottage  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 265:
+预测结果:  169arararararararararararararararararar
+真实标签:  921560 excello path  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 266:
+预测结果:  169arararararararararararararararararar
+真实标签:  can we play cards tonight  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 267:
+预测结果:  169arararararararararararararararararar
+真实标签:  you want to eat your cake  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 268:
+预测结果:  169arararararararararararararararararar
+真实标签:  it looks like a shack  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 269:
+预测结果:  169arararararararararararararararararar
+真实标签:  4789 belle templeton  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 270:
+预测结果:  169arararararararararararararararararar
+真实标签:  the fax machine is broken  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 271:
+预测结果:  169arararararararararararararararararar
+真实标签:  traveling to conferences is fun  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 272:
+预测结果:  169arararararararararararararararararar
+真实标签:  he is still on our team  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 273:
+预测结果:  169arararararararararararararararararar
+真实标签:  one-legged-jack-knife  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 274:
+预测结果:  169arararararararararararararararararar
+真实标签:  spill coffee on the carpet  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 275:
+预测结果:  169arararararararararararararararararar
+真实标签:  3518 seascape boulevard  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 276:
+预测结果:  169arararararararararararararararararar
+真实标签:  no kissing in the library  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 277:
+预测结果:  169arararararararararararararararararar
+真实标签:  /sensor-moto-g7-power  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 278:
+预测结果:  169arararararararararararararararararar
+真实标签:  597-832-3397  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 279:
+预测结果:  169arararararararararararararararararar
+真实标签:  the plug does not fit the socket  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 280:
+预测结果:  169arararararararararararararararararar
+真实标签:  questioning the wisdom of the courts  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 281:
+预测结果:  169arararararararararararararararararar
+真实标签:  marianne holt  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 282:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.designonclick.fr/marusia  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 283:
+预测结果:  169arararararararararararararararararar
+真实标签:  bn.wikichali.com/osu-amino-2  <end> <|endoftext|>
+验证集视频 284:
+预测结果:  169arararararararararararararararararar
+真实标签:  find a nearby parking spot  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 285:
+预测结果:  169arararararararararararararararararar
+真实标签:  a lot of chlorine in the water  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 286:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.waehl.de/85_85910/  <end> <|endoftext|><|endoftext|><|endoftext|>
+验证集视频 287:
+预测结果:  169arararararararararararararararararar
+真实标签:  get aboard the ship is leaving  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 288:
+预测结果:  169arararararararararararararararararar
+真实标签:  the most beautiful sunset  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 289:
+预测结果:  169arararararararararararararararararar
+真实标签:  sharp cheese keeps the mind sharp  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 290:
+预测结果:  169arararararararararararararararararar
+真实标签:  luckily my wallet was found  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 291:
+预测结果:  169arararararararararararararararararar
+真实标签:  +31-8917-89-319-27-96  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 292:
+预测结果:  169arararararararararararararararararar
+真实标签:  where did i leave my glasses  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 293:
+预测结果:  169arararararararararararararararararar
+真实标签:  express delivery is very fast  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 294:
+预测结果:  169arararararararararararararararararar
+真实标签:  pacificaoc.org  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 295:
+预测结果:  169arararararararararararararararararar
+真实标签:  916-658-3793  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 296:
+预测结果:  169arararararararararararararararararar
+真实标签:  922 fallingleaf  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 297:
+预测结果:  169arararararararararararararararararar
+真实标签:  +234-52-65-2569-33-7988  <end> <|endoftext|><|endoftext|><|endoftext|>
+验证集视频 298:
+预测结果:  169arararararararararararararararararar
+真实标签:  www.antaranews.com  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 299:
+预测结果:  169arararararararararararararararararar
+真实标签:  beware the ides of march  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 300:
+预测结果:  169arararararararararararararararararar
+真实标签:  582-580-3092  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 301:
+预测结果:  169arararararararararararararararararar
+真实标签:  that sticker needs to be validated  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 302:
+预测结果:  169arararararararararararararararararar
+真实标签:  +979-3276-914-219  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 303:
+预测结果:  169arararararararararararararararararar
+真实标签:  2429 madison 211  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 304:
+预测结果:  169arararararararararararararararararar
+真实标签:  the daring young man  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 305:
+预测结果:  169arararararararararararararararararar
+真实标签:  sign the withdrawal slip  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 306:
+预测结果:  169arararararararararararararararararar
+真实标签:  arguing with the boss is futile  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 307:
+预测结果:  169arararararararararararararararararar
+真实标签:  102-379-1823  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 308:
+预测结果:  169arararararararararararararararararar
+真实标签:  just what the doctor ordered  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 309:
+预测结果:  169arararararararararararararararararar
+真实标签:  my watch fell in the water  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 310:
+预测结果:  169arararararararararararararararararar
+真实标签:  every saturday he folds the laundry  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 311:
+预测结果:  169arararararararararararararararararar
+真实标签:  5050 cantu road  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 312:
+预测结果:  169arararararararararararararararararar
+真实标签:  information super highway  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 313:
+预测结果:  169arararararararararararararararararar
+真实标签:  he.hobbygaiety.com  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 314:
+预测结果:  169arararararararararararararararararar
+真实标签:  six daughters and seven sons  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 315:
+预测结果:  169arararararararararararararararararar
+真实标签:  just like it says on the can  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 316:
+预测结果:  169arararararararararararararararararar
+真实标签:  dorian truong  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 317:
+预测结果:  169arararararararararararararararararar
+真实标签:  would you like to come to my house  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 318:
+预测结果:  169arararararararararararararararararar
+真实标签:  fine but only in moderation  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 319:
+预测结果:  169arararararararararararararararararar
+真实标签:  watch out for low flying objects  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 320:
+预测结果:  169arararararararararararararararararar
+真实标签:  aofcomp.blogspot.com  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 321:
+预测结果:  169arararararararararararararararararar
+真实标签:  zarubne.heureka.cz/lena347/  <end> <|endoftext|><|endoftext|>
+验证集视频 322:
+预测结果:  169arararararararararararararararararar
+真实标签:  the store will close at ten  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 323:
+预测结果:  169arararararararararararararararararar
+真实标签:  shop.barnstabledirect.info  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 324:
+预测结果:  169arararararararararararararararararar
+真实标签:  do not worry about this  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 325:
+预测结果:  169arararararararararararararararararar
+真实标签:  a subject one can really enjoy  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 326:
+预测结果:  169arararararararararararararararararar
+真实标签:  it is difficult to concentrate  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 327:
+预测结果:  169arararararararararararararararararar
+真实标签:  the treasury department is broke  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 328:
+预测结果:  169arararararararararararararararararar
+真实标签:  the location of the crime  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 329:
+预测结果:  169arararararararararararararararararar
+真实标签:  7965 north la paz court  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 330:
+预测结果:  169arararararararararararararararararar
+真实标签:  farrah travis  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 331:
+预测结果:  169arararararararararararararararararar
+真实标签:  1831 south 183rd avenue circle  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 332:
+预测结果:  169arararararararararararararararararar
+真实标签:  /mere+mon+pote  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 333:
+预测结果:  169arararararararararararararararararar
+真实标签:  our fax number has changed  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 334:
+预测结果:  169arararararararararararararararararar
+真实标签:  998264 krustinger  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 335:
+预测结果:  169arararararararararararararararararar
+真实标签:  we run the risk of failure  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 336:
+预测结果:  169arararararararararararararararararar
+真实标签:  we park in driveways  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 337:
+预测结果:  169arararararararararararararararararar
+真实标签:  888-988-2801  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 338:
+预测结果:  169arararararararararararararararararar
+真实标签:  the music is better than it sounds  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 339:
+预测结果:  169arararararararararararararararararar
+真实标签:  +31-083-3721  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 340:
+预测结果:  169arararararararararararararararararar
+真实标签:  the world is a stage  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 341:
+预测结果:  169arararararararararararararararararar
+真实标签:  three two one zero blast off  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 342:
+预测结果:  169arararararararararararararararararar
+真实标签:  i like to play tennis  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 343:
+预测结果:  169arararararararararararararararararar
+真实标签:  yes you are very smart  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 344:
+预测结果:  169arararararararararararararararararar
+真实标签:  aileen middleton  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 345:
+预测结果:  169arararararararararararararararararar
+真实标签:  keri mercado  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 346:
+预测结果:  169arararararararararararararararararar
+真实标签:  fine but only in moderation  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 347:
+预测结果:  169arararararararararararararararararar
+真实标签:  staying up all night is a bad idea  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 348:
+预测结果:  169arararararararararararararararararar
+真实标签:  this library has many books  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 349:
+预测结果:  169arararararararararararararararararar
+真实标签:  the cat has a pleasant temperament  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 350:
+预测结果:  169arararararararararararararararararar
+真实标签:  666-918-6576  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 351:
+预测结果:  169arararararararararararararararararar
+真实标签:  superman never wore a mask  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 352:
+预测结果:  169arararararararararararararararararar
+真实标签:  crap-payouts/9412702  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 353:
+预测结果:  169arararararararararararararararararar
+真实标签:  7236 felicity higginsport  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 354:
+预测结果:  169arararararararararararararararararar
+真实标签:  do you get nervous when you speak  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 355:
+预测结果:  169arararararararararararararararararar
+真实标签:  most judges are very honest  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 356:
+预测结果:  169arararararararararararararararararar
+真实标签:  +61-033-8556-796-07  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 357:
+预测结果:  169arararararararararararararararararar
+真实标签:  i like baroque and classical music  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 358:
+预测结果:  169arararararararararararararararararar
+真实标签:  9200 private road 400  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 359:
+预测结果:  169arararararararararararararararararar
+真实标签:  medieval times were very hard  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 360:
+预测结果:  169arararararararararararararararararar
+真实标签:  the high waves will swamp us  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 361:
+预测结果:  169arararararararararararararararararar
+真实标签:  5273 hirmosa circle  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 362:
+预测结果:  169arararararararararararararararararar
+真实标签:  this is a non profit organization  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 363:
+预测结果:  169arararararararararararararararararar
+真实标签:  +254-69-94-91-003-176-02  <end> <|endoftext|><|endoftext|><|endoftext|>
+验证集视频 364:
+预测结果:  169arararararararararararararararararar
+真实标签:  i can still feel your presence  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 365:
+预测结果:  169arararararararararararararararararar
+真实标签:  only an idiot would lie in court  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 366:
+预测结果:  169arararararararararararararararararar
+真实标签:  a quarter of a century  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 367:
+预测结果:  169arararararararararararararararararar
+真实标签:  3 meadoe ridge  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 368:
+预测结果:  169arararararararararararararararararar
+真实标签:  superman never wore a mask  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 369:
+预测结果:  169arararararararararararararararararar
+真实标签:  if at first you do not succeed  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 370:
+预测结果:  169arararararararararararararararararar
+真实标签:  protect your environment  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 371:
+预测结果:  169arararararararararararararararararar
+真实标签:  3418 7636  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 372:
+预测结果:  169arararararararararararararararararar
+真实标签:  irregular verbs are the hardest to learn  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 373:
+预测结果:  169arararararararararararararararararar
+真实标签:  do not drink too much  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 374:
+预测结果:  169arararararararararararararararararar
+真实标签:  it should be sunny tomorrow  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 375:
+预测结果:  169arararararararararararararararararar
+真实标签:  correct your diction immediately  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 376:
+预测结果:  169arararararararararararararararararar
+真实标签:  327 fairy creek rd  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 377:
+预测结果:  169arararararararararararararararararar
+真实标签:  chemical spill took forever  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 378:
+预测结果:  169arararararararararararararararararar
+真实标签:  important for political parties  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 379:
+预测结果:  169arararararararararararararararararar
+真实标签:  space is a high priority  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 380:
+预测结果:  169arararararararararararararararararar
+真实标签:  just in time for the party  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 381:
+预测结果:  169arararararararararararararararararar
+真实标签:  a thoroughly disgusting thing to say  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 382:
+预测结果:  169arararararararararararararararararar
+真实标签:  watch out for low flying objects  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 383:
+预测结果:  169arararararararararararararararararar
+真实标签:  every apple from every tree  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+验证集视频 384:
+预测结果:  169arararararararararararararararararar
+真实标签:  the living is easy  <end> <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>

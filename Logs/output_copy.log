@@ -1,0 +1,43 @@
+Using device: cuda
+这是第1个parquet文件数据 文件数据路径为./Data/450474571.parquet
+从第 12989 个Sequence开始提取数据
+提取到第 13000 个sequence
+提取到第 13100 个sequence
+提取到第 13200 个sequence
+./Data/450474571.parquet的数据提取完毕
+一共提取了287条视频数据
+Epoch: 1, Parquet: 1, ParquetLoss: 8.555693520439995
+Epoch: 2, Parquet: 1, ParquetLoss: 7.258550537957086
+Epoch: 3, Parquet: 1, ParquetLoss: 6.347193082173665
+Epoch: 4, Parquet: 1, ParquetLoss: 5.677486923005846
+Epoch: 5, Parquet: 1, ParquetLoss: 5.147513548533122
+Epoch: 6, Parquet: 1, ParquetLoss: 4.694244888093737
+Epoch: 7, Parquet: 1, ParquetLoss: 4.263713889651829
+Epoch: 8, Parquet: 1, ParquetLoss: 3.824014915360345
+Epoch: 9, Parquet: 1, ParquetLoss: 3.436450613869561
+Epoch: 10, Parquet: 1, ParquetLoss: 3.0726104577382407
+训练完./Data/450474571.parquet之后 第1个的model保存成功
+这是第2个parquet文件数据 文件数据路径为./Data/5414471.parquet
+从第 0 个Sequence开始提取数据
+提取到第 100 个sequence
+提取到第 200 个sequence
+提取到第 300 个sequence
+提取到第 400 个sequence
+提取到第 500 个sequence
+提取到第 600 个sequence
+提取到第 700 个sequence
+提取到第 800 个sequence
+提取到第 900 个sequence
+./Data/5414471.parquet的数据提取完毕
+一共提取了1000条视频数据
+Epoch: 1, Parquet: 2, ParquetLoss: 6.174477463676816
+Epoch: 2, Parquet: 2, ParquetLoss: 5.320737649524022
+Epoch: 3, Parquet: 2, ParquetLoss: 4.776876358758836
+Epoch: 4, Parquet: 2, ParquetLoss: 4.294596974811856
+Epoch: 5, Parquet: 2, ParquetLoss: 3.883644315931532
+Epoch: 6, Parquet: 2, ParquetLoss: 3.50840591627454
+Epoch: 7, Parquet: 2, ParquetLoss: 3.1406224568684897
+Epoch: 8, Parquet: 2, ParquetLoss: 2.8227055867513022
+Epoch: 9, Parquet: 2, ParquetLoss: 2.5263186485048323
+Epoch: 10, Parquet: 2, ParquetLoss: 2.2533714071152704
+训练完./Data/5414471.parquet之后 第2个的model保存成功

@@ -1,0 +1,580 @@
+Using device: cuda
+正在划分训练集、验证集以及数据加载器
+数据集划分完成 - 训练集: 34544 样本, 验证集: 8635 样本
+正在进行模型的评估（逐个token生成）
+验证集视频 1:
+预测结果:           
+真实标签:  the treasury department is broke 
+验证集视频 2:
+预测结果:           
+真实标签:  a fox is a very smart animal 
+验证集视频 3:
+预测结果:           
+真实标签:  766-612-6540 
+验证集视频 4:
+预测结果:           
+真实标签:  +253-3305-573-7927 
+验证集视频 5:
+预测结果:           
+真实标签:  muhusporditalu 
+验证集视频 6:
+预测结果:           
+真实标签:  i just cannot figure this out 
+验证集视频 7:
+预测结果:           
+真实标签:  accompanied by an adult 
+验证集视频 8:
+预测结果:           
+真实标签:  i am wearing a tie and a jacket 
+验证集视频 9:
+预测结果:           
+真实标签:  251379 ala oki 
+验证集视频 10:
+预测结果:           
+真实标签:  /grupoavefenix20 
+验证集视频 11:
+预测结果:           
+真实标签:  burglars never leave their business card 
+验证集视频 12:
+预测结果:           
+真实标签:  so you think you deserve a raise 
+验证集视频 13:
+预测结果:           
+真实标签:  933-741-3219 
+验证集视频 14:
+预测结果:           
+真实标签:  5444 figaro canyon 
+验证集视频 15:
+预测结果:           
+真实标签:  frequently asked questions 
+验证集视频 16:
+预测结果:           
+真实标签:  +359-639-41-82-0840 
+验证集视频 17:
+预测结果:           
+真实标签:  please keep this confidential 
+验证集视频 18:
+预测结果:           
+真实标签:  cornama/27915 
+验证集视频 19:
+预测结果:           
+真实标签:  my favorite web browser 
+验证集视频 20:
+预测结果:           
+真实标签:  coby green 
+验证集视频 21:
+预测结果:           
+真实标签:  coy avery 
+验证集视频 22:
+预测结果:           
+真实标签:  coalition governments never work 
+验证集视频 23:
+预测结果:           
+真实标签:  that sticker needs to be validated 
+验证集视频 24:
+预测结果:           
+真实标签:  i can see the rings on saturn 
+验证集视频 25:
+预测结果:           
+真实标签:  our housekeeper does a thorough job 
+验证集视频 26:
+预测结果:           
+真实标签:  can i skate with sister today 
+验证集视频 27:
+预测结果:           
+真实标签:  429674 8215 
+验证集视频 28:
+预测结果:           
+真实标签:  /love-or-hate/ 
+验证集视频 29:
+预测结果:           
+真实标签:  alyssa marquez 
+验证集视频 30:
+预测结果:           
+真实标签:  that is very unfortunate 
+验证集视频 31:
+预测结果:           
+真实标签:  do you prefer a window seat 
+验证集视频 32:
+预测结果:           
+真实标签:  thank you for your help 
+验证集视频 33:
+预测结果:           
+真实标签:  24 natl forest develop road 
+验证集视频 34:
+预测结果:           
+真实标签:  /yiyaobaoyang/javier-mardones 
+验证集视频 35:
+预测结果:           
+真实标签:  the capital of our nation 
+验证集视频 36:
+预测结果:           
+真实标签:  5571/images?k=saxy 
+验证集视频 37:
+预测结果:           
+真实标签:  the opposing team is over there 
+验证集视频 38:
+预测结果:           
+真实标签:  tickets are very expensive 
+验证集视频 39:
+预测结果:           
+真实标签:  well connected with people 
+验证集视频 40:
+预测结果:           
+真实标签:  sprawling subdivisions are bad 
+验证集视频 41:
+预测结果:           
+真实标签:  2308 north alicia way 
+验证集视频 42:
+预测结果:           
+真实标签:  9457 sempronius road 
+验证集视频 43:
+预测结果:           
+真实标签:  9548 barajas 
+验证集视频 44:
+预测结果:           
+真实标签:  /hasty-market 
+验证集视频 45:
+预测结果:           
+真实标签:  we have enough witnesses 
+验证集视频 46:
+预测结果:           
+真实标签:  the dreamers of dreams 
+验证集视频 47:
+预测结果:           
+真实标签:  please try to be home before midnight 
+验证集视频 48:
+预测结果:           
+真实标签:  gun powder must be handled with care 
+验证集视频 49:
+预测结果:           
+真实标签:  www.notebook-alkatresz.hu 
+验证集视频 50:
+预测结果:           
+真实标签:  bad for the environment 
+验证集视频 51:
+预测结果:           
+真实标签:  february has an extra day 
+验证集视频 52:
+预测结果:           
+真实标签:  love means many things 
+验证集视频 53:
+预测结果:           
+真实标签:  +423-8484-9276-1144 
+验证集视频 54:
+预测结果:           
+真实标签:  valium in the economy size 
+验证集视频 55:
+预测结果:           
+真实标签:  the proprietor was unavailable 
+验证集视频 56:
+预测结果:           
+真实标签:  i took the rover from the shop 
+验证集视频 57:
+预测结果:           
+真实标签:  a rattle snake is very poisonous 
+验证集视频 58:
+预测结果:           
+真实标签:  physics and chemistry are hard 
+验证集视频 59:
+预测结果:           
+真实标签:  the postal service is very slow 
+验证集视频 60:
+预测结果:           
+真实标签:  509-145-4676 
+验证集视频 61:
+预测结果:           
+真实标签:  +27-897-77587 
+验证集视频 62:
+预测结果:           
+真实标签:  a good response to the question 
+验证集视频 63:
+预测结果:           
+真实标签:  +962-6341-2875 
+验证集视频 64:
+预测结果:           
+真实标签:  listen to five hours of opera 
+验证集视频 65:
+预测结果:           
+真实标签:  movie about a nutty professor 
+验证集视频 66:
+预测结果:           
+真实标签:  8168 e prairie hill rd 
+验证集视频 67:
+预测结果:           
+真实标签:  9932 kanquq 
+验证集视频 68:
+预测结果:           
+真实标签:  universities are too expensive 
+验证集视频 69:
+预测结果:           
+真实标签:  nathanial barajas 
+验证集视频 70:
+预测结果:           
+真实标签:  beverly daniel 
+验证集视频 71:
+预测结果:           
+真实标签:  992-726-7581 
+验证集视频 72:
+预测结果:           
+真实标签:  www.sro-treuhandsuisse.ch 
+验证集视频 73:
+预测结果:           
+真实标签:  prepare for the exam in advance 
+验证集视频 74:
+预测结果:           
+真实标签:  www.jadwalsholat.org/freez/ 
+验证集视频 75:
+预测结果:           
+真实标签:  we drive on parkways 
+验证集视频 76:
+预测结果:           
+真实标签:  did you see that spectacular explosion 
+验证集视频 77:
+预测结果:           
+真实标签:  get aboard the ship is leaving 
+验证集视频 78:
+预测结果:           
+真实标签:  lion_marii/ 
+验证集视频 79:
+预测结果:           
+真实标签:  i do not care if you do that 
+验证集视频 80:
+预测结果:           
+真实标签:  jumping right out of the water 
+验证集视频 81:
+预测结果:           
+真实标签:  he cooled off after she left 
+验证集视频 82:
+预测结果:           
+真实标签:  the largest of the five oceans 
+验证集视频 83:
+预测结果:           
+真实标签:  what to do when the oil runs dry 
+验证集视频 84:
+预测结果:           
+真实标签:  do you get nervous when you speak 
+验证集视频 85:
+预测结果:           
+真实标签:  breathing is difficult 
+验证集视频 86:
+预测结果:           
+真实标签:  her majesty visited our country 
+验证集视频 87:
+预测结果:           
+真实标签:  147 mattheyer 
+验证集视频 88:
+预测结果:           
+真实标签:  the largest of the five oceans 
+验证集视频 89:
+预测结果:           
+真实标签:  burglars never leave their business card 
+验证集视频 90:
+预测结果:           
+真实标签:  beware the ides of march 
+验证集视频 91:
+预测结果:           
+真实标签:  we are having spaghetti 
+验证集视频 92:
+预测结果:           
+真实标签:  prevailing wind from the east 
+验证集视频 93:
+预测结果:           
+真实标签:  www.resonancemyanmar.com/ 
+验证集视频 94:
+预测结果:           
+真实标签:  he cooled off after she left 
+验证集视频 95:
+预测结果:           
+真实标签:  thomas harvey 
+验证集视频 96:
+预测结果:           
+真实标签:  the assault took six months 
+验证集视频 97:
+预测结果:           
+真实标签:  aenaluck-haha.tumblr 
+验证集视频 98:
+预测结果:           
+真实标签:  mom made her a turtleneck 
+验证集视频 99:
+预测结果:           
+真实标签:  seasoned golfers love the game 
+验证集视频 100:
+预测结果:           
+真实标签:  the kids are very excited 
+验证集视频 101:
+预测结果:           
+真实标签:  cidb.ky/4510-291 
+验证集视频 102:
+预测结果:           
+真实标签:  sskorba2018/anilkapoor/living 
+验证集视频 103:
+预测结果:           
+真实标签:  +92-112-43-5632-900 
+验证集视频 104:
+预测结果:           
+真实标签:  331522 leamon baker 
+验证集视频 105:
+预测结果:           
+真实标签:  571985 cranberry woods 
+验证集视频 106:
+预测结果:           
+真实标签:  take it to the recycling depot 
+验证集视频 107:
+预测结果:           
+真实标签:  an enlarged nose suggests you are a liar 
+验证集视频 108:
+预测结果:           
+真实标签:  it is difficult to concentrate 
+验证集视频 109:
+预测结果:           
+真实标签:  9626 co 466 jager 
+验证集视频 110:
+预测结果:           
+真实标签:  experience is hard to come by 
+验证集视频 111:
+预测结果:           
+真实标签:  the quick brown fox jumped 
+验证集视频 112:
+预测结果:           
+真实标签:  always cover all the bases 
+验证集视频 113:
+预测结果:           
+真实标签:  the living is easy 
+验证集视频 114:
+预测结果:           
+真实标签:  come and see our new car 
+验证集视频 115:
+预测结果:           
+真实标签:  motokross/stripsearched 
+验证集视频 116:
+预测结果:           
+真实标签:  interesting observation was made 
+验证集视频 117:
+预测结果:           
+真实标签:  www.exoticmotorcars.com 
+验证集视频 118:
+预测结果:           
+真实标签:  www.laobingke.com/ 
+验证集视频 119:
+预测结果:           
+真实标签:  624-914-6707 
+验证集视频 120:
+预测结果:           
+真实标签:  frequently asked questions 
+验证集视频 121:
+预测结果:           
+真实标签:  we must redouble our efforts 
+验证集视频 122:
+预测结果:           
+真实标签:  would you like to come to my house 
+验证集视频 123:
+预测结果:           
+真实标签:  case-study-25 
+验证集视频 124:
+预测结果:           
+真实标签:  do not drink the water 
+验证集视频 125:
+预测结果:           
+真实标签:  bank transaction was not registered 
+验证集视频 126:
+预测结果:           
+真实标签:  a picture is worth many words 
+验证集视频 127:
+预测结果:           
+真实标签:  i skimmed through your proposal 
+验证集视频 128:
+预测结果:           
+真实标签:  please keep this confidential 
+验证集视频 129:
+预测结果:           
+真实标签:  buckle up for safety 
+验证集视频 130:
+预测结果:           
+真实标签:  it looks like a shack 
+验证集视频 131:
+预测结果:           
+真实标签:  a yard is almost as long as a meter 
+验证集视频 132:
+预测结果:           
+真实标签:  burglars never leave their business card 
+验证集视频 133:
+预测结果:           
+真实标签:  the hopes of a new organization 
+验证集视频 134:
+预测结果:           
+真实标签:  6 turnley lane 
+验证集视频 135:
+预测结果:           
+真实标签:  on the way to the cottage 
+验证集视频 136:
+预测结果:           
+真实标签:  the proprietor was unavailable 
+验证集视频 137:
+预测结果:           
+真实标签:  information super highway 
+验证集视频 138:
+预测结果:           
+真实标签:  shivering is one way to keep warm 
+验证集视频 139:
+预测结果:           
+真实标签:  one heck of a question 
+验证集视频 140:
+预测结果:           
+真实标签:  www.snus24.com 
+验证集视频 141:
+预测结果:           
+真实标签:  please provide your date of birth 
+验证集视频 142:
+预测结果:           
+真实标签:  ntiaef 
+验证集视频 143:
+预测结果:           
+真实标签:  he cooled off after she left 
+验证集视频 144:
+预测结果:           
+真实标签:  the library is closed today 
+验证集视频 145:
+预测结果:           
+真实标签:  your etiquette needs some work 
+验证集视频 146:
+预测结果:           
+真实标签:  funnycs/luckyman717 
+验证集视频 147:
+预测结果:           
+真实标签:  quick there is someone knocking 
+验证集视频 148:
+预测结果:           
+真实标签:  mom made her a turtleneck 
+验证集视频 149:
+预测结果:           
+真实标签:  80096/kazuliski/jasmine-shy 
+验证集视频 150:
+预测结果:           
+真实标签:  817 cedar key lane 
+验证集视频 151:
+预测结果:           
+真实标签:  visit-altairepublic.ru 
+验证集视频 152:
+预测结果:           
+真实标签:  804-249-9776 
+验证集视频 153:
+预测结果:           
+真实标签:  +260-08-3891-176-00-76 
+验证集视频 154:
+预测结果:           
+真实标签:  1726 2460 
+验证集视频 155:
+预测结果:           
+真实标签:  366899 bramble brook ln 
+验证集视频 156:
+预测结果:           
+真实标签:  that land is owned by the government 
+验证集视频 157:
+预测结果:           
+真实标签:  kaiyun/spring-waters 
+验证集视频 158:
+预测结果:           
+真实标签:  8232 gwaltney 
+验证集视频 159:
+预测结果:           
+真实标签:  a thoroughly disgusting thing to say 
+验证集视频 160:
+预测结果:           
+真实标签:  581 durkee creek 
+验证集视频 161:
+预测结果:           
+真实标签:  circumstances are unacceptable 
+验证集视频 162:
+预测结果:           
+真实标签:  i hate baking pies 
+验证集视频 163:
+预测结果:           
+真实标签:  machida-kiko.co.jp 
+验证集视频 164:
+预测结果:           
+真实标签:  elections bring out the best 
+验证集视频 165:
+预测结果:           
+真实标签:  dubya 
+验证集视频 166:
+预测结果:           
+真实标签:  chelsea newman 
+验证集视频 167:
+预测结果:           
+真实标签:  valium in the economy size 
+验证集视频 168:
+预测结果:           
+真实标签:  7458 sprately road 
+验证集视频 169:
+预测结果:           
+真实标签:  lydia wants to go home 
+验证集视频 170:
+预测结果:           
+真实标签:  quit while you are ahead 
+验证集视频 171:
+预测结果:           
+真实标签:  www.alvarezandmarsal.com 
+验证集视频 172:
+预测结果:           
+真实标签:  it is very windy today 
+验证集视频 173:
+预测结果:           
+真实标签:  the ventilation system is broken 
+验证集视频 174:
+预测结果:           
+真实标签:  what goes up must come down 
+验证集视频 175:
+预测结果:           
+真实标签:  my favorite web browser 
+验证集视频 176:
+预测结果:           
+真实标签:  three two one zero blast off 
+验证集视频 177:
+预测结果:           
+真实标签:  the aspirations of a nation 
+验证集视频 178:
+预测结果:           
+真实标签:  the algorithm is too complicated 
+验证集视频 179:
+预测结果:           
+真实标签:  win first prize in the contest 
+验证集视频 180:
+预测结果:           
+真实标签:  94 1261st 
+验证集视频 181:
+预测结果:           
+真实标签:  www.raguypimac.com/piscesisme 
+验证集视频 182:
+预测结果:           
+真实标签:  bring the offenders to justice 
+验证集视频 183:
+预测结果:           
+真实标签:  +66-2516-7224-5640-45 
+验证集视频 184:
+预测结果:           
+真实标签:  the store will close at ten 
+验证集视频 185:
+预测结果:           
+真实标签:  the fire raged for an entire month 
+验证集视频 186:
+预测结果:           
+真实标签:  www.znajdzkuriera.pl/statuty 
+验证集视频 187:
+预测结果:           
+真实标签:  jumping right out of the water 
+验证集视频 188:
+预测结果:           
+真实标签:  2606 kyle scott 
+验证集视频 189:
+预测结果:           
+真实标签:  844 me me 
+验证集视频 190:
+预测结果:           
+真实标签:  rigoberto rosas 
+验证集视频 191:
+预测结果:           
+真实标签:  www.theforester.co.uk 
+验证集视频 192:
+预测结果:           
+真实标签:  no exchange without a bill 

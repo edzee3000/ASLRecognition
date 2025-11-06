@@ -1,0 +1,2066 @@
+Using device: cuda
+file为: 1255240050.parquet
+file_id为: 1255240050
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1255240050.parquet
+rel_parquet_path为: train_landmarks/1255240050.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1255240050
+之前有提取过，不再重复提取
+file为: 1997878546.parquet
+file_id为: 1997878546
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1997878546.parquet
+rel_parquet_path为: train_landmarks/1997878546.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1997878546
+之前有提取过，不再重复提取
+file为: 1643479812.parquet
+file_id为: 1643479812
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1643479812.parquet
+rel_parquet_path为: train_landmarks/1643479812.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1643479812
+之前有提取过，不再重复提取
+file为: 2072876091.parquet
+file_id为: 2072876091
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2072876091.parquet
+rel_parquet_path为: train_landmarks/2072876091.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2072876091
+之前有提取过，不再重复提取
+file为: 1134756332.parquet
+file_id为: 1134756332
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1134756332.parquet
+rel_parquet_path为: train_landmarks/1134756332.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1134756332
+之前有提取过，不再重复提取
+file为: 1341528257.parquet
+file_id为: 1341528257
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1341528257.parquet
+rel_parquet_path为: train_landmarks/1341528257.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1341528257
+之前有提取过，不再重复提取
+file为: 149822653.parquet
+file_id为: 149822653
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/149822653.parquet
+rel_parquet_path为: train_landmarks/149822653.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/149822653
+之前有提取过，不再重复提取
+file为: 1133664520.parquet
+file_id为: 1133664520
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1133664520.parquet
+rel_parquet_path为: train_landmarks/1133664520.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1133664520
+之前有提取过，不再重复提取
+file为: 546816846.parquet
+file_id为: 546816846
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/546816846.parquet
+rel_parquet_path为: train_landmarks/546816846.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/546816846
+之前有提取过，不再重复提取
+file为: 1662742697.parquet
+file_id为: 1662742697
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1662742697.parquet
+rel_parquet_path为: train_landmarks/1662742697.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1662742697
+之前有提取过，不再重复提取
+file为: 1865557033.parquet
+file_id为: 1865557033
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1865557033.parquet
+rel_parquet_path为: train_landmarks/1865557033.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1865557033
+之前有提取过，不再重复提取
+file为: 1021040628.parquet
+file_id为: 1021040628
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1021040628.parquet
+rel_parquet_path为: train_landmarks/1021040628.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1021040628
+从第 31257 个Sequence开始提取数据
+现在提取到了31306个Sequence
+现在提取到了31356个Sequence
+现在提取到了31406个Sequence
+现在提取到了31456个Sequence
+现在提取到了31506个Sequence
+现在提取到了31512个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1021040628/1021040628_0.pkl
+现在提取到了31556个Sequence
+现在提取到了31606个Sequence
+现在提取到了31656个Sequence
+现在提取到了31706个Sequence
+现在提取到了31756个Sequence
+现在提取到了31768个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1021040628/1021040628_1.pkl
+现在提取到了31806个Sequence
+现在提取到了31856个Sequence
+现在提取到了31906个Sequence
+现在提取到了31956个Sequence
+现在提取到了32006个Sequence
+现在提取到了32024个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1021040628/1021040628_2.pkl
+现在提取到了32056个Sequence
+现在提取到了32106个Sequence
+现在提取到了32156个Sequence
+现在提取到了32206个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1021040628/1021040628_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1021040628.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1021040628.parquet 耗时：459.1264 秒
+file为: 654436541.parquet
+file_id为: 654436541
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/654436541.parquet
+rel_parquet_path为: train_landmarks/654436541.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/654436541
+从第 24265 个Sequence开始提取数据
+现在提取到了24314个Sequence
+现在提取到了24364个Sequence
+现在提取到了24414个Sequence
+现在提取到了24464个Sequence
+现在提取到了24514个Sequence
+现在提取到了24520个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/654436541/654436541_0.pkl
+现在提取到了24564个Sequence
+现在提取到了24614个Sequence
+现在提取到了24664个Sequence
+现在提取到了24714个Sequence
+现在提取到了24764个Sequence
+现在提取到了24776个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/654436541/654436541_1.pkl
+现在提取到了24814个Sequence
+现在提取到了24864个Sequence
+现在提取到了24914个Sequence
+现在提取到了24964个Sequence
+现在提取到了25014个Sequence
+现在提取到了25032个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/654436541/654436541_2.pkl
+现在提取到了25064个Sequence
+现在提取到了25114个Sequence
+现在提取到了25164个Sequence
+现在提取到了25214个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/654436541/654436541_3.pkl
+./Data/asl-fingerspelling/train_landmarks/654436541.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/654436541.parquet 耗时：494.5327 秒
+file为: 1365275733.parquet
+file_id为: 1365275733
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1365275733.parquet
+rel_parquet_path为: train_landmarks/1365275733.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1365275733
+从第 40249 个Sequence开始提取数据
+现在提取到了40298个Sequence
+现在提取到了40348个Sequence
+现在提取到了40398个Sequence
+现在提取到了40448个Sequence
+现在提取到了40498个Sequence
+现在提取到了40504个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1365275733/1365275733_0.pkl
+现在提取到了40548个Sequence
+现在提取到了40598个Sequence
+现在提取到了40648个Sequence
+现在提取到了40698个Sequence
+现在提取到了40748个Sequence
+现在提取到了40760个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1365275733/1365275733_1.pkl
+现在提取到了40798个Sequence
+现在提取到了40848个Sequence
+现在提取到了40898个Sequence
+现在提取到了40948个Sequence
+现在提取到了40998个Sequence
+现在提取到了41016个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1365275733/1365275733_2.pkl
+现在提取到了41048个Sequence
+现在提取到了41098个Sequence
+现在提取到了41148个Sequence
+现在提取到了41198个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1365275733/1365275733_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1365275733.parquet的数据提取完毕
+一共提取了996条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1365275733.parquet 耗时：567.5042 秒
+file为: 1726141437.parquet
+file_id为: 1726141437
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1726141437.parquet
+rel_parquet_path为: train_landmarks/1726141437.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1726141437
+从第 52228 个Sequence开始提取数据
+现在提取到了52277个Sequence
+现在提取到了52327个Sequence
+现在提取到了52377个Sequence
+现在提取到了52427个Sequence
+现在提取到了52477个Sequence
+现在提取到了52483个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1726141437/1726141437_0.pkl
+现在提取到了52527个Sequence
+现在提取到了52577个Sequence
+现在提取到了52627个Sequence
+现在提取到了52677个Sequence
+现在提取到了52727个Sequence
+现在提取到了52739个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1726141437/1726141437_1.pkl
+现在提取到了52777个Sequence
+现在提取到了52827个Sequence
+现在提取到了52877个Sequence
+现在提取到了52927个Sequence
+现在提取到了52977个Sequence
+现在提取到了52995个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1726141437/1726141437_2.pkl
+现在提取到了53027个Sequence
+现在提取到了53077个Sequence
+现在提取到了53127个Sequence
+现在提取到了53177个Sequence
+现在提取到了53227个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1726141437/1726141437_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1726141437.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1726141437.parquet 耗时：546.4632 秒
+file为: 5414471.parquet
+file_id为: 5414471
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/5414471.parquet
+rel_parquet_path为: train_landmarks/5414471.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/5414471
+从第 0 个Sequence开始提取数据
+现在提取到了49个Sequence
+现在提取到了99个Sequence
+现在提取到了149个Sequence
+现在提取到了199个Sequence
+现在提取到了249个Sequence
+现在提取到了255个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/5414471/5414471_0.pkl
+现在提取到了299个Sequence
+现在提取到了349个Sequence
+现在提取到了399个Sequence
+现在提取到了449个Sequence
+现在提取到了499个Sequence
+现在提取到了511个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/5414471/5414471_1.pkl
+现在提取到了549个Sequence
+现在提取到了599个Sequence
+现在提取到了649个Sequence
+现在提取到了699个Sequence
+现在提取到了749个Sequence
+现在提取到了767个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/5414471/5414471_2.pkl
+现在提取到了799个Sequence
+现在提取到了849个Sequence
+现在提取到了899个Sequence
+现在提取到了949个Sequence
+现在提取到了17821个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/5414471/5414471_3.pkl
+./Data/asl-fingerspelling/train_landmarks/5414471.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/5414471.parquet 耗时：509.1687 秒
+file为: 2036580525.parquet
+file_id为: 2036580525
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2036580525.parquet
+rel_parquet_path为: train_landmarks/2036580525.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2036580525
+从第 63215 个Sequence开始提取数据
+现在提取到了63264个Sequence
+现在提取到了63314个Sequence
+现在提取到了63364个Sequence
+现在提取到了63414个Sequence
+现在提取到了63464个Sequence
+现在提取到了63470个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2036580525/2036580525_0.pkl
+现在提取到了63514个Sequence
+现在提取到了63564个Sequence
+现在提取到了63614个Sequence
+现在提取到了63664个Sequence
+现在提取到了63714个Sequence
+现在提取到了63726个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2036580525/2036580525_1.pkl
+现在提取到了63764个Sequence
+现在提取到了63814个Sequence
+现在提取到了63864个Sequence
+现在提取到了63914个Sequence
+现在提取到了63964个Sequence
+现在提取到了63982个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2036580525/2036580525_2.pkl
+现在提取到了64014个Sequence
+现在提取到了64064个Sequence
+现在提取到了64114个Sequence
+现在提取到了64164个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2036580525/2036580525_3.pkl
+./Data/asl-fingerspelling/train_landmarks/2036580525.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/2036580525.parquet 耗时：490.6171 秒
+file为: 105143404.parquet
+file_id为: 105143404
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/105143404.parquet
+rel_parquet_path为: train_landmarks/105143404.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/105143404
+从第 999 个Sequence开始提取数据
+现在提取到了1048个Sequence
+现在提取到了1098个Sequence
+现在提取到了1148个Sequence
+现在提取到了1198个Sequence
+现在提取到了1248个Sequence
+现在提取到了1254个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/105143404/105143404_0.pkl
+现在提取到了1298个Sequence
+现在提取到了1348个Sequence
+现在提取到了1398个Sequence
+现在提取到了1448个Sequence
+现在提取到了1498个Sequence
+现在提取到了1510个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/105143404/105143404_1.pkl
+现在提取到了1548个Sequence
+现在提取到了1598个Sequence
+现在提取到了1648个Sequence
+现在提取到了1698个Sequence
+现在提取到了1748个Sequence
+现在提取到了1766个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/105143404/105143404_2.pkl
+现在提取到了1798个Sequence
+现在提取到了1848个Sequence
+现在提取到了1898个Sequence
+现在提取到了1948个Sequence
+现在提取到了1998个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/105143404/105143404_3.pkl
+./Data/asl-fingerspelling/train_landmarks/105143404.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/105143404.parquet 耗时：501.4359 秒
+file为: 349393104.parquet
+file_id为: 349393104
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/349393104.parquet
+rel_parquet_path为: train_landmarks/349393104.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/349393104
+从第 8997 个Sequence开始提取数据
+现在提取到了9046个Sequence
+现在提取到了9096个Sequence
+现在提取到了9146个Sequence
+现在提取到了9196个Sequence
+现在提取到了9246个Sequence
+现在提取到了9252个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/349393104/349393104_0.pkl
+现在提取到了9296个Sequence
+现在提取到了9346个Sequence
+现在提取到了9396个Sequence
+现在提取到了9446个Sequence
+现在提取到了9496个Sequence
+现在提取到了9508个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/349393104/349393104_1.pkl
+现在提取到了9546个Sequence
+现在提取到了9596个Sequence
+现在提取到了9646个Sequence
+现在提取到了9696个Sequence
+现在提取到了9746个Sequence
+现在提取到了9764个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/349393104/349393104_2.pkl
+现在提取到了9796个Sequence
+现在提取到了9846个Sequence
+现在提取到了9896个Sequence
+现在提取到了9946个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/349393104/349393104_3.pkl
+./Data/asl-fingerspelling/train_landmarks/349393104.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/349393104.parquet 耗时：501.4042 秒
+file为: 1497621680.parquet
+file_id为: 1497621680
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1497621680.parquet
+rel_parquet_path为: train_landmarks/1497621680.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1497621680
+从第 44240 个Sequence开始提取数据
+现在提取到了44289个Sequence
+现在提取到了44339个Sequence
+现在提取到了44389个Sequence
+现在提取到了44439个Sequence
+现在提取到了44489个Sequence
+现在提取到了44495个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1497621680/1497621680_0.pkl
+现在提取到了44539个Sequence
+现在提取到了44589个Sequence
+现在提取到了44639个Sequence
+现在提取到了44689个Sequence
+现在提取到了44739个Sequence
+现在提取到了44751个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1497621680/1497621680_1.pkl
+现在提取到了44789个Sequence
+现在提取到了44839个Sequence
+现在提取到了44889个Sequence
+现在提取到了44939个Sequence
+现在提取到了44989个Sequence
+现在提取到了45007个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1497621680/1497621680_2.pkl
+现在提取到了45039个Sequence
+现在提取到了45089个Sequence
+现在提取到了45139个Sequence
+现在提取到了45189个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1497621680/1497621680_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1497621680.parquet的数据提取完毕
+一共提取了998条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1497621680.parquet 耗时：522.6544 秒
+file为: 1557244878.parquet
+file_id为: 1557244878
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1557244878.parquet
+rel_parquet_path为: train_landmarks/1557244878.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1557244878
+从第 46237 个Sequence开始提取数据
+现在提取到了46286个Sequence
+现在提取到了46336个Sequence
+现在提取到了46386个Sequence
+现在提取到了46436个Sequence
+现在提取到了46486个Sequence
+现在提取到了46492个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1557244878/1557244878_0.pkl
+现在提取到了46536个Sequence
+现在提取到了46586个Sequence
+现在提取到了46636个Sequence
+现在提取到了46686个Sequence
+现在提取到了46736个Sequence
+现在提取到了46748个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1557244878/1557244878_1.pkl
+现在提取到了46786个Sequence
+现在提取到了46836个Sequence
+现在提取到了46886个Sequence
+现在提取到了46936个Sequence
+现在提取到了46986个Sequence
+现在提取到了47004个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1557244878/1557244878_2.pkl
+现在提取到了47036个Sequence
+现在提取到了47086个Sequence
+现在提取到了47136个Sequence
+现在提取到了47186个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1557244878/1557244878_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1557244878.parquet的数据提取完毕
+一共提取了998条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1557244878.parquet 耗时：562.4968 秒
+file为: 1562234637.parquet
+file_id为: 1562234637
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1562234637.parquet
+rel_parquet_path为: train_landmarks/1562234637.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1562234637
+从第 47234 个Sequence开始提取数据
+现在提取到了47283个Sequence
+现在提取到了47333个Sequence
+现在提取到了47383个Sequence
+现在提取到了47433个Sequence
+现在提取到了47483个Sequence
+现在提取到了47489个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1562234637/1562234637_0.pkl
+现在提取到了47533个Sequence
+现在提取到了47583个Sequence
+现在提取到了47633个Sequence
+现在提取到了47683个Sequence
+现在提取到了47733个Sequence
+现在提取到了47745个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1562234637/1562234637_1.pkl
+现在提取到了47783个Sequence
+现在提取到了47833个Sequence
+现在提取到了47883个Sequence
+现在提取到了47933个Sequence
+现在提取到了47983个Sequence
+现在提取到了48001个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1562234637/1562234637_2.pkl
+现在提取到了48033个Sequence
+现在提取到了48083个Sequence
+现在提取到了48133个Sequence
+现在提取到了48183个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1562234637/1562234637_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1562234637.parquet的数据提取完毕
+一共提取了998条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1562234637.parquet 耗时：528.6372 秒
+file为: 169560558.parquet
+file_id为: 169560558
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/169560558.parquet
+rel_parquet_path为: train_landmarks/169560558.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/169560558
+从第 4999 个Sequence开始提取数据
+现在提取到了5048个Sequence
+现在提取到了5098个Sequence
+现在提取到了5148个Sequence
+现在提取到了5198个Sequence
+现在提取到了5248个Sequence
+现在提取到了5254个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/169560558/169560558_0.pkl
+现在提取到了5298个Sequence
+现在提取到了5348个Sequence
+现在提取到了5398个Sequence
+现在提取到了5448个Sequence
+现在提取到了5498个Sequence
+现在提取到了5510个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/169560558/169560558_1.pkl
+现在提取到了5548个Sequence
+现在提取到了5598个Sequence
+现在提取到了5648个Sequence
+现在提取到了5698个Sequence
+现在提取到了5748个Sequence
+现在提取到了5766个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/169560558/169560558_2.pkl
+现在提取到了5798个Sequence
+现在提取到了5848个Sequence
+现在提取到了5898个Sequence
+现在提取到了5948个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/169560558/169560558_3.pkl
+./Data/asl-fingerspelling/train_landmarks/169560558.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/169560558.parquet 耗时：593.1029 秒
+file为: 1880177496.parquet
+file_id为: 1880177496
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1880177496.parquet
+rel_parquet_path为: train_landmarks/1880177496.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1880177496
+从第 55226 个Sequence开始提取数据
+现在提取到了55275个Sequence
+现在提取到了55325个Sequence
+现在提取到了55375个Sequence
+现在提取到了55425个Sequence
+现在提取到了55475个Sequence
+现在提取到了55481个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1880177496/1880177496_0.pkl
+现在提取到了55525个Sequence
+现在提取到了55575个Sequence
+现在提取到了55625个Sequence
+现在提取到了55675个Sequence
+现在提取到了55725个Sequence
+现在提取到了55737个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1880177496/1880177496_1.pkl
+现在提取到了55775个Sequence
+现在提取到了55825个Sequence
+现在提取到了55875个Sequence
+现在提取到了55925个Sequence
+现在提取到了55975个Sequence
+现在提取到了55993个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1880177496/1880177496_2.pkl
+现在提取到了56025个Sequence
+现在提取到了56075个Sequence
+现在提取到了56125个Sequence
+现在提取到了56175个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1880177496/1880177496_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1880177496.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1880177496.parquet 耗时：525.1378 秒
+file为: 1967755728.parquet
+file_id为: 1967755728
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1967755728.parquet
+rel_parquet_path为: train_landmarks/1967755728.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1967755728
+从第 59219 个Sequence开始提取数据
+现在提取到了59268个Sequence
+现在提取到了59318个Sequence
+现在提取到了59368个Sequence
+现在提取到了59418个Sequence
+现在提取到了59468个Sequence
+现在提取到了59474个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1967755728/1967755728_0.pkl
+现在提取到了59518个Sequence
+现在提取到了59568个Sequence
+现在提取到了59618个Sequence
+现在提取到了59668个Sequence
+现在提取到了59718个Sequence
+现在提取到了59730个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1967755728/1967755728_1.pkl
+现在提取到了59768个Sequence
+现在提取到了59818个Sequence
+现在提取到了59868个Sequence
+现在提取到了59918个Sequence
+现在提取到了59968个Sequence
+现在提取到了59986个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1967755728/1967755728_2.pkl
+现在提取到了60018个Sequence
+现在提取到了60068个Sequence
+现在提取到了60118个Sequence
+现在提取到了60168个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1967755728/1967755728_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1967755728.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1967755728.parquet 耗时：890.9803 秒
+file为: 2072296290.parquet
+file_id为: 2072296290
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2072296290.parquet
+rel_parquet_path为: train_landmarks/2072296290.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2072296290
+从第 64213 个Sequence开始提取数据
+现在提取到了64262个Sequence
+现在提取到了64312个Sequence
+现在提取到了64362个Sequence
+现在提取到了64412个Sequence
+现在提取到了64462个Sequence
+现在提取到了64468个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2072296290/2072296290_0.pkl
+现在提取到了64512个Sequence
+现在提取到了64562个Sequence
+现在提取到了64612个Sequence
+现在提取到了64662个Sequence
+现在提取到了64712个Sequence
+现在提取到了64724个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2072296290/2072296290_1.pkl
+现在提取到了64762个Sequence
+现在提取到了64812个Sequence
+现在提取到了64862个Sequence
+现在提取到了64912个Sequence
+现在提取到了64962个Sequence
+现在提取到了64980个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2072296290/2072296290_2.pkl
+现在提取到了65012个Sequence
+现在提取到了65062个Sequence
+现在提取到了65112个Sequence
+现在提取到了65162个Sequence
+现在提取到了65212个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2072296290/2072296290_3.pkl
+./Data/asl-fingerspelling/train_landmarks/2072296290.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/2072296290.parquet 耗时：611.9286 秒
+file为: 882979387.parquet
+file_id为: 882979387
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/882979387.parquet
+rel_parquet_path为: train_landmarks/882979387.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/882979387
+从第 27263 个Sequence开始提取数据
+现在提取到了27312个Sequence
+现在提取到了27362个Sequence
+现在提取到了27412个Sequence
+现在提取到了27462个Sequence
+现在提取到了27512个Sequence
+现在提取到了27518个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/882979387/882979387_0.pkl
+现在提取到了27562个Sequence
+现在提取到了27612个Sequence
+现在提取到了27662个Sequence
+现在提取到了27712个Sequence
+现在提取到了27762个Sequence
+现在提取到了27774个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/882979387/882979387_1.pkl
+现在提取到了27812个Sequence
+现在提取到了27862个Sequence
+现在提取到了27912个Sequence
+现在提取到了27962个Sequence
+现在提取到了28012个Sequence
+现在提取到了28030个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/882979387/882979387_2.pkl
+现在提取到了28062个Sequence
+现在提取到了28112个Sequence
+现在提取到了28162个Sequence
+现在提取到了28212个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/882979387/882979387_3.pkl
+./Data/asl-fingerspelling/train_landmarks/882979387.parquet的数据提取完毕
+一共提取了998条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/882979387.parquet 耗时：638.4376 秒
+file为: 933868835.parquet
+file_id为: 933868835
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/933868835.parquet
+rel_parquet_path为: train_landmarks/933868835.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/933868835
+从第 28260 个Sequence开始提取数据
+现在提取到了28309个Sequence
+现在提取到了28359个Sequence
+现在提取到了28409个Sequence
+现在提取到了28459个Sequence
+现在提取到了28509个Sequence
+现在提取到了28515个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/933868835/933868835_0.pkl
+现在提取到了28559个Sequence
+现在提取到了28609个Sequence
+现在提取到了28659个Sequence
+现在提取到了28709个Sequence
+现在提取到了28759个Sequence
+现在提取到了28771个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/933868835/933868835_1.pkl
+现在提取到了28809个Sequence
+现在提取到了28859个Sequence
+现在提取到了28909个Sequence
+现在提取到了28959个Sequence
+现在提取到了29009个Sequence
+现在提取到了29027个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/933868835/933868835_2.pkl
+现在提取到了29059个Sequence
+现在提取到了29109个Sequence
+现在提取到了29159个Sequence
+现在提取到了29209个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/933868835/933868835_3.pkl
+./Data/asl-fingerspelling/train_landmarks/933868835.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/933868835.parquet 耗时：713.3690 秒
+file为: 2118949241.parquet
+file_id为: 2118949241
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2118949241.parquet
+rel_parquet_path为: train_landmarks/2118949241.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2118949241
+从第 66210 个Sequence开始提取数据
+现在提取到了66259个Sequence
+现在提取到了66309个Sequence
+现在提取到了66359个Sequence
+现在提取到了66409个Sequence
+现在提取到了66459个Sequence
+现在提取到了66465个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2118949241/2118949241_0.pkl
+现在提取到了66509个Sequence
+现在提取到了66559个Sequence
+现在提取到了66609个Sequence
+现在提取到了66659个Sequence
+现在提取到了66709个Sequence
+现在提取到了66721个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2118949241/2118949241_1.pkl
+现在提取到了66759个Sequence
+现在提取到了66809个Sequence
+现在提取到了66859个Sequence
+现在提取到了66909个Sequence
+现在提取到了66959个Sequence
+现在提取到了66977个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2118949241/2118949241_2.pkl
+现在提取到了67009个Sequence
+现在提取到了67059个Sequence
+现在提取到了67109个Sequence
+现在提取到了67159个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2118949241/2118949241_3.pkl
+./Data/asl-fingerspelling/train_landmarks/2118949241.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/2118949241.parquet 耗时：480.7186 秒
+file为: 1320204318.parquet
+file_id为: 1320204318
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1320204318.parquet
+rel_parquet_path为: train_landmarks/1320204318.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1320204318
+从第 37253 个Sequence开始提取数据
+现在提取到了37302个Sequence
+现在提取到了37352个Sequence
+现在提取到了37402个Sequence
+现在提取到了37452个Sequence
+现在提取到了37502个Sequence
+现在提取到了37508个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1320204318/1320204318_0.pkl
+现在提取到了37552个Sequence
+现在提取到了37602个Sequence
+现在提取到了37652个Sequence
+现在提取到了37702个Sequence
+现在提取到了37752个Sequence
+现在提取到了37764个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1320204318/1320204318_1.pkl
+现在提取到了37802个Sequence
+现在提取到了37852个Sequence
+现在提取到了37902个Sequence
+现在提取到了37952个Sequence
+现在提取到了38002个Sequence
+现在提取到了38020个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1320204318/1320204318_2.pkl
+现在提取到了38052个Sequence
+现在提取到了38102个Sequence
+现在提取到了38152个Sequence
+现在提取到了38202个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1320204318/1320204318_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1320204318.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1320204318.parquet 耗时：621.5915 秒
+file为: 425182931.parquet
+file_id为: 425182931
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/425182931.parquet
+rel_parquet_path为: train_landmarks/425182931.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/425182931
+从第 10994 个Sequence开始提取数据
+现在提取到了11043个Sequence
+现在提取到了11093个Sequence
+现在提取到了11143个Sequence
+现在提取到了11193个Sequence
+现在提取到了11243个Sequence
+现在提取到了11249个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/425182931/425182931_0.pkl
+现在提取到了11293个Sequence
+现在提取到了11343个Sequence
+现在提取到了11393个Sequence
+现在提取到了11443个Sequence
+现在提取到了11493个Sequence
+现在提取到了11505个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/425182931/425182931_1.pkl
+现在提取到了11543个Sequence
+现在提取到了11593个Sequence
+现在提取到了11643个Sequence
+现在提取到了11693个Sequence
+现在提取到了11743个Sequence
+现在提取到了11761个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/425182931/425182931_2.pkl
+现在提取到了11793个Sequence
+现在提取到了11843个Sequence
+现在提取到了11893个Sequence
+现在提取到了11943个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/425182931/425182931_3.pkl
+./Data/asl-fingerspelling/train_landmarks/425182931.parquet的数据提取完毕
+一共提取了996条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/425182931.parquet 耗时：505.6515 秒
+file为: 2026717426.parquet
+file_id为: 2026717426
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2026717426.parquet
+rel_parquet_path为: train_landmarks/2026717426.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2026717426
+从第 62215 个Sequence开始提取数据
+现在提取到了62264个Sequence
+现在提取到了62314个Sequence
+现在提取到了62364个Sequence
+现在提取到了62414个Sequence
+现在提取到了62464个Sequence
+现在提取到了62470个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2026717426/2026717426_0.pkl
+现在提取到了62514个Sequence
+现在提取到了62564个Sequence
+现在提取到了62614个Sequence
+现在提取到了62664个Sequence
+现在提取到了62714个Sequence
+现在提取到了62726个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2026717426/2026717426_1.pkl
+现在提取到了62764个Sequence
+现在提取到了62814个Sequence
+现在提取到了62864个Sequence
+现在提取到了62914个Sequence
+现在提取到了62964个Sequence
+现在提取到了62982个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2026717426/2026717426_2.pkl
+现在提取到了63014个Sequence
+现在提取到了63064个Sequence
+现在提取到了63114个Sequence
+现在提取到了63164个Sequence
+现在提取到了63214个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/2026717426/2026717426_3.pkl
+./Data/asl-fingerspelling/train_landmarks/2026717426.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/2026717426.parquet 耗时：559.9497 秒
+file为: 1405046009.parquet
+file_id为: 1405046009
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1405046009.parquet
+rel_parquet_path为: train_landmarks/1405046009.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1405046009
+从第 42241 个Sequence开始提取数据
+现在提取到了42290个Sequence
+现在提取到了42340个Sequence
+现在提取到了42390个Sequence
+现在提取到了42440个Sequence
+现在提取到了42490个Sequence
+现在提取到了42496个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1405046009/1405046009_0.pkl
+现在提取到了42540个Sequence
+现在提取到了42590个Sequence
+现在提取到了42640个Sequence
+现在提取到了42690个Sequence
+现在提取到了42740个Sequence
+现在提取到了42752个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1405046009/1405046009_1.pkl
+现在提取到了42790个Sequence
+现在提取到了42840个Sequence
+现在提取到了42890个Sequence
+现在提取到了42940个Sequence
+现在提取到了42990个Sequence
+现在提取到了43008个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1405046009/1405046009_2.pkl
+现在提取到了43040个Sequence
+现在提取到了43090个Sequence
+现在提取到了43140个Sequence
+现在提取到了43190个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1405046009/1405046009_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1405046009.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1405046009.parquet 耗时：501.8845 秒
+file为: 614661748.parquet
+file_id为: 614661748
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/614661748.parquet
+rel_parquet_path为: train_landmarks/614661748.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/614661748
+从第 21270 个Sequence开始提取数据
+现在提取到了21319个Sequence
+现在提取到了21369个Sequence
+现在提取到了21419个Sequence
+现在提取到了21469个Sequence
+现在提取到了21519个Sequence
+现在提取到了21525个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/614661748/614661748_0.pkl
+现在提取到了21569个Sequence
+现在提取到了21619个Sequence
+现在提取到了21669个Sequence
+现在提取到了21719个Sequence
+现在提取到了21769个Sequence
+现在提取到了21781个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/614661748/614661748_1.pkl
+现在提取到了21819个Sequence
+现在提取到了21869个Sequence
+现在提取到了21919个Sequence
+现在提取到了21969个Sequence
+现在提取到了22019个Sequence
+现在提取到了22037个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/614661748/614661748_2.pkl
+现在提取到了22069个Sequence
+现在提取到了22119个Sequence
+现在提取到了22169个Sequence
+现在提取到了22219个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/614661748/614661748_3.pkl
+./Data/asl-fingerspelling/train_landmarks/614661748.parquet的数据提取完毕
+一共提取了997条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/614661748.parquet 耗时：574.2829 秒
+file为: 388576474.parquet
+file_id为: 388576474
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/388576474.parquet
+rel_parquet_path为: train_landmarks/388576474.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/388576474
+从第 9996 个Sequence开始提取数据
+现在提取到了10045个Sequence
+现在提取到了10095个Sequence
+现在提取到了10145个Sequence
+现在提取到了10195个Sequence
+现在提取到了10245个Sequence
+现在提取到了10251个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/388576474/388576474_0.pkl
+现在提取到了10295个Sequence
+现在提取到了10345个Sequence
+现在提取到了10395个Sequence
+现在提取到了10445个Sequence
+现在提取到了10495个Sequence
+现在提取到了10507个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/388576474/388576474_1.pkl
+现在提取到了10545个Sequence
+现在提取到了10595个Sequence
+现在提取到了10645个Sequence
+现在提取到了10695个Sequence
+现在提取到了10745个Sequence
+现在提取到了10763个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/388576474/388576474_2.pkl
+现在提取到了10795个Sequence
+现在提取到了10845个Sequence
+现在提取到了10895个Sequence
+现在提取到了10945个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/388576474/388576474_3.pkl
+./Data/asl-fingerspelling/train_landmarks/388576474.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/388576474.parquet 耗时：926.0293 秒
+file为: 450474571.parquet
+file_id为: 450474571
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/450474571.parquet
+rel_parquet_path为: train_landmarks/450474571.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/450474571
+从第 12989 个Sequence开始提取数据
+现在提取到了13038个Sequence
+现在提取到了13088个Sequence
+现在提取到了13138个Sequence
+现在提取到了13188个Sequence
+现在提取到了13238个Sequence
+现在提取到了13244个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/450474571/450474571_0.pkl
+数据集已保存到: ./Data/ProcessedData/train_landmarks/450474571/450474571_1.pkl
+./Data/asl-fingerspelling/train_landmarks/450474571.parquet的数据提取完毕
+一共提取了288条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/450474571.parquet 耗时：42.3274 秒
+file为: 152029243.parquet
+file_id为: 152029243
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/152029243.parquet
+rel_parquet_path为: train_landmarks/152029243.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/152029243
+从第 3999 个Sequence开始提取数据
+现在提取到了4048个Sequence
+现在提取到了4098个Sequence
+现在提取到了4148个Sequence
+现在提取到了4198个Sequence
+现在提取到了4248个Sequence
+现在提取到了4254个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/152029243/152029243_0.pkl
+现在提取到了4298个Sequence
+现在提取到了4348个Sequence
+现在提取到了4398个Sequence
+现在提取到了4448个Sequence
+现在提取到了4498个Sequence
+现在提取到了4510个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/152029243/152029243_1.pkl
+现在提取到了4548个Sequence
+现在提取到了4598个Sequence
+现在提取到了4648个Sequence
+现在提取到了4698个Sequence
+现在提取到了4748个Sequence
+现在提取到了4766个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/152029243/152029243_2.pkl
+现在提取到了4798个Sequence
+现在提取到了4848个Sequence
+现在提取到了4898个Sequence
+现在提取到了4948个Sequence
+现在提取到了4998个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/152029243/152029243_3.pkl
+./Data/asl-fingerspelling/train_landmarks/152029243.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/152029243.parquet 耗时：497.7120 秒
+file为: 1448136004.parquet
+file_id为: 1448136004
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1448136004.parquet
+rel_parquet_path为: train_landmarks/1448136004.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1448136004
+从第 43240 个Sequence开始提取数据
+现在提取到了43289个Sequence
+现在提取到了43339个Sequence
+现在提取到了43389个Sequence
+现在提取到了43439个Sequence
+现在提取到了43489个Sequence
+现在提取到了43495个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1448136004/1448136004_0.pkl
+现在提取到了43539个Sequence
+现在提取到了43589个Sequence
+现在提取到了43639个Sequence
+现在提取到了43689个Sequence
+现在提取到了43739个Sequence
+现在提取到了43751个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1448136004/1448136004_1.pkl
+现在提取到了43789个Sequence
+现在提取到了43839个Sequence
+现在提取到了43889个Sequence
+现在提取到了43939个Sequence
+现在提取到了43989个Sequence
+现在提取到了44007个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1448136004/1448136004_2.pkl
+现在提取到了44039个Sequence
+现在提取到了44089个Sequence
+现在提取到了44139个Sequence
+现在提取到了44189个Sequence
+现在提取到了44239个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1448136004/1448136004_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1448136004.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1448136004.parquet 耗时：1185.9479 秒
+file为: 433948159.parquet
+file_id为: 433948159
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/433948159.parquet
+rel_parquet_path为: train_landmarks/433948159.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/433948159
+从第 11989 个Sequence开始提取数据
+现在提取到了12038个Sequence
+现在提取到了12088个Sequence
+现在提取到了12138个Sequence
+现在提取到了12188个Sequence
+现在提取到了12238个Sequence
+现在提取到了12244个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/433948159/433948159_0.pkl
+现在提取到了12288个Sequence
+现在提取到了12338个Sequence
+现在提取到了12388个Sequence
+现在提取到了12438个Sequence
+现在提取到了12488个Sequence
+现在提取到了12500个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/433948159/433948159_1.pkl
+现在提取到了12538个Sequence
+现在提取到了12588个Sequence
+现在提取到了12638个Sequence
+现在提取到了12688个Sequence
+现在提取到了12738个Sequence
+现在提取到了12756个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/433948159/433948159_2.pkl
+现在提取到了12788个Sequence
+现在提取到了12838个Sequence
+现在提取到了12888个Sequence
+现在提取到了12938个Sequence
+现在提取到了12988个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/433948159/433948159_3.pkl
+./Data/asl-fingerspelling/train_landmarks/433948159.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/433948159.parquet 耗时：642.2535 秒
+file为: 527708222.parquet
+file_id为: 527708222
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/527708222.parquet
+rel_parquet_path为: train_landmarks/527708222.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/527708222
+从第 16273 个Sequence开始提取数据
+现在提取到了16322个Sequence
+现在提取到了16372个Sequence
+现在提取到了16422个Sequence
+现在提取到了16472个Sequence
+现在提取到了16522个Sequence
+现在提取到了16528个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/527708222/527708222_0.pkl
+现在提取到了16572个Sequence
+现在提取到了16622个Sequence
+现在提取到了16672个Sequence
+现在提取到了16722个Sequence
+现在提取到了16772个Sequence
+现在提取到了16784个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/527708222/527708222_1.pkl
+现在提取到了16822个Sequence
+现在提取到了16872个Sequence
+现在提取到了16922个Sequence
+现在提取到了16972个Sequence
+现在提取到了17022个Sequence
+现在提取到了17040个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/527708222/527708222_2.pkl
+现在提取到了17072个Sequence
+现在提取到了17122个Sequence
+现在提取到了17172个Sequence
+现在提取到了17222个Sequence
+现在提取到了17272个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/527708222/527708222_3.pkl
+./Data/asl-fingerspelling/train_landmarks/527708222.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/527708222.parquet 耗时：893.4501 秒
+file为: 566963657.parquet
+file_id为: 566963657
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/566963657.parquet
+rel_parquet_path为: train_landmarks/566963657.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/566963657
+从第 19273 个Sequence开始提取数据
+现在提取到了19322个Sequence
+现在提取到了19372个Sequence
+现在提取到了19422个Sequence
+现在提取到了19472个Sequence
+现在提取到了19522个Sequence
+现在提取到了19528个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/566963657/566963657_0.pkl
+现在提取到了19572个Sequence
+现在提取到了19622个Sequence
+现在提取到了19672个Sequence
+现在提取到了19722个Sequence
+现在提取到了19772个Sequence
+现在提取到了19784个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/566963657/566963657_1.pkl
+现在提取到了19822个Sequence
+现在提取到了19872个Sequence
+现在提取到了19922个Sequence
+现在提取到了19972个Sequence
+现在提取到了20022个Sequence
+现在提取到了20040个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/566963657/566963657_2.pkl
+现在提取到了20072个Sequence
+现在提取到了20122个Sequence
+现在提取到了20172个Sequence
+现在提取到了20222个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/566963657/566963657_3.pkl
+./Data/asl-fingerspelling/train_landmarks/566963657.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/566963657.parquet 耗时：501.7167 秒
+file为: 1019715464.parquet
+file_id为: 1019715464
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1019715464.parquet
+rel_parquet_path为: train_landmarks/1019715464.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1019715464
+从第 30259 个Sequence开始提取数据
+现在提取到了30308个Sequence
+现在提取到了30358个Sequence
+现在提取到了30408个Sequence
+现在提取到了30458个Sequence
+现在提取到了30508个Sequence
+现在提取到了30514个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1019715464/1019715464_0.pkl
+现在提取到了30558个Sequence
+现在提取到了30608个Sequence
+现在提取到了30658个Sequence
+现在提取到了30708个Sequence
+现在提取到了30758个Sequence
+现在提取到了30770个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1019715464/1019715464_1.pkl
+现在提取到了30808个Sequence
+现在提取到了30858个Sequence
+现在提取到了30908个Sequence
+现在提取到了30958个Sequence
+现在提取到了31008个Sequence
+现在提取到了31026个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1019715464/1019715464_2.pkl
+现在提取到了31058个Sequence
+现在提取到了31108个Sequence
+现在提取到了31158个Sequence
+现在提取到了31208个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1019715464/1019715464_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1019715464.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1019715464.parquet 耗时：594.7709 秒
+file为: 871280215.parquet
+file_id为: 871280215
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/871280215.parquet
+rel_parquet_path为: train_landmarks/871280215.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/871280215
+从第 26263 个Sequence开始提取数据
+现在提取到了26312个Sequence
+现在提取到了26362个Sequence
+现在提取到了26412个Sequence
+现在提取到了26462个Sequence
+现在提取到了26512个Sequence
+现在提取到了26518个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/871280215/871280215_0.pkl
+现在提取到了26562个Sequence
+现在提取到了26612个Sequence
+现在提取到了26662个Sequence
+现在提取到了26712个Sequence
+现在提取到了26762个Sequence
+现在提取到了26774个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/871280215/871280215_1.pkl
+现在提取到了26812个Sequence
+现在提取到了26862个Sequence
+现在提取到了26912个Sequence
+现在提取到了26962个Sequence
+现在提取到了27012个Sequence
+现在提取到了27030个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/871280215/871280215_2.pkl
+现在提取到了27062个Sequence
+现在提取到了27112个Sequence
+现在提取到了27162个Sequence
+现在提取到了27212个Sequence
+现在提取到了27262个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/871280215/871280215_3.pkl
+./Data/asl-fingerspelling/train_landmarks/871280215.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/871280215.parquet 耗时：1879.7611 秒
+file为: 568753759.parquet
+file_id为: 568753759
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/568753759.parquet
+rel_parquet_path为: train_landmarks/568753759.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/568753759
+从第 20272 个Sequence开始提取数据
+现在提取到了20321个Sequence
+现在提取到了20371个Sequence
+现在提取到了20421个Sequence
+现在提取到了20471个Sequence
+现在提取到了20521个Sequence
+现在提取到了20527个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/568753759/568753759_0.pkl
+现在提取到了20571个Sequence
+现在提取到了20621个Sequence
+现在提取到了20671个Sequence
+现在提取到了20721个Sequence
+现在提取到了20771个Sequence
+现在提取到了20783个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/568753759/568753759_1.pkl
+现在提取到了20821个Sequence
+现在提取到了20871个Sequence
+现在提取到了20921个Sequence
+现在提取到了20971个Sequence
+现在提取到了21021个Sequence
+现在提取到了21039个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/568753759/568753759_2.pkl
+现在提取到了21071个Sequence
+现在提取到了21121个Sequence
+现在提取到了21171个Sequence
+现在提取到了21221个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/568753759/568753759_3.pkl
+./Data/asl-fingerspelling/train_landmarks/568753759.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/568753759.parquet 耗时：1629.4292 秒
+file为: 1365772051.parquet
+file_id为: 1365772051
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1365772051.parquet
+rel_parquet_path为: train_landmarks/1365772051.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1365772051
+从第 41244 个Sequence开始提取数据
+现在提取到了41293个Sequence
+现在提取到了41343个Sequence
+现在提取到了41393个Sequence
+现在提取到了41443个Sequence
+现在提取到了41493个Sequence
+现在提取到了41499个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1365772051/1365772051_0.pkl
+现在提取到了41543个Sequence
+现在提取到了41593个Sequence
+现在提取到了41643个Sequence
+现在提取到了41693个Sequence
+现在提取到了41743个Sequence
+现在提取到了41755个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1365772051/1365772051_1.pkl
+现在提取到了41793个Sequence
+现在提取到了41843个Sequence
+现在提取到了41893个Sequence
+现在提取到了41943个Sequence
+现在提取到了41993个Sequence
+现在提取到了42011个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1365772051/1365772051_2.pkl
+现在提取到了42043个Sequence
+现在提取到了42093个Sequence
+现在提取到了42143个Sequence
+现在提取到了42193个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1365772051/1365772051_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1365772051.parquet的数据提取完毕
+一共提取了998条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1365772051.parquet 耗时：1546.6090 秒
+file为: 638508439.parquet
+file_id为: 638508439
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/638508439.parquet
+rel_parquet_path为: train_landmarks/638508439.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/638508439
+从第 22266 个Sequence开始提取数据
+现在提取到了22315个Sequence
+现在提取到了22365个Sequence
+现在提取到了22415个Sequence
+现在提取到了22465个Sequence
+现在提取到了22515个Sequence
+现在提取到了22521个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/638508439/638508439_0.pkl
+现在提取到了22565个Sequence
+现在提取到了22615个Sequence
+现在提取到了22665个Sequence
+现在提取到了22715个Sequence
+现在提取到了22765个Sequence
+现在提取到了22777个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/638508439/638508439_1.pkl
+现在提取到了22815个Sequence
+现在提取到了22865个Sequence
+现在提取到了22915个Sequence
+现在提取到了22965个Sequence
+现在提取到了23015个Sequence
+现在提取到了23033个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/638508439/638508439_2.pkl
+现在提取到了23065个Sequence
+现在提取到了23115个Sequence
+现在提取到了23165个Sequence
+现在提取到了23215个Sequence
+现在提取到了23265个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/638508439/638508439_3.pkl
+./Data/asl-fingerspelling/train_landmarks/638508439.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/638508439.parquet 耗时：799.3871 秒
+file为: 296317215.parquet
+file_id为: 296317215
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/296317215.parquet
+rel_parquet_path为: train_landmarks/296317215.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/296317215
+从第 7997 个Sequence开始提取数据
+现在提取到了8046个Sequence
+现在提取到了8096个Sequence
+现在提取到了8146个Sequence
+现在提取到了8196个Sequence
+现在提取到了8246个Sequence
+现在提取到了8252个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/296317215/296317215_0.pkl
+现在提取到了8296个Sequence
+现在提取到了8346个Sequence
+现在提取到了8396个Sequence
+现在提取到了8446个Sequence
+现在提取到了8496个Sequence
+现在提取到了8508个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/296317215/296317215_1.pkl
+现在提取到了8546个Sequence
+现在提取到了8596个Sequence
+现在提取到了8646个Sequence
+现在提取到了8696个Sequence
+现在提取到了8746个Sequence
+现在提取到了8764个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/296317215/296317215_2.pkl
+现在提取到了8796个Sequence
+现在提取到了8846个Sequence
+现在提取到了8896个Sequence
+现在提取到了8946个Sequence
+现在提取到了8996个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/296317215/296317215_3.pkl
+./Data/asl-fingerspelling/train_landmarks/296317215.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/296317215.parquet 耗时：1887.9607 秒
+file为: 1906357076.parquet
+file_id为: 1906357076
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1906357076.parquet
+rel_parquet_path为: train_landmarks/1906357076.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1906357076
+从第 57223 个Sequence开始提取数据
+现在提取到了57272个Sequence
+现在提取到了57322个Sequence
+现在提取到了57372个Sequence
+现在提取到了57422个Sequence
+现在提取到了57472个Sequence
+现在提取到了57478个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1906357076/1906357076_0.pkl
+现在提取到了57522个Sequence
+现在提取到了57572个Sequence
+现在提取到了57622个Sequence
+现在提取到了57672个Sequence
+现在提取到了57722个Sequence
+现在提取到了57734个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1906357076/1906357076_1.pkl
+现在提取到了57772个Sequence
+现在提取到了57822个Sequence
+现在提取到了57872个Sequence
+现在提取到了57922个Sequence
+现在提取到了57972个Sequence
+现在提取到了57990个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1906357076/1906357076_2.pkl
+现在提取到了58022个Sequence
+现在提取到了58072个Sequence
+现在提取到了58122个Sequence
+现在提取到了58172个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1906357076/1906357076_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1906357076.parquet的数据提取完毕
+一共提取了998条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1906357076.parquet 耗时：1472.5503 秒
+file为: 474255203.parquet
+file_id为: 474255203
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/474255203.parquet
+rel_parquet_path为: train_landmarks/474255203.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/474255203
+从第 13276 个Sequence开始提取数据
+现在提取到了13325个Sequence
+现在提取到了13375个Sequence
+现在提取到了13425个Sequence
+现在提取到了13475个Sequence
+现在提取到了13525个Sequence
+现在提取到了13531个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/474255203/474255203_0.pkl
+现在提取到了13575个Sequence
+现在提取到了13625个Sequence
+现在提取到了13675个Sequence
+现在提取到了13725个Sequence
+现在提取到了13775个Sequence
+现在提取到了13787个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/474255203/474255203_1.pkl
+现在提取到了13825个Sequence
+现在提取到了13875个Sequence
+现在提取到了13925个Sequence
+现在提取到了13975个Sequence
+现在提取到了14025个Sequence
+现在提取到了14043个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/474255203/474255203_2.pkl
+现在提取到了14075个Sequence
+现在提取到了14125个Sequence
+现在提取到了14175个Sequence
+现在提取到了14225个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/474255203/474255203_3.pkl
+./Data/asl-fingerspelling/train_landmarks/474255203.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/474255203.parquet 耗时：1898.1876 秒
+file为: 175396851.parquet
+file_id为: 175396851
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/175396851.parquet
+rel_parquet_path为: train_landmarks/175396851.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/175396851
+从第 5998 个Sequence开始提取数据
+现在提取到了6047个Sequence
+现在提取到了6097个Sequence
+现在提取到了6147个Sequence
+现在提取到了6197个Sequence
+现在提取到了6247个Sequence
+现在提取到了6253个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/175396851/175396851_0.pkl
+现在提取到了6297个Sequence
+现在提取到了6347个Sequence
+现在提取到了6397个Sequence
+现在提取到了6447个Sequence
+现在提取到了6497个Sequence
+现在提取到了6509个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/175396851/175396851_1.pkl
+现在提取到了6547个Sequence
+现在提取到了6597个Sequence
+现在提取到了6647个Sequence
+现在提取到了6697个Sequence
+现在提取到了6747个Sequence
+现在提取到了6765个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/175396851/175396851_2.pkl
+现在提取到了6797个Sequence
+现在提取到了6847个Sequence
+现在提取到了6897个Sequence
+现在提取到了6947个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/175396851/175396851_3.pkl
+./Data/asl-fingerspelling/train_landmarks/175396851.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/175396851.parquet 耗时：1351.5869 秒
+file为: 683666742.parquet
+file_id为: 683666742
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/683666742.parquet
+rel_parquet_path为: train_landmarks/683666742.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/683666742
+从第 25264 个Sequence开始提取数据
+现在提取到了25313个Sequence
+现在提取到了25363个Sequence
+现在提取到了25413个Sequence
+现在提取到了25463个Sequence
+现在提取到了25513个Sequence
+现在提取到了25519个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/683666742/683666742_0.pkl
+现在提取到了25563个Sequence
+现在提取到了25613个Sequence
+现在提取到了25663个Sequence
+现在提取到了25713个Sequence
+现在提取到了25763个Sequence
+现在提取到了25775个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/683666742/683666742_1.pkl
+现在提取到了25813个Sequence
+现在提取到了25863个Sequence
+现在提取到了25913个Sequence
+现在提取到了25963个Sequence
+现在提取到了26013个Sequence
+现在提取到了26031个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/683666742/683666742_2.pkl
+现在提取到了26063个Sequence
+现在提取到了26113个Sequence
+现在提取到了26163个Sequence
+现在提取到了26213个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/683666742/683666742_3.pkl
+./Data/asl-fingerspelling/train_landmarks/683666742.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/683666742.parquet 耗时：920.6732 秒
+file为: 939623093.parquet
+file_id为: 939623093
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/939623093.parquet
+rel_parquet_path为: train_landmarks/939623093.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/939623093
+从第 29259 个Sequence开始提取数据
+现在提取到了29308个Sequence
+现在提取到了29358个Sequence
+现在提取到了29408个Sequence
+现在提取到了29458个Sequence
+现在提取到了29508个Sequence
+现在提取到了29514个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/939623093/939623093_0.pkl
+现在提取到了29558个Sequence
+现在提取到了29608个Sequence
+现在提取到了29658个Sequence
+现在提取到了29708个Sequence
+现在提取到了29758个Sequence
+现在提取到了29770个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/939623093/939623093_1.pkl
+现在提取到了29808个Sequence
+现在提取到了29858个Sequence
+现在提取到了29908个Sequence
+现在提取到了29958个Sequence
+现在提取到了30008个Sequence
+现在提取到了30026个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/939623093/939623093_2.pkl
+现在提取到了30058个Sequence
+现在提取到了30108个Sequence
+现在提取到了30158个Sequence
+现在提取到了30208个Sequence
+现在提取到了30258个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/939623093/939623093_3.pkl
+./Data/asl-fingerspelling/train_landmarks/939623093.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/939623093.parquet 耗时：1886.4228 秒
+file为: 495378749.parquet
+file_id为: 495378749
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/495378749.parquet
+rel_parquet_path为: train_landmarks/495378749.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/495378749
+从第 14275 个Sequence开始提取数据
+现在提取到了14324个Sequence
+现在提取到了14374个Sequence
+现在提取到了14424个Sequence
+现在提取到了14474个Sequence
+现在提取到了14524个Sequence
+现在提取到了14530个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/495378749/495378749_0.pkl
+现在提取到了14574个Sequence
+现在提取到了14624个Sequence
+现在提取到了14674个Sequence
+现在提取到了14724个Sequence
+现在提取到了14774个Sequence
+现在提取到了14786个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/495378749/495378749_1.pkl
+现在提取到了14824个Sequence
+现在提取到了14874个Sequence
+现在提取到了14924个Sequence
+现在提取到了14974个Sequence
+现在提取到了15024个Sequence
+现在提取到了15042个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/495378749/495378749_2.pkl
+现在提取到了15074个Sequence
+现在提取到了15124个Sequence
+现在提取到了15174个Sequence
+现在提取到了15224个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/495378749/495378749_3.pkl
+./Data/asl-fingerspelling/train_landmarks/495378749.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/495378749.parquet 耗时：1926.4822 秒
+file为: 1358493307.parquet
+file_id为: 1358493307
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1358493307.parquet
+rel_parquet_path为: train_landmarks/1358493307.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1358493307
+从第 39250 个Sequence开始提取数据
+现在提取到了39299个Sequence
+现在提取到了39349个Sequence
+现在提取到了39399个Sequence
+现在提取到了39449个Sequence
+现在提取到了39499个Sequence
+现在提取到了39505个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1358493307/1358493307_0.pkl
+现在提取到了39549个Sequence
+现在提取到了39599个Sequence
+现在提取到了39649个Sequence
+现在提取到了39699个Sequence
+现在提取到了39749个Sequence
+现在提取到了39761个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1358493307/1358493307_1.pkl
+现在提取到了39799个Sequence
+现在提取到了39849个Sequence
+现在提取到了39899个Sequence
+现在提取到了39949个Sequence
+现在提取到了39999个Sequence
+现在提取到了40017个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1358493307/1358493307_2.pkl
+现在提取到了40049个Sequence
+现在提取到了40099个Sequence
+现在提取到了40149个Sequence
+现在提取到了40199个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1358493307/1358493307_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1358493307.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1358493307.parquet 耗时：421.6125 秒
+file为: 1905462118.parquet
+file_id为: 1905462118
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1905462118.parquet
+rel_parquet_path为: train_landmarks/1905462118.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1905462118
+从第 56225 个Sequence开始提取数据
+现在提取到了56274个Sequence
+现在提取到了56324个Sequence
+现在提取到了56374个Sequence
+现在提取到了56424个Sequence
+现在提取到了56474个Sequence
+现在提取到了56480个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1905462118/1905462118_0.pkl
+现在提取到了56524个Sequence
+现在提取到了56574个Sequence
+现在提取到了56624个Sequence
+现在提取到了56674个Sequence
+现在提取到了56724个Sequence
+现在提取到了56736个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1905462118/1905462118_1.pkl
+现在提取到了56774个Sequence
+现在提取到了56824个Sequence
+现在提取到了56874个Sequence
+现在提取到了56924个Sequence
+现在提取到了56974个Sequence
+现在提取到了56992个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1905462118/1905462118_2.pkl
+现在提取到了57024个Sequence
+现在提取到了57074个Sequence
+现在提取到了57124个Sequence
+现在提取到了57174个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1905462118/1905462118_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1905462118.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1905462118.parquet 耗时：1896.3899 秒
+file为: 1552432300.parquet
+file_id为: 1552432300
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1552432300.parquet
+rel_parquet_path为: train_landmarks/1552432300.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1552432300
+从第 45237 个Sequence开始提取数据
+现在提取到了45286个Sequence
+现在提取到了45336个Sequence
+现在提取到了45386个Sequence
+现在提取到了45436个Sequence
+现在提取到了45486个Sequence
+现在提取到了45492个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1552432300/1552432300_0.pkl
+现在提取到了45536个Sequence
+现在提取到了45586个Sequence
+现在提取到了45636个Sequence
+现在提取到了45686个Sequence
+现在提取到了45736个Sequence
+现在提取到了45748个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1552432300/1552432300_1.pkl
+现在提取到了45786个Sequence
+现在提取到了45836个Sequence
+现在提取到了45886个Sequence
+现在提取到了45936个Sequence
+现在提取到了45986个Sequence
+现在提取到了46004个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1552432300/1552432300_2.pkl
+现在提取到了46036个Sequence
+现在提取到了46086个Sequence
+现在提取到了46136个Sequence
+现在提取到了46186个Sequence
+现在提取到了46236个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1552432300/1552432300_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1552432300.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1552432300.parquet 耗时：1325.0457 秒
+file为: 532011803.parquet
+file_id为: 532011803
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/532011803.parquet
+rel_parquet_path为: train_landmarks/532011803.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/532011803
+从第 17273 个Sequence开始提取数据
+现在提取到了17322个Sequence
+现在提取到了17372个Sequence
+现在提取到了17422个Sequence
+现在提取到了17472个Sequence
+现在提取到了17522个Sequence
+现在提取到了17528个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/532011803/532011803_0.pkl
+现在提取到了17572个Sequence
+现在提取到了17622个Sequence
+现在提取到了17672个Sequence
+现在提取到了17722个Sequence
+现在提取到了17772个Sequence
+现在提取到了17784个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/532011803/532011803_1.pkl
+现在提取到了17823个Sequence
+现在提取到了17873个Sequence
+现在提取到了17923个Sequence
+现在提取到了17973个Sequence
+现在提取到了18023个Sequence
+现在提取到了18041个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/532011803/532011803_2.pkl
+现在提取到了18073个Sequence
+现在提取到了18123个Sequence
+现在提取到了18173个Sequence
+现在提取到了18223个Sequence
+现在提取到了18273个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/532011803/532011803_3.pkl
+./Data/asl-fingerspelling/train_landmarks/532011803.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/532011803.parquet 耗时：1846.9820 秒
+file为: 1099408314.parquet
+file_id为: 1099408314
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1099408314.parquet
+rel_parquet_path为: train_landmarks/1099408314.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1099408314
+从第 33256 个Sequence开始提取数据
+现在提取到了33305个Sequence
+现在提取到了33355个Sequence
+现在提取到了33405个Sequence
+现在提取到了33455个Sequence
+现在提取到了33505个Sequence
+现在提取到了33511个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1099408314/1099408314_0.pkl
+现在提取到了33555个Sequence
+现在提取到了33605个Sequence
+现在提取到了33655个Sequence
+现在提取到了33705个Sequence
+现在提取到了33755个Sequence
+现在提取到了33767个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1099408314/1099408314_1.pkl
+现在提取到了33805个Sequence
+现在提取到了33855个Sequence
+现在提取到了33905个Sequence
+现在提取到了33955个Sequence
+现在提取到了34005个Sequence
+现在提取到了34023个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1099408314/1099408314_2.pkl
+现在提取到了34055个Sequence
+现在提取到了34105个Sequence
+现在提取到了34155个Sequence
+现在提取到了34205个Sequence
+现在提取到了34255个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1099408314/1099408314_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1099408314.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1099408314.parquet 耗时：928.8885 秒
+file为: 1098899348.parquet
+file_id为: 1098899348
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1098899348.parquet
+rel_parquet_path为: train_landmarks/1098899348.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1098899348
+从第 32256 个Sequence开始提取数据
+现在提取到了32305个Sequence
+现在提取到了32355个Sequence
+现在提取到了32405个Sequence
+现在提取到了32455个Sequence
+现在提取到了32505个Sequence
+现在提取到了32511个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1098899348/1098899348_0.pkl
+现在提取到了32555个Sequence
+现在提取到了32605个Sequence
+现在提取到了32655个Sequence
+现在提取到了32705个Sequence
+现在提取到了32755个Sequence
+现在提取到了32767个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1098899348/1098899348_1.pkl
+现在提取到了32805个Sequence
+现在提取到了32855个Sequence
+现在提取到了32905个Sequence
+现在提取到了32955个Sequence
+现在提取到了33005个Sequence
+现在提取到了33023个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1098899348/1098899348_2.pkl
+现在提取到了33055个Sequence
+现在提取到了33105个Sequence
+现在提取到了33155个Sequence
+现在提取到了33205个Sequence
+现在提取到了33255个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1098899348/1098899348_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1098899348.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1098899348.parquet 耗时：482.5962 秒
+file为: 234418913.parquet
+file_id为: 234418913
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/234418913.parquet
+rel_parquet_path为: train_landmarks/234418913.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/234418913
+从第 6997 个Sequence开始提取数据
+现在提取到了7046个Sequence
+现在提取到了7096个Sequence
+现在提取到了7146个Sequence
+现在提取到了7196个Sequence
+现在提取到了7246个Sequence
+现在提取到了7252个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/234418913/234418913_0.pkl
+现在提取到了7296个Sequence
+现在提取到了7346个Sequence
+现在提取到了7396个Sequence
+现在提取到了7446个Sequence
+现在提取到了7496个Sequence
+现在提取到了7508个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/234418913/234418913_1.pkl
+现在提取到了7546个Sequence
+现在提取到了7596个Sequence
+现在提取到了7646个Sequence
+现在提取到了7696个Sequence
+现在提取到了7746个Sequence
+现在提取到了7764个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/234418913/234418913_2.pkl
+现在提取到了7796个Sequence
+现在提取到了7846个Sequence
+现在提取到了7896个Sequence
+现在提取到了7946个Sequence
+现在提取到了7996个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/234418913/234418913_3.pkl
+./Data/asl-fingerspelling/train_landmarks/234418913.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/234418913.parquet 耗时：1147.5207 秒
+file为: 1969985709.parquet
+file_id为: 1969985709
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1969985709.parquet
+rel_parquet_path为: train_landmarks/1969985709.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1969985709
+从第 60217 个Sequence开始提取数据
+现在提取到了60266个Sequence
+现在提取到了60316个Sequence
+现在提取到了60366个Sequence
+现在提取到了60416个Sequence
+现在提取到了60466个Sequence
+现在提取到了60472个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1969985709/1969985709_0.pkl
+现在提取到了60516个Sequence
+现在提取到了60566个Sequence
+现在提取到了60616个Sequence
+现在提取到了60666个Sequence
+现在提取到了60716个Sequence
+现在提取到了60728个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1969985709/1969985709_1.pkl
+现在提取到了60766个Sequence
+现在提取到了60816个Sequence
+现在提取到了60866个Sequence
+现在提取到了60916个Sequence
+现在提取到了60966个Sequence
+现在提取到了60984个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1969985709/1969985709_2.pkl
+现在提取到了61016个Sequence
+现在提取到了61066个Sequence
+现在提取到了61116个Sequence
+现在提取到了61166个Sequence
+现在提取到了61216个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1969985709/1969985709_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1969985709.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1969985709.parquet 耗时：1735.4915 秒
+file为: 1647220008.parquet
+file_id为: 1647220008
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1647220008.parquet
+rel_parquet_path为: train_landmarks/1647220008.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1647220008
+从第 49229 个Sequence开始提取数据
+现在提取到了49278个Sequence
+现在提取到了49328个Sequence
+现在提取到了49378个Sequence
+现在提取到了49428个Sequence
+现在提取到了49478个Sequence
+现在提取到了49484个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1647220008/1647220008_0.pkl
+现在提取到了49528个Sequence
+现在提取到了49578个Sequence
+现在提取到了49628个Sequence
+现在提取到了49678个Sequence
+现在提取到了49728个Sequence
+现在提取到了49740个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1647220008/1647220008_1.pkl
+现在提取到了49778个Sequence
+现在提取到了49828个Sequence
+现在提取到了49878个Sequence
+现在提取到了49928个Sequence
+现在提取到了49978个Sequence
+现在提取到了49996个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1647220008/1647220008_2.pkl
+现在提取到了50028个Sequence
+现在提取到了50078个Sequence
+现在提取到了50128个Sequence
+现在提取到了50178个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1647220008/1647220008_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1647220008.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1647220008.parquet 耗时：488.6800 秒
+file为: 128822441.parquet
+file_id为: 128822441
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/128822441.parquet
+rel_parquet_path为: train_landmarks/128822441.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/128822441
+从第 1999 个Sequence开始提取数据
+现在提取到了2048个Sequence
+现在提取到了2098个Sequence
+现在提取到了2148个Sequence
+现在提取到了2198个Sequence
+现在提取到了2248个Sequence
+现在提取到了2254个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/128822441/128822441_0.pkl
+现在提取到了2298个Sequence
+现在提取到了2348个Sequence
+现在提取到了2398个Sequence
+现在提取到了2448个Sequence
+现在提取到了2498个Sequence
+现在提取到了2510个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/128822441/128822441_1.pkl
+现在提取到了2548个Sequence
+现在提取到了2598个Sequence
+现在提取到了2648个Sequence
+现在提取到了2698个Sequence
+现在提取到了2748个Sequence
+现在提取到了2766个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/128822441/128822441_2.pkl
+现在提取到了2798个Sequence
+现在提取到了2848个Sequence
+现在提取到了2898个Sequence
+现在提取到了2948个Sequence
+现在提取到了2998个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/128822441/128822441_3.pkl
+./Data/asl-fingerspelling/train_landmarks/128822441.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/128822441.parquet 耗时：491.9413 秒
+file为: 1920330615.parquet
+file_id为: 1920330615
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1920330615.parquet
+rel_parquet_path为: train_landmarks/1920330615.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1920330615
+从第 58220 个Sequence开始提取数据
+现在提取到了58269个Sequence
+现在提取到了58319个Sequence
+现在提取到了58369个Sequence
+现在提取到了58419个Sequence
+现在提取到了58469个Sequence
+现在提取到了58475个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1920330615/1920330615_0.pkl
+现在提取到了58519个Sequence
+现在提取到了58569个Sequence
+现在提取到了58619个Sequence
+现在提取到了58669个Sequence
+现在提取到了58719个Sequence
+现在提取到了58731个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1920330615/1920330615_1.pkl
+现在提取到了58769个Sequence
+现在提取到了58819个Sequence
+现在提取到了58869个Sequence
+现在提取到了58919个Sequence
+现在提取到了58969个Sequence
+现在提取到了58987个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1920330615/1920330615_2.pkl
+现在提取到了59019个Sequence
+现在提取到了59069个Sequence
+现在提取到了59119个Sequence
+现在提取到了59169个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1920330615/1920330615_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1920330615.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1920330615.parquet 耗时：843.9652 秒
+file为: 1664666588.parquet
+file_id为: 1664666588
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1664666588.parquet
+rel_parquet_path为: train_landmarks/1664666588.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1664666588
+从第 51228 个Sequence开始提取数据
+现在提取到了51277个Sequence
+现在提取到了51327个Sequence
+现在提取到了51377个Sequence
+现在提取到了51427个Sequence
+现在提取到了51477个Sequence
+现在提取到了51483个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1664666588/1664666588_0.pkl
+现在提取到了51527个Sequence
+现在提取到了51577个Sequence
+现在提取到了51627个Sequence
+现在提取到了51677个Sequence
+现在提取到了51727个Sequence
+现在提取到了51739个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1664666588/1664666588_1.pkl
+现在提取到了51777个Sequence
+现在提取到了51827个Sequence
+现在提取到了51877个Sequence
+现在提取到了51927个Sequence
+现在提取到了51977个Sequence
+现在提取到了51995个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1664666588/1664666588_2.pkl
+现在提取到了52027个Sequence
+现在提取到了52077个Sequence
+现在提取到了52127个Sequence
+现在提取到了52177个Sequence
+现在提取到了52227个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1664666588/1664666588_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1664666588.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1664666588.parquet 耗时：1568.1708 秒
+file为: 522550314.parquet
+file_id为: 522550314
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/522550314.parquet
+rel_parquet_path为: train_landmarks/522550314.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/522550314
+从第 15273 个Sequence开始提取数据
+现在提取到了15322个Sequence
+现在提取到了15372个Sequence
+现在提取到了15422个Sequence
+现在提取到了15472个Sequence
+现在提取到了15522个Sequence
+现在提取到了15528个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/522550314/522550314_0.pkl
+现在提取到了15572个Sequence
+现在提取到了15622个Sequence
+现在提取到了15672个Sequence
+现在提取到了15722个Sequence
+现在提取到了15772个Sequence
+现在提取到了15784个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/522550314/522550314_1.pkl
+现在提取到了15822个Sequence
+现在提取到了15872个Sequence
+现在提取到了15922个Sequence
+现在提取到了15972个Sequence
+现在提取到了16022个Sequence
+现在提取到了16040个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/522550314/522550314_2.pkl
+现在提取到了16072个Sequence
+现在提取到了16122个Sequence
+现在提取到了16172个Sequence
+现在提取到了16222个Sequence
+现在提取到了16272个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/522550314/522550314_3.pkl
+./Data/asl-fingerspelling/train_landmarks/522550314.parquet的数据提取完毕
+一共提取了1001条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/522550314.parquet 耗时：865.0888 秒
+file为: 649779897.parquet
+file_id为: 649779897
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/649779897.parquet
+rel_parquet_path为: train_landmarks/649779897.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/649779897
+从第 23266 个Sequence开始提取数据
+现在提取到了23315个Sequence
+现在提取到了23365个Sequence
+现在提取到了23415个Sequence
+现在提取到了23465个Sequence
+现在提取到了23515个Sequence
+现在提取到了23521个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/649779897/649779897_0.pkl
+现在提取到了23565个Sequence
+现在提取到了23615个Sequence
+现在提取到了23665个Sequence
+现在提取到了23715个Sequence
+现在提取到了23765个Sequence
+现在提取到了23777个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/649779897/649779897_1.pkl
+现在提取到了23815个Sequence
+现在提取到了23865个Sequence
+现在提取到了23915个Sequence
+现在提取到了23965个Sequence
+现在提取到了24015个Sequence
+现在提取到了24033个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/649779897/649779897_2.pkl
+现在提取到了24065个Sequence
+现在提取到了24115个Sequence
+现在提取到了24165个Sequence
+现在提取到了24215个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/649779897/649779897_3.pkl
+./Data/asl-fingerspelling/train_landmarks/649779897.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/649779897.parquet 耗时：531.0216 秒
+file为: 1785039512.parquet
+file_id为: 1785039512
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1785039512.parquet
+rel_parquet_path为: train_landmarks/1785039512.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1785039512
+从第 53228 个Sequence开始提取数据
+现在提取到了53277个Sequence
+现在提取到了53327个Sequence
+现在提取到了53377个Sequence
+现在提取到了53427个Sequence
+现在提取到了53477个Sequence
+现在提取到了53483个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1785039512/1785039512_0.pkl
+现在提取到了53527个Sequence
+现在提取到了53577个Sequence
+现在提取到了53627个Sequence
+现在提取到了53677个Sequence
+现在提取到了53727个Sequence
+现在提取到了53739个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1785039512/1785039512_1.pkl
+现在提取到了53777个Sequence
+现在提取到了53827个Sequence
+现在提取到了53877个Sequence
+现在提取到了53927个Sequence
+现在提取到了53977个Sequence
+现在提取到了53995个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1785039512/1785039512_2.pkl
+现在提取到了54027个Sequence
+现在提取到了54077个Sequence
+现在提取到了54127个Sequence
+现在提取到了54177个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1785039512/1785039512_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1785039512.parquet的数据提取完毕
+一共提取了1000条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1785039512.parquet 耗时：1283.1202 秒

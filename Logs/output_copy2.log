@@ -1,0 +1,59 @@
+Using device: cuda
+这是第1个parquet文件数据 文件数据路径为./Data/450474571.parquet
+从第 12989 个Sequence开始提取数据
+./Data/450474571.parquet的数据提取完毕
+一共提取了287条视频数据
+OutEpoch: 1, InnerEpoch: 1, Parquet: 1, ParquetLoss: 8.913996908399794
+OutEpoch: 1, InnerEpoch: 2, Parquet: 1, ParquetLoss: 7.843571133083767
+OutEpoch: 1, InnerEpoch: 3, Parquet: 1, ParquetLoss: 7.253861321343316
+OutEpoch: 1, InnerEpoch: 4, Parquet: 1, ParquetLoss: 6.693148083157009
+OutEpoch: 1, InnerEpoch: 5, Parquet: 1, ParquetLoss: 6.19133816825019
+OutEpoch: 1, InnerEpoch: 6, Parquet: 1, ParquetLoss: 5.762650065951878
+OutEpoch: 1, InnerEpoch: 7, Parquet: 1, ParquetLoss: 5.40109290017022
+OutEpoch: 1, InnerEpoch: 8, Parquet: 1, ParquetLoss: 5.034595701429579
+OutEpoch: 1, InnerEpoch: 9, Parquet: 1, ParquetLoss: 4.705644660525852
+OutEpoch: 1, InnerEpoch: 10, Parquet: 1, ParquetLoss: 4.389445357852512
+这是第2个parquet文件数据 文件数据路径为./Data/5414471.parquet
+从第 0 个Sequence开始提取数据
+./Data/5414471.parquet的数据提取完毕
+一共提取了1000条视频数据
+OutEpoch: 1, InnerEpoch: 1, Parquet: 2, ParquetLoss: 6.279934272170067
+OutEpoch: 1, InnerEpoch: 2, Parquet: 2, ParquetLoss: 5.628812208771706
+OutEpoch: 1, InnerEpoch: 3, Parquet: 2, ParquetLoss: 5.1678106635808945
+OutEpoch: 1, InnerEpoch: 4, Parquet: 2, ParquetLoss: 4.812198415398598
+OutEpoch: 1, InnerEpoch: 5, Parquet: 2, ParquetLoss: 4.44942070543766
+OutEpoch: 1, InnerEpoch: 6, Parquet: 2, ParquetLoss: 4.115658424794674
+OutEpoch: 1, InnerEpoch: 7, Parquet: 2, ParquetLoss: 3.805341549217701
+OutEpoch: 1, InnerEpoch: 8, Parquet: 2, ParquetLoss: 3.521175965666771
+OutEpoch: 1, InnerEpoch: 9, Parquet: 2, ParquetLoss: 3.264391638338566
+OutEpoch: 1, InnerEpoch: 10, Parquet: 2, ParquetLoss: 3.0183292850852013
+外部第1轮之后 model保存成功
+这是第1个parquet文件数据 文件数据路径为./Data/450474571.parquet
+从第 12989 个Sequence开始提取数据
+./Data/450474571.parquet的数据提取完毕
+一共提取了287条视频数据
+OutEpoch: 2, InnerEpoch: 1, Parquet: 1, ParquetLoss: 4.047502544191149
+OutEpoch: 2, InnerEpoch: 2, Parquet: 1, ParquetLoss: 3.562807454003228
+OutEpoch: 2, InnerEpoch: 3, Parquet: 1, ParquetLoss: 3.161511765586005
+OutEpoch: 2, InnerEpoch: 4, Parquet: 1, ParquetLoss: 2.850348154703776
+OutEpoch: 2, InnerEpoch: 5, Parquet: 1, ParquetLoss: 2.568247424231635
+OutEpoch: 2, InnerEpoch: 6, Parquet: 1, ParquetLoss: 2.337031682332357
+OutEpoch: 2, InnerEpoch: 7, Parquet: 1, ParquetLoss: 2.1196495956844754
+OutEpoch: 2, InnerEpoch: 8, Parquet: 1, ParquetLoss: 1.927373382780287
+OutEpoch: 2, InnerEpoch: 9, Parquet: 1, ParquetLoss: 1.7545024421479967
+OutEpoch: 2, InnerEpoch: 10, Parquet: 1, ParquetLoss: 1.6093187464608087
+这是第2个parquet文件数据 文件数据路径为./Data/5414471.parquet
+从第 0 个Sequence开始提取数据
+./Data/5414471.parquet的数据提取完毕
+一共提取了1000条视频数据
+OutEpoch: 2, InnerEpoch: 1, Parquet: 2, ParquetLoss: 3.1456198766827583
+OutEpoch: 2, InnerEpoch: 2, Parquet: 2, ParquetLoss: 2.670263946056366
+OutEpoch: 2, InnerEpoch: 3, Parquet: 2, ParquetLoss: 2.3978642597794533
+OutEpoch: 2, InnerEpoch: 4, Parquet: 2, ParquetLoss: 2.1951753422617912
+OutEpoch: 2, InnerEpoch: 5, Parquet: 2, ParquetLoss: 1.9896245934069157
+OutEpoch: 2, InnerEpoch: 6, Parquet: 2, ParquetLoss: 1.8172277808189392
+OutEpoch: 2, InnerEpoch: 7, Parquet: 2, ParquetLoss: 1.6648528017103672
+OutEpoch: 2, InnerEpoch: 8, Parquet: 2, ParquetLoss: 1.5338550545275211
+OutEpoch: 2, InnerEpoch: 9, Parquet: 2, ParquetLoss: 1.4054476171731949
+OutEpoch: 2, InnerEpoch: 10, Parquet: 2, ParquetLoss: 1.2968448661267757
+外部第2轮之后 model保存成功

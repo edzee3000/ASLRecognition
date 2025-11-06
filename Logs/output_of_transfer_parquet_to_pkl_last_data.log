@@ -1,0 +1,438 @@
+Using device: cuda
+file为: 1255240050.parquet
+file_id为: 1255240050
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1255240050.parquet
+rel_parquet_path为: train_landmarks/1255240050.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1255240050
+之前有提取过，不再重复提取
+file为: 1997878546.parquet
+file_id为: 1997878546
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1997878546.parquet
+rel_parquet_path为: train_landmarks/1997878546.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1997878546
+之前有提取过，不再重复提取
+file为: 1643479812.parquet
+file_id为: 1643479812
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1643479812.parquet
+rel_parquet_path为: train_landmarks/1643479812.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1643479812
+从第 48231 个Sequence开始提取数据
+现在提取到了48280个Sequence
+现在提取到了48330个Sequence
+现在提取到了48380个Sequence
+现在提取到了48430个Sequence
+现在提取到了48480个Sequence
+现在提取到了48486个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1643479812/1643479812_0.pkl
+现在提取到了48530个Sequence
+现在提取到了48580个Sequence
+现在提取到了48630个Sequence
+现在提取到了48680个Sequence
+现在提取到了48730个Sequence
+现在提取到了48742个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1643479812/1643479812_1.pkl
+现在提取到了48780个Sequence
+现在提取到了48830个Sequence
+现在提取到了48880个Sequence
+现在提取到了48930个Sequence
+现在提取到了48980个Sequence
+现在提取到了48998个Sequence，开始保存当前批次数据
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1643479812/1643479812_2.pkl
+现在提取到了49030个Sequence
+现在提取到了49080个Sequence
+现在提取到了49130个Sequence
+现在提取到了49180个Sequence
+数据集已保存到: ./Data/ProcessedData/train_landmarks/1643479812/1643479812_3.pkl
+./Data/asl-fingerspelling/train_landmarks/1643479812.parquet的数据提取完毕
+一共提取了999条视频数据
+读取 ./Data/asl-fingerspelling/train_landmarks/1643479812.parquet 耗时：463.7569 秒
+file为: 2072876091.parquet
+file_id为: 2072876091
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2072876091.parquet
+rel_parquet_path为: train_landmarks/2072876091.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2072876091
+之前有提取过，不再重复提取
+file为: 1134756332.parquet
+file_id为: 1134756332
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1134756332.parquet
+rel_parquet_path为: train_landmarks/1134756332.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1134756332
+之前有提取过，不再重复提取
+file为: 1341528257.parquet
+file_id为: 1341528257
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1341528257.parquet
+rel_parquet_path为: train_landmarks/1341528257.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1341528257
+之前有提取过，不再重复提取
+file为: 149822653.parquet
+file_id为: 149822653
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/149822653.parquet
+rel_parquet_path为: train_landmarks/149822653.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/149822653
+之前有提取过，不再重复提取
+file为: 1133664520.parquet
+file_id为: 1133664520
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1133664520.parquet
+rel_parquet_path为: train_landmarks/1133664520.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1133664520
+之前有提取过，不再重复提取
+file为: 546816846.parquet
+file_id为: 546816846
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/546816846.parquet
+rel_parquet_path为: train_landmarks/546816846.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/546816846
+之前有提取过，不再重复提取
+file为: 1662742697.parquet
+file_id为: 1662742697
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1662742697.parquet
+rel_parquet_path为: train_landmarks/1662742697.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1662742697
+之前有提取过，不再重复提取
+file为: 1865557033.parquet
+file_id为: 1865557033
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1865557033.parquet
+rel_parquet_path为: train_landmarks/1865557033.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1865557033
+之前有提取过，不再重复提取
+file为: 1021040628.parquet
+file_id为: 1021040628
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1021040628.parquet
+rel_parquet_path为: train_landmarks/1021040628.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1021040628
+之前有提取过，不再重复提取
+file为: 654436541.parquet
+file_id为: 654436541
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/654436541.parquet
+rel_parquet_path为: train_landmarks/654436541.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/654436541
+之前有提取过，不再重复提取
+file为: 1365275733.parquet
+file_id为: 1365275733
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1365275733.parquet
+rel_parquet_path为: train_landmarks/1365275733.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1365275733
+之前有提取过，不再重复提取
+file为: 1726141437.parquet
+file_id为: 1726141437
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1726141437.parquet
+rel_parquet_path为: train_landmarks/1726141437.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1726141437
+之前有提取过，不再重复提取
+file为: 5414471.parquet
+file_id为: 5414471
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/5414471.parquet
+rel_parquet_path为: train_landmarks/5414471.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/5414471
+之前有提取过，不再重复提取
+file为: 2036580525.parquet
+file_id为: 2036580525
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2036580525.parquet
+rel_parquet_path为: train_landmarks/2036580525.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2036580525
+之前有提取过，不再重复提取
+file为: 105143404.parquet
+file_id为: 105143404
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/105143404.parquet
+rel_parquet_path为: train_landmarks/105143404.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/105143404
+之前有提取过，不再重复提取
+file为: 349393104.parquet
+file_id为: 349393104
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/349393104.parquet
+rel_parquet_path为: train_landmarks/349393104.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/349393104
+之前有提取过，不再重复提取
+file为: 1497621680.parquet
+file_id为: 1497621680
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1497621680.parquet
+rel_parquet_path为: train_landmarks/1497621680.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1497621680
+之前有提取过，不再重复提取
+file为: 1557244878.parquet
+file_id为: 1557244878
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1557244878.parquet
+rel_parquet_path为: train_landmarks/1557244878.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1557244878
+之前有提取过，不再重复提取
+file为: 1562234637.parquet
+file_id为: 1562234637
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1562234637.parquet
+rel_parquet_path为: train_landmarks/1562234637.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1562234637
+之前有提取过，不再重复提取
+file为: 169560558.parquet
+file_id为: 169560558
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/169560558.parquet
+rel_parquet_path为: train_landmarks/169560558.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/169560558
+之前有提取过，不再重复提取
+file为: 1880177496.parquet
+file_id为: 1880177496
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1880177496.parquet
+rel_parquet_path为: train_landmarks/1880177496.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1880177496
+之前有提取过，不再重复提取
+file为: 1967755728.parquet
+file_id为: 1967755728
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1967755728.parquet
+rel_parquet_path为: train_landmarks/1967755728.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1967755728
+之前有提取过，不再重复提取
+file为: 2072296290.parquet
+file_id为: 2072296290
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2072296290.parquet
+rel_parquet_path为: train_landmarks/2072296290.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2072296290
+之前有提取过，不再重复提取
+file为: 882979387.parquet
+file_id为: 882979387
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/882979387.parquet
+rel_parquet_path为: train_landmarks/882979387.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/882979387
+之前有提取过，不再重复提取
+file为: 933868835.parquet
+file_id为: 933868835
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/933868835.parquet
+rel_parquet_path为: train_landmarks/933868835.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/933868835
+之前有提取过，不再重复提取
+file为: 2118949241.parquet
+file_id为: 2118949241
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2118949241.parquet
+rel_parquet_path为: train_landmarks/2118949241.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2118949241
+之前有提取过，不再重复提取
+file为: 1320204318.parquet
+file_id为: 1320204318
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1320204318.parquet
+rel_parquet_path为: train_landmarks/1320204318.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1320204318
+之前有提取过，不再重复提取
+file为: 425182931.parquet
+file_id为: 425182931
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/425182931.parquet
+rel_parquet_path为: train_landmarks/425182931.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/425182931
+之前有提取过，不再重复提取
+file为: 2026717426.parquet
+file_id为: 2026717426
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/2026717426.parquet
+rel_parquet_path为: train_landmarks/2026717426.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/2026717426
+之前有提取过，不再重复提取
+file为: 1405046009.parquet
+file_id为: 1405046009
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1405046009.parquet
+rel_parquet_path为: train_landmarks/1405046009.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1405046009
+之前有提取过，不再重复提取
+file为: 614661748.parquet
+file_id为: 614661748
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/614661748.parquet
+rel_parquet_path为: train_landmarks/614661748.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/614661748
+之前有提取过，不再重复提取
+file为: 388576474.parquet
+file_id为: 388576474
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/388576474.parquet
+rel_parquet_path为: train_landmarks/388576474.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/388576474
+之前有提取过，不再重复提取
+file为: 450474571.parquet
+file_id为: 450474571
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/450474571.parquet
+rel_parquet_path为: train_landmarks/450474571.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/450474571
+之前有提取过，不再重复提取
+file为: 152029243.parquet
+file_id为: 152029243
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/152029243.parquet
+rel_parquet_path为: train_landmarks/152029243.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/152029243
+之前有提取过，不再重复提取
+file为: 1448136004.parquet
+file_id为: 1448136004
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1448136004.parquet
+rel_parquet_path为: train_landmarks/1448136004.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1448136004
+之前有提取过，不再重复提取
+file为: 433948159.parquet
+file_id为: 433948159
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/433948159.parquet
+rel_parquet_path为: train_landmarks/433948159.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/433948159
+之前有提取过，不再重复提取
+file为: 527708222.parquet
+file_id为: 527708222
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/527708222.parquet
+rel_parquet_path为: train_landmarks/527708222.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/527708222
+之前有提取过，不再重复提取
+file为: 566963657.parquet
+file_id为: 566963657
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/566963657.parquet
+rel_parquet_path为: train_landmarks/566963657.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/566963657
+之前有提取过，不再重复提取
+file为: 1019715464.parquet
+file_id为: 1019715464
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1019715464.parquet
+rel_parquet_path为: train_landmarks/1019715464.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1019715464
+之前有提取过，不再重复提取
+file为: 871280215.parquet
+file_id为: 871280215
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/871280215.parquet
+rel_parquet_path为: train_landmarks/871280215.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/871280215
+之前有提取过，不再重复提取
+file为: 568753759.parquet
+file_id为: 568753759
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/568753759.parquet
+rel_parquet_path为: train_landmarks/568753759.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/568753759
+之前有提取过，不再重复提取
+file为: 1365772051.parquet
+file_id为: 1365772051
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1365772051.parquet
+rel_parquet_path为: train_landmarks/1365772051.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1365772051
+之前有提取过，不再重复提取
+file为: 638508439.parquet
+file_id为: 638508439
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/638508439.parquet
+rel_parquet_path为: train_landmarks/638508439.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/638508439
+之前有提取过，不再重复提取
+file为: 296317215.parquet
+file_id为: 296317215
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/296317215.parquet
+rel_parquet_path为: train_landmarks/296317215.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/296317215
+之前有提取过，不再重复提取
+file为: 1906357076.parquet
+file_id为: 1906357076
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1906357076.parquet
+rel_parquet_path为: train_landmarks/1906357076.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1906357076
+之前有提取过，不再重复提取
+file为: 474255203.parquet
+file_id为: 474255203
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/474255203.parquet
+rel_parquet_path为: train_landmarks/474255203.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/474255203
+之前有提取过，不再重复提取
+file为: 175396851.parquet
+file_id为: 175396851
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/175396851.parquet
+rel_parquet_path为: train_landmarks/175396851.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/175396851
+之前有提取过，不再重复提取
+file为: 683666742.parquet
+file_id为: 683666742
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/683666742.parquet
+rel_parquet_path为: train_landmarks/683666742.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/683666742
+之前有提取过，不再重复提取
+file为: 939623093.parquet
+file_id为: 939623093
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/939623093.parquet
+rel_parquet_path为: train_landmarks/939623093.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/939623093
+之前有提取过，不再重复提取
+file为: 495378749.parquet
+file_id为: 495378749
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/495378749.parquet
+rel_parquet_path为: train_landmarks/495378749.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/495378749
+之前有提取过，不再重复提取
+file为: 1358493307.parquet
+file_id为: 1358493307
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1358493307.parquet
+rel_parquet_path为: train_landmarks/1358493307.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1358493307
+之前有提取过，不再重复提取
+file为: 1905462118.parquet
+file_id为: 1905462118
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1905462118.parquet
+rel_parquet_path为: train_landmarks/1905462118.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1905462118
+之前有提取过，不再重复提取
+file为: 1552432300.parquet
+file_id为: 1552432300
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1552432300.parquet
+rel_parquet_path为: train_landmarks/1552432300.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1552432300
+之前有提取过，不再重复提取
+file为: 532011803.parquet
+file_id为: 532011803
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/532011803.parquet
+rel_parquet_path为: train_landmarks/532011803.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/532011803
+之前有提取过，不再重复提取
+file为: 1099408314.parquet
+file_id为: 1099408314
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1099408314.parquet
+rel_parquet_path为: train_landmarks/1099408314.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1099408314
+之前有提取过，不再重复提取
+file为: 1098899348.parquet
+file_id为: 1098899348
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1098899348.parquet
+rel_parquet_path为: train_landmarks/1098899348.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1098899348
+之前有提取过，不再重复提取
+file为: 234418913.parquet
+file_id为: 234418913
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/234418913.parquet
+rel_parquet_path为: train_landmarks/234418913.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/234418913
+之前有提取过，不再重复提取
+file为: 1969985709.parquet
+file_id为: 1969985709
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1969985709.parquet
+rel_parquet_path为: train_landmarks/1969985709.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1969985709
+之前有提取过，不再重复提取
+file为: 1647220008.parquet
+file_id为: 1647220008
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1647220008.parquet
+rel_parquet_path为: train_landmarks/1647220008.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1647220008
+之前有提取过，不再重复提取
+file为: 128822441.parquet
+file_id为: 128822441
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/128822441.parquet
+rel_parquet_path为: train_landmarks/128822441.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/128822441
+之前有提取过，不再重复提取
+file为: 1920330615.parquet
+file_id为: 1920330615
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1920330615.parquet
+rel_parquet_path为: train_landmarks/1920330615.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1920330615
+之前有提取过，不再重复提取
+file为: 1664666588.parquet
+file_id为: 1664666588
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1664666588.parquet
+rel_parquet_path为: train_landmarks/1664666588.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1664666588
+之前有提取过，不再重复提取
+file为: 522550314.parquet
+file_id为: 522550314
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/522550314.parquet
+rel_parquet_path为: train_landmarks/522550314.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/522550314
+之前有提取过，不再重复提取
+file为: 649779897.parquet
+file_id为: 649779897
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/649779897.parquet
+rel_parquet_path为: train_landmarks/649779897.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/649779897
+之前有提取过，不再重复提取
+file为: 1785039512.parquet
+file_id为: 1785039512
+parquet_path为: ./Data/asl-fingerspelling/train_landmarks/1785039512.parquet
+rel_parquet_path为: train_landmarks/1785039512.parquet
+processed_data_dir为: ./Data/ProcessedData/train_landmarks/1785039512
+之前有提取过，不再重复提取
